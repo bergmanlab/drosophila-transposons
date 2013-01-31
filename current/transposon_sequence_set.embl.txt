@@ -1,6 +1,3 @@
-!See transposon_sequence_set.readme.txt for description & comments.
-!Comments, corrections to casey.bergman@manchester.ac.uk
-!
 ID   DME9736    standard; DNA; INV; 7411 BP.
 XX
 AC   AJ009736;
