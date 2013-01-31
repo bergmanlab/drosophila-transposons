@@ -32,24 +32,63 @@ Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for
 sequences and/or annotations.
 
 ===============================================================================
-March 16 2004. v.8.0
+
+February 3 2009. v.9.42
+=====================
+
+1. Dmel\TART-A, Dmel\TART-B, and Dmel\TART-C annotations corrected,
+   as per Mary-Lou Pardue and Greg DeBaryshe.
+2. Dmel\TAHRE annotation corrected, as per Alfredo Villasante.
+
+April 22 2005. v.9.41
+=====================
+
+1. A formatting error in the Helana sequence corrected.
+
+April 22 2005. v.9.4
 ====================
 
-1. Updates of FB identifiers.
+1. Updates on FBgn identifiers.
+2. Added sequence of the TAHRE element.
 
-2. Added from REPBASE (drorep.ref.4.5.3, January 2003): BS3, BS4,
-   Doc4-element, Doc5-element, Fw2, Fw3, Helitron, R1-2, Tc1-2, G5A,
-   G7, accord2, gypsy7, gypsy8, gypsy9, gypsy10, gypsy11, gypsy12,
-   invader6.
+December 10 2004. v.9.3
+=======================
 
-3. ORF1 of Juan added from Repbase record.
+1. Added the cDNA sequence for a D. melanogaster Osvaldo-like element.
 
-4. A new line for synonyms has been introduced into records, e.g.:
+September 3 2004. v.9.2.5
+=========================
 
-   SY   synonym:BEL
+1. Added Doc5-element as synonym of Porto1.
 
-   This is not a complete list of synonyms (for which see FlyBase),
-   just those in widespread use.
+June 23 2004. v.9.2.4
+=====================
+
+1. accord2 and qbert found to be the same element; accord2 sequence (AC008256)
+   removed and qbert sequence (AF541947) renamed as accord2.
+
+May 1 2004. v.9.2.3
+===================
+
+1. Added prygun as a synonym of Tirant.
+
+April 18 2004. v.9.2.2
+======================
+
+1. Update of annotation of TART-C.
+2. Dtei\I-element sequence added.
+
+April 7 2004. v.9.2
+===================
+
+1. The Dbuz\ISBu3, Dsub\GEM and Dvir\Uvir elements have been added.
+
+April 7 2004. v.9.1
+===================
+
+1. The following R1-element variants have been added: Dnet\R1A, Dtak\R1A2, 
+   Dmer\R1A3, Dnet\R1B. The original melanogaster element has been
+   re-named:R1A1-element.
 
 April 6 2004. v.9.0
 ===================
@@ -86,64 +125,26 @@ e.g.:
 
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..730
 
-April 7 2004. v.9.1
-===================
-
-1. The following R1-element variants have been added: Dnet\R1A, Dtak\R1A2, 
-   Dmer\R1A3, Dnet\R1B. The original melanogaster element has been
-   re-named:R1A1-element.
-
-April 7 2004. v.9.2
-===================
-
-1. The Dbuz\ISBu3, Dsub\GEM and Dvir\Uvir elements have been added.
-
-April 18 2004. v.9.2.2
-======================
-
-1. Update of annotation of TART-C.
-2. Dtei\I-element sequence added.
-
-May 1 2004. v.9.2.3
-===================
-
-1. Added prygun as a synonym of Tirant.
-
-June 23 2004. v.9.2.4
-=====================
-
-1. accord2 and qbert found to be the same element; accord2 sequence (AC008256)
-   removed and qbert sequence (AF541947) renamed as accord2.
-
-September 3 2004. v.9.2.5
-=========================
-
-1. Added Doc5-element as synonym of Porto1.
-
-December 10 2004. v.9.3
-=======================
-
-1. Added the cDNA sequence for a D. melanogaster Osvaldo-like element.
-
-April 22 2005. v.9.4
+March 16 2004. v.8.0
 ====================
 
-1. Updates on FBgn identifiers.
-2. Added sequence of the TAHRE element.
+1. Updates of FB identifiers.
 
-April 22 2005. v.9.41
-=====================
+2. Added from REPBASE (drorep.ref.4.5.3, January 2003): BS3, BS4,
+   Doc4-element, Doc5-element, Fw2, Fw3, Helitron, R1-2, Tc1-2, G5A,
+   G7, accord2, gypsy7, gypsy8, gypsy9, gypsy10, gypsy11, gypsy12,
+   invader6.
 
-1. A formatting error in the Helana sequence corrected.
+3. ORF1 of Juan added from Repbase record.
 
-February 3 2009. v.9.42
-=====================
+4. A new line for synonyms has been introduced into records, e.g.:
 
-1. Dmel\TART-A, Dmel\TART-B, and Dmel\TART-C annotations corrected,
-   as per Mary-Lou Pardue and Greg DeBaryshe.
-2. Dmel\TAHRE annotation corrected, as per Alfredo Villasante.
+   SY   synonym:BEL
 
-=====================================================================
+   This is not a complete list of synonyms (for which see FlyBase),
+   just those in widespread use.
+
+======================================================================
 The current data set includes 179 elements:
 
 FB gene ID     Symbol            EMBL              Size       Comment
