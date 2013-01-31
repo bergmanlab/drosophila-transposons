@@ -1,0 +1,105 @@
+valid_name:422
+where: pn alleles
+FBid:FBgn0015002
+in_canonical_set:no {no sequence data}
+restriction_map:no
+
+valid_name:Calypso
+where: ry[301] !Bender
+FBid:FBgn0000255
+in_canonical_set:no {no sequence data}
+restriction_map:yes, in L&Z
+
+valid_name:Delta88
+where: Abd-B[iab9-tuh-3] !Karch
+FBid:FBgn0010017
+in_canonical_set:no {no sequence data}
+restriction_map:yes, in L&Z
+
+valid_name:GRT-G1-element
+FBid:FBgn0043585
+in_canonical_set:no
+*g AY013987
+
+valid_name:Harvey
+where:  Ubx[bx-8] !Bender
+FBid:FBgn0001176
+in_canonical_set:no {no sequence data}
+restriction_map:yes, in L&Z
+
+valid_name:Hercules
+where: !Tchurikov
+FBid:FBgn0011772
+in_canonical_set:no {no sequence data}
+restriction_map:yes, Tchurikov MGG 219:247
+
+valid_name:Ins2
+FBid:FBgn0015739
+in_canonical_set:no {no sequence data}
+
+valid_name:Isadora
+FBid:FBgn0001275
+in_canonical_set:no {no sequence data}
+restriction_map:yes, Tsubota, Gen.Res. 57:106
+
+valid_name:Lefka
+FBid:FBgn0011641
+synonym:transfer RNA; transfer RNA-Asn; transfer RNA-Lys.
+in_canonical_set:no
+
+valid_name:NEB
+FBid:FBgn0002929
+synonym:?: Nebuchadnezzar
+in_canonical_set:no {no sequence data}
+restriction_map:yes, in L&Z
+
+valid_name:Nijinski
+FBid:FBgn0002935
+in_canonical_set:no {no sequence data}
+restriction_map:yes, in L&Z
+restriction_map:yes, Tsubota, Gen.Res. 57:106
+
+valid_name:RT1-like
+FBid:FBgn0028409
+in_canonical_set:no {no sequence data}
+
+valid_name:Scythian
+where: !Tchurikov 
+FBid:FBgn0011831
+synonym:Skythian
+in_canonical_set:no {no sequence data}
+
+valid_name:beamer
+FBid:FBgn0028389
+in_canonical_set:no {no sequence data}
+
+valid_name:castaway
+FBid:FBgn0020311
+in_canonical_set:no {no sequence data}
+
+valid_name:coral
+where: !Amy Csink
+FBid:FBgn0014953
+in_canonical_set:no {no sequence data}
+
+valid_name:prygun-element
+FBid:FBgn0004196
+synonym:pregun
+synonym:rover-element
+in_canonical_set:no {no sequence data}
+restriction_map:yes, Chang MolCelBiol 6:1520
+
+valid_name:roamer-element
+where; !Voelker
+FBid:FBgn0004195
+synonym:2157
+synonym:2157-element
+synonym:2179
+synonym:2179-element
+in_canonical_set:no {no sequence data}
+
+valid_name:xerox
+FBid:FBgn0016079
+in_canonical_set:no
+
+
