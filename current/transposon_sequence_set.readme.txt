@@ -33,8 +33,15 @@ sequences and/or annotations.
 
 ===============================================================================
 
+January 31 2013. v.9.43
+=======================
+
+1. Put transposon set under version control on GitHub
+2. Removed header information from v.9.42 EMBL file
+3. Edited changelog to be in reverse chronological order
+
 February 3 2009. v.9.42
-=====================
+=======================
 
 1. Dmel\TART-A, Dmel\TART-B, and Dmel\TART-C annotations corrected,
    as per Mary-Lou Pardue and Greg DeBaryshe.
