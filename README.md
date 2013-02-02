@@ -1,8 +1,8 @@
 TRANSPOSON SEQUENCE CANONICAL SETS FOR DROSOPHILA
 ===========
 
-This repository contains 'canonical' sequences of the transposable elements
-from Drosophila.
+This repository contains 'canonical' DNA sequences of the transposable 
+elements from species in the genus Drosophila.
 
 History: These sequences were originally compiled by Takis Benos (EBI),
 Leyla Bayraktaroglu (Harvard) and Michael Ashburner (EBI & Cambridge)
