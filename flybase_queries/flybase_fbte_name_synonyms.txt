@@ -1,0 +1,247 @@
+FBte0001286	Dcad\micropia	micropia
+FBte0001287	Dnec\micropia	micropia
+FBte0001288	Dpmo\micropia	micropia
+FBte0001377	Transpac	coral element
+FBte0001377	Transpac	transpac
+FBte0001217	HeT-Tag	HeT-A-Tag
+FBte0001427	Y-element	Y-element
+FBte0000589	beamer	beamer
+FBte0000660	flea	Kermit element
+FBte0000660	flea	blastopia element
+FBte0000660	flea	blastopia
+FBte0000279	blood	blood
+FBte0000288	FB	Foldback element
+FBte0000003	1731	1731
+FBte0000631	Dtsa\P-element	P element
+FBte0000631	Dtsa\P-element	P-element
+FBte0000623	Dper\R2-element	R2 element
+FBte0000454	Dore\gypsy	gypsy element
+FBte0000624	Dsub\gypsy	Gypsy virus
+FBte0000414	HB	HB
+FBte0000109	17.6	176
+FBte0000109	17.6	17.6
+FBte0000109	17.6	17-6 virus
+FBte0000634	Daff\Tirant	Tirant element
+FBte0000466	NOF	Nofretete element
+FBte0000956	accord	accord
+FBte0000468	Dmim\Tirant	Tirant element
+FBte0000341	Doc	doc element
+FBte0000341	Doc	Doc
+FBte0000087	Dmil\P-element	P element
+FBte0000088	jockey	D element
+FBte0000088	jockey	jockey
+FBte0000933	Selm\P-element	P element
+FBte0000101	Camo\mariner	mariner
+FBte0000708	Lsta\P-element	P element
+FBte0000777	Dmau\Tirant	Tirant element
+FBte0000104	Idefix	idefix
+FBte0000104	Idefix	Idefix virus
+FBte0000943	Dath\P-element	P element
+FBte0000739	Burdock	burdock
+FBte0000739	Burdock	Burdock
+FBte0000116	Drec\R2-element	R2 element
+FBte0000112	aurora-element	aurora-element
+FBte0000221	Dhyd\I-element	I element
+FBte0000126	Dfal\R2-element	R2 element
+FBte0000127	Dsuc\R2-element	R2 element
+FBte0000759	Dmer\R2-element	R2 element
+FBte0000220	Dimm\I-element	I element
+FBte0000138	Dpse\transib2	Transib2_DP
+FBte0000284	Dsil\Loa	U28T2 element
+FBte0000140	Cr1a	cra1
+FBte0000151	Stalker4	stalker4
+FBte0000816	Dsuc\P-element	P element
+FBte0000821	Dmon\Penelope	Penelope
+FBte0000824	Dbii\Tirant	Tirant element
+FBte0000178	Dmir\Tirant	Tirant element
+FBte0000530	Dsim\412	412 element
+FBte0000830	Dmad\INE-1	microsatellite initiating mobile element
+FBte0000206	Soka\P-element	P element
+FBte0000926	McClintock	McClintock
+FBte0000926	McClintock	Mcclintock
+FBte0000927	Tc1	Mercurio
+FBte0000209	Dper\Tirant	Tirant element
+FBte0000210	Dpse\transib1	Transib1_DP
+FBte0000559	1360	1360 transposon
+FBte0000559	1360	1360
+FBte0000559	1360	Hoppel
+FBte0000559	1360	terminal_inverted_repeat_element
+FBte0000215	Dlus\P-element	P element
+FBte0000133	I-element	I element
+FBte0000133	I-element	I factor
+FBte0000133	I-element	I-element
+FBte0000267	Dm88	copia2
+FBte0000267	Dm88	DM88
+FBte0000566	Isfun-1-Dfun-like	terminal_inverted_repeat_element
+FBte0000570	Dssa\P-element	P element
+FBte0000835	Dkoe\gypsy-r	gypsy-related element
+FBte0000583	Mdoa\Hermes	Hermes element
+FBte0000626	transib1	Transib1
+FBte0000021	gypsy	gypsy retrotransposon
+FBte0000021	gypsy	gypsy
+FBte0000021	gypsy	Gypsy virus
+FBte0000266	3S18	bel
+FBte0000266	3S18	bel-3S18
+FBte0000266	3S18	BEL element
+FBte0000586	Deur\R2-element	R2 element
+FBte0000292	invader4	invader4
+FBte0000918	opus	nomad virus
+FBte0000918	opus	yoyo element
+FBte0000918	opus	nomad-opus
+FBte0000918	opus	opus
+FBte0000600	Dtei\gypsy	gypsy element
+FBte0000603	Rt1b	Rtb1
+FBte0000605	Damb\INE-1	microsatellite initiating mobile element
+FBte0000304	Max-element	max
+FBte0000621	Dmoj\INE-1	microsatellite initiating mobile element
+FBte0000607	Lfen\P-element	P element
+FBte0000308	gypsy5	gypsy 5
+FBte0000314	frogger	frogger
+FBte0000318	Dwil\R2-element	R2 element
+FBte0000330	Dsim\Tirant	Tirant element
+FBte0000922	Dpro\P-element	P element
+FBte0000333	springer	springer
+FBte0000616	Circe	Circe
+FBte0000616	Circe	circe
+FBte0000885	transib2	Transib2
+FBte0000338	mariner-like	mariner-like element
+FBte0000670	hopper	Hopper
+FBte0000670	hopper	M4 element
+FBte0000888	Dsim\mariner	mariner element
+FBte0000888	Dsim\mariner	mariner
+FBte0000868	Dsec\gypsy	gypsy element
+FBte0000357	invader1	invader
+FBte0000359	GATE	batumi
+FBte0000359	GATE	batumi-gate
+FBte0000475	Dvir\gypsy	Gypsy virus
+FBte0000007	412	mdg2 element
+FBte0000007	412	412
+FBte0000364	RT1-like	RT1-like
+FBte0000677	Lmag\P-element	P element
+FBte0000897	Dtak\Tirant	Tirant element
+FBte0000899	Dpse\transib4	Transib4_DP
+FBte0000755	Dsor\R2-element	R2 element
+FBte0000005	F-element	F
+FBte0000005	F-element	F element
+FBte0000005	F-element	F-element
+FBte0000412	Dobs\P-element	P element
+FBte0000413	Dsim\HB	HB element
+FBte0000415	Dvir\Paris	Tc1-like element
+FBte0000687	Dtro\P-element	P element
+FBte0000422	Dima\P-element	P element
+FBte0000039	Dsub\bilbo	bilbo
+FBte0000001	diver	diver
+FBte0000032	Dvir\Tv1	Tv1 virus
+FBte0000725	transib3	Transib3
+FBte0000726	HMS-Beagle	HMS Beagle
+FBte0000726	HMS-Beagle	HMS-Beagle
+FBte0000726	HMS-Beagle	hms-beagle
+FBte0000737	Dyak\HeT-A	HeT-A element
+FBte0000030	R2-element	R2 element
+FBte0000773	Dana\Tom	tom virus
+FBte0000158	Dvir\Penelope	Penelope
+FBte0000974	Tabor	Tabor
+FBte0000974	Tabor	tabor
+FBte0000984	Helena	Helena
+FBte0000989	Dsub\INE-1	microsatellite initiating mobile element
+FBte0000991	Dere\mariner	Mariner-like element
+FBte0000675	297	297
+FBte0000675	297	297 virus
+FBte0000996	Dmir\INE-1	microsatellite initiating mobile element
+FBte0000996	Dmir\INE-1	Insertion on Y 3
+FBte0000335	TART-element	TART
+FBte0001005	S-element	S-element
+FBte0000026	Dhyd\Minos	Minos
+FBte0001016	Dddu\INE-1	microsatellite initiating mobile element
+FBte0000023	copia	copia
+FBte0000761	Dbuz\R2-element	R2 element
+FBte0000118	R1-element	R1 element
+FBte0001076	Dbuz\INE-1	microsatellite initiating mobile element
+FBte0001077	Dfun\INE-1	microsatellite initiating mobile element
+FBte0001081	Dvir\INE-1	microsatellite initiating mobile element
+FBte0001066	Stalker	Stalker
+FBte0001066	Stalker	stalker
+FBte0000657	G-element	G element
+FBte0001093	Spal\P-element	P element
+FBte0000757	Drob\R2-element	R2 element
+FBte0000010	mdg3	mdg3
+FBte0000312	INE-1	microsatellite initiating mobile element
+FBte0000312	INE-1	Interspersed repeat element
+FBte0000312	INE-1	Drosophila Interspersed element 1
+FBte0000143	HeT-A	telomeric HeT-A element
+FBte0001103	Dmad\812	812 retrosequence
+FBte0001105	Dyak\Tirant	Tirant element
+FBte0000628	ninja	ninja-aurora
+FBte0000217	ZAM	zam
+FBte0000217	ZAM	ZAM virus
+FBte0000588	Dbuz\Osvaldo	Osvaldo
+FBte0001116	Dcap\P-element	P element
+FBte0001124	Dsub\Tirant	Tirant element
+FBte0001100	Dngo\INE-1	microsatellite initiating mobile element
+FBte0000037	P-element	P element
+FBte0000037	P-element	P-element
+FBte0000472	Stalker2	romano
+FBte0000472	Stalker2	anon-fast-evolving-1A12
+FBte0000472	Stalker2	Stalker 2
+FBte0000640	Quasimodo	quasimodo
+FBte0000640	Quasimodo	Quasimodo
+FBte0001130	Lmik\P-element	P element
+FBte0000100	roo	roo
+FBte0001161	Tel-Dvir-like	Telemac
+FBte0000015	mdg1	mobile dispersed genetic element 1
+FBte0000015	mdg1	mdg1
+FBte0000179	Tirant	tirant
+FBte0000179	Tirant	tyrant
+FBte0000179	Tirant	Tirant
+FBte0000179	Tirant	tirant virus
+FBte0000219	Dleb\I-element	I element
+FBte0000758	Dnas\R2-element	R2 element
+FBte0000752	Dbip\R2-element	R2 element
+FBte0001174	transib4	Transib4
+FBte0001129	Dast\P-element	P element
+FBte0000034	Bari1	Bari-1 element
+FBte0000095	Dleb\jockey	jockey
+FBte0000042	micropia	micropia
+FBte0000102	Dmau\mariner	mariner
+FBte0001187	Dpse\transib3	Transib3_DP
+FBte0001205	Dbuz\Isis	Isis
+FBte0001396	Dere\Helena	Helena
+FBte0001397	Dana\Helena	Helena
+FBte0001398	Dmoj\Helena	Helena
+FBte0001209	Dere\gtwin	gtwin
+FBte0001210	Dsim\gtwin	gtwin
+FBte0001211	Dyak\gtwin	gtwin
+FBte0001212	Dmau\gtwin	gtwin
+FBte0001213	Dsec\gtwin	gtwin
+FBte0001214	Dore\gtwin	gtwin
+FBte0001215	Dtei\gtwin	gtwin
+FBte0001216	Dsan\gtwin	gtwin
+FBte0001227	Tni\TED	TED virus
+FBte0001228	Ccap\opus	yoyo virus
+FBte0001218	Dsal\Q-saltans1	Q-saltans1
+FBte0001219	Dpro\Q-saltans1	Q-saltans1
+FBte0001220	Dssa\Q-saltans1	Q-saltans1
+FBte0001221	Dneo\Q-saltans1	Q-saltans1
+FBte0001222	Dema\Q-saltans1	Q-saltans1
+FBte0001223	Dtro\Q-saltans1	Q-saltans1
+FBte0001224	Dequ\Q-saltans1	Q-saltans1
+FBte0001225	Dpau\Q-saltans1	Q-saltans1
+FBte0001226	Dwil\Q-saltans1	Q-saltans1
+FBte0001244	Derm\micropia	micropia
+FBte0001245	Dmet\micropia	micropia
+FBte0001246	Danc\micropia	micropia
+FBte0001247	Drit\micropia	micropia
+FBte0001236	Dald\micropia	micropia
+FBte0001237	Dwhe\micropia	micropia
+FBte0001238	Dnav\micropia	micropia
+FBte0001239	Dari\micropia	micropia
+FBte0001240	Dmoj\micropia	micropia
+FBte0001241	Dmnl\micropia	micropia
+FBte0001242	Dpch\micropia	micropia
+FBte0001243	Dhex\micropia	micropia
+FBte0001229	Dvir\bilbo-like	bilbo-like
+FBte0001230	Dlum\bilbo-like	bilbo-like
+FBte0001231	Dlit\bilbo-like	bilbo-like
+FBte0001232	Dame\bilbo-like	bilbo-like
+FBte0001233	Dtex\bilbo-like	bilbo-like
+FBte0001234	Dnov\bilbo-like	bilbo-like
