@@ -29,9 +29,8 @@ by Casey Bergman (University of Manchester) at: https://github.com/cbergman/tran
 from version 9.42 to 9.43 are to separate the metadata into a separarte README file and 
 add TART-A, TART-B, and TART-C DNA sequences.
 
-Versions 9.42, 9.43 and subsequent releases of this dataset can be found in 
-https://github.com/cbergman/transposons/versions. The most up-to-date version of the dataset 
-can be found in https://github.com/cbergman/transposons/current, which may contain additional
+Versions 9.42, 9.43 and subsequent releases of this dataset can be found [here](https://github.com/cbergman/transposons/tree/master/releases). 
+The most up-to-date version of the dataset can be found [here](https://github.com/cbergman/transposons/tree/master/current), which may contain additional
 improvements to the dataset that have not yet been incorporated into an official release.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
