@@ -30,7 +30,7 @@ from version 9.42 to 9.43 are to separate the metadata into a separarte README f
 add TART-A, TART-B, and TART-C DNA sequences.
 
 Versions 9.42, 9.43 and subsequent releases of this dataset can be found in 
-https://github.com/cbergman/transposons/releases/. The most up-to-date version of the dataset 
+https://github.com/cbergman/transposons/versions. The most up-to-date version of the dataset 
 can be found in https://github.com/cbergman/transposons/current, which may contain additional
 improvements to the dataset that have not yet been incorporated into an official release.
 
