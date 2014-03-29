@@ -18,10 +18,8 @@ Drosophila Genome Project and was a collaboration between M. Ashburner
 Version 8.0 this set has been maintained by Michael Ashburner and Casey
 Bergman in Cambridge. The last version updated by Michael Ashburner was 
 Version 9.411 and is available [here](https://github.com/cbergman/transposons/blob/master/personal_communications/ashburner/transposon_sequence_set.v.9.411).
-
 FlyBase made minor modifications to Version 9.411 to generate
-version 9.42 in 2009, which is the most recent release available at [FlyBase](ftp://ftp.flybase.net/releases/FB2013_01/precomputed_files/transposons/transposon_sequence_set.embl.txt.gz). 
-A copy of 9.42 is also available in this repository [here](https://github.com/cbergman/transposons/tree/master/releases/transposon_sequence_set.embl.txt).
+version 9.42 in 2009, which is the most recent release available at [FlyBase](http://flybase.org/). 
  
 From Jan 2013 (version version 9.43 onwards), this dataset has been under continuous version control
 by Casey Bergman (University of Manchester) at: https://github.com/cbergman/transposons/. The major changes
