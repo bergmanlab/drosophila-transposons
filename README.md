@@ -24,11 +24,11 @@ version 9.42 in 2009, which is the most recent release available at [FlyBase](ht
 From Jan 2013 (version version 9.43 onwards), this dataset has been under continuous version control
 by Casey Bergman (University of Manchester) at: https://github.com/cbergman/transposons/. The major changes
 from version 9.42 to 9.43 are to separate the metadata into a separarte README file and 
-add TART-A, TART-B, and TART-C DNA sequences.
-
-Versions 9.42, 9.43 and subsequent releases of this dataset can be found [here](https://github.com/cbergman/transposons/tree/master/releases). 
-The most up-to-date version of the dataset can be found [here](https://github.com/cbergman/transposons/tree/master/current), which may contain additional
-improvements to the dataset that have not yet been incorporated into an official release.
+add TART-A, TART-B, and TART-C DNA sequences. Versions 9.42, 9.43 and subsequent releases 
+of this dataset can be found [here](https://github.com/cbergman/transposons/tree/master/releases). 
+The most up-to-date version of the dataset can be found [here](https://github.com/cbergman/transposons/tree/master/current), 
+which may contain additional improvements to the dataset that have not yet been incorporated 
+into an official release.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
 Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve
