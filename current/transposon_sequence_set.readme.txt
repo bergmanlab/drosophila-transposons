@@ -1,5 +1,5 @@
 !transposon_sequence_set.readme.v9.44.txt
-!January 31 2013
+!March 29 2014
 !Comments, corrections to casey.bergman@manchester.ac.uk
 
 
@@ -32,6 +32,11 @@ Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for
 sequences and/or annotations.
 
 ===============================================================================
+
+January 29 2014. v.9.44
+=======================
+1. Fixed ID line of TAHRE
+
 
 January 31 2013. v.9.43
 =======================
