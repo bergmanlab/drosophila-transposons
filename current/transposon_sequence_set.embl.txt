@@ -1949,8 +1949,7 @@ FT   SO_feature      CDS ; SO:0000316:220..951
 FT                   /db_xref="FLYBASE:; G-element\ORF0"
 FT   SO_feature      CDS ; SO:0000316:819..1539
 FT                   /db_xref="FLYBASE:; G-element\ORF1"
-FT   SO_feature      CDS ; SO:0000316:join(1530..1858,1866..1973,1982..2719,2727..3008,
-FT                   3012..3800,3806..3991,4006..4095)
+FT   SO_feature      CDS ; SO:0000316:join(1530..1858,1866..1973,1982..2719,2727..3008, 3012..3800,3806..3991,4006..4095)
 FT                   /db_xref="FLYBASE:; G-element\ORF2"
 XX
 CC   Derived from X06950 (g8427) (Rel. 16, Last updated, Version 1).

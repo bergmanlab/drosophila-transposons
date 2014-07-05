@@ -11,12 +11,14 @@ while(my $seqobj = $seqin->next_seq()) {
 	print "Processing sequence ",$seqobj->display_id(),", start of seq ", substr($seqobj->seq,1,10),"\n";
 		
 	$seqout->write_seq($seqobj);
-
+	
+	
+	print $seqobj->display_id(), "\t.\tSO:0000101\t1", $seqobj->length(), "\t.\tID=", $seqobj->display_id(), "\n"
 	if( $seqobj->alphabet eq 'dna') {	
 
 		foreach $feat ($seqobj->get_SeqFeatures()) {	
 			
-			print $feat->primary_tag."\n";
+#			print $feat->primary_tag."\n";
 			foreach $tag ($feat->get_all_tags()) {
 						#print $feat->get_tag_values("db_xref"),"\n" if ($feat->has_tag("db_xref"));
 
