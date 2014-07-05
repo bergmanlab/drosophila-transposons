@@ -3,7 +3,7 @@
 use Bio::Seq;
 use Bio::SeqIO;
 
-$seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => '../old_releases/transposon_sequence_set_v9.43.embl.txt');
+$seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => 'test.embl.reordered');
 $CDSseqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>TE_CDS.fa');
 $LTRseqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>TE_LTR.fa');
 
