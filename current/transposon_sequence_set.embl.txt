@@ -16486,11 +16486,9 @@ FT   source          AC131959:30620..35241
 FT   SO_feature      CDS ; SO:0000316:2480..3364
 FT   SO_feature      inverted_repeat ; SO:0000294:252.. 693
 FT   SO_feature      inverted_repeat ; SO:0000294:4189..4622
-FT   SO_feature      dinucleotide_repeat_microsatellite_feature ; SO:0000290:
-FT                   100..111
+FT   SO_feature      dinucleotide_repeat_microsatellite_feature ; SO:0000290:100..111
 FT                   /remark="repeat=TA"
-FT   SO_feature      tetranucleotide_repeat_microsatellite_feature ; SO:0000641:
-FT                   150..197
+FT   SO_feature      tetranucleotide_repeat_microsatellite_feature ; SO:0000641:150..197
 FT                   /remark="repeat=GTCY"
 FT   SO_feature      region ; SO:0000001:117..149
 FT                   /remark="Wilder and Hollocher core sequence"
