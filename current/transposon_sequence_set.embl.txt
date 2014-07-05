@@ -1795,7 +1795,7 @@ SQ   Sequence 4708 BP;  1618 A; 1242 C; 857 G; 991 T; 0 other;
      TAGTTAAGAT TTTTAAACTT ATTGTTAGTT CTTATACAAG AAGATTCAAT AAATAAAAGC      4680
      AAAGTAAAAT AAAAAAAAAA AAAAAAAA                                         4708
 //
-ID   FB   standard; DNA; ; 4347 BP.
+ID   FB   standard; DNA; INV; 4347 BP.
 XX
 AC   X51937;
 AC   X15469;
