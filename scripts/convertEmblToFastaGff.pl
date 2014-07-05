@@ -24,44 +24,44 @@ while(my $seqobj = $seqin->next_seq()) {
                    }
 			#$annseq->add_SeqFeature($feat);
 
-			if( $feat->primary_tag eq 'CDS' ) 
-			{
-				$id  = $seqobj->display_id();
-				$id = $id."_".$feat->primary_tag;
-
-				$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, $feat->start-1, ($feat->end-($feat->start-1))));
-
-				$feat_seq->display_id($id);
-
-				$CDSseqout->write_seq($feat_seq);
-			}
+# 			if( $feat->primary_tag eq 'CDS' ) 
+# 			{
+# 				$id  = $seqobj->display_id();
+# 				$id = $id."_".$feat->primary_tag;
+# 
+# 				$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, $feat->start-1, ($feat->end-($feat->start-1))));
+# 
+# 				$feat_seq->display_id($id);
+# 
+# 				$CDSseqout->write_seq($feat_seq);
+# 			}
 			
-			if ($feat->has_tag("db_xref") ) {
-			
-			#elsif(  ($feat->get_tag_values("db_xref") =~ /five_prime_LTR/) ) 
-
-			#if( ($feat->primary_tag eq 'repeat_unit') && ($feat->get_tag_values("db_xref") =~ /five_prime_LTR/) ) 
-			
-			@test=$feat->get_tag_values("db_xref");
-			foreach $tag (@test)  { 
-				if ($tag =~ /three_prime_LTR/){
-				
-				$id  = $seqobj->display_id();
-				$id = $id."_".$feat->primary_tag."_".($feat->end-$feat->start+1);
-
-				#$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, ($feat->start - 1), ($feat->end-($feat->start-1))));
-				$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, 1, ($feat->start - 1)));
-				$feat_seq->display_id($id);
-				
-				$LTRseqout->write_seq($feat_seq);
-				}
-			}
-			
-			#  repeat_unit has tag db_xref with values: SO:0000425; five_prime_LTR
-
-			
-		
-		}
+# 			if ($feat->has_tag("db_xref") ) {
+# 			
+# 			#elsif(  ($feat->get_tag_values("db_xref") =~ /five_prime_LTR/) ) 
+# 
+# 			#if( ($feat->primary_tag eq 'repeat_unit') && ($feat->get_tag_values("db_xref") =~ /five_prime_LTR/) ) 
+# 			
+# 			@test=$feat->get_tag_values("db_xref");
+# 			foreach $tag (@test)  { 
+# 				if ($tag =~ /three_prime_LTR/){
+# 				
+# 				$id  = $seqobj->display_id();
+# 				$id = $id."_".$feat->primary_tag."_".($feat->end-$feat->start+1);
+# 
+# 				#$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, ($feat->start - 1), ($feat->end-($feat->start-1))));
+# 				$feat_seq = Bio::Seq->new( -seq => substr($seqobj->seq, 1, ($feat->start - 1)));
+# 				$feat_seq->display_id($id);
+# 				
+# 				$LTRseqout->write_seq($feat_seq);
+# 				}
+# 			}
+# 			
+# 			#  repeat_unit has tag db_xref with values: SO:0000425; five_prime_LTR
+# 
+# 			
+# 		
+# 		}
 	}
 	}
 }
