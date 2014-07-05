@@ -7,15 +7,17 @@ $seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => '../old_releases/transpos
 $CDSseqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>TE_CDS.fa');
 $LTRseqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>TE_LTR.fa');
 
-while((my $seqobj = $seqin->next_seq())) 
-{ 
+while(my $seqobj = $seqin->next_seq()) { 
 	
 	#$name = $seqobj->display_id().".embl";
 	#$EMBLout= Bio::SeqIO->new( -format => 'EMBL', -file => ">$name");
 	#$EMBLout->write_seq($seqobj);
 
 	print "Processing sequence ",$seqobj->display_id(),", start of seq ", substr($seqobj->seq,1,10),"\n";
-#	print $seqobj->seq()."\n";
+	
+	print ">", $seqobj->display_id(), "\n";
+	print $seqobj->seq()."\n";
+
 	if( $seqobj->alphabet eq 'dna') {	
 		#$whole_seq = $seqobj->seq();
 
