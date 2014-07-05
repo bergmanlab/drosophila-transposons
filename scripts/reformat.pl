@@ -4,8 +4,8 @@ use warnings;
 use strict;
 use Getopt::Long;
 use Bio::SeqIO;
-use LFasta;
-use LFastaIO;
+#use LFasta;
+#use LFastaIO;
 use Bio::Tools::GFF;
 
 # {{{ Documentation
