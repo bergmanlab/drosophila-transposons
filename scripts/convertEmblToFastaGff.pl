@@ -3,8 +3,8 @@
 use Bio::Seq;
 use Bio::SeqIO;
 
-$seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => 'test.embl.reordered');
-$seqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>test.embl.reordered.fa');
+$seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => 'test.embl.reordered.fixed');
+$seqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>test.embl.reordered.fixed.fa');
 
 while(my $seqobj = $seqin->next_seq()) { 
 	
