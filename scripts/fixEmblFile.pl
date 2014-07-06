@@ -57,7 +57,7 @@ while ($line = <>) {
 				#print "feature is $feature\tcoords are $coords\tnextFeature is $nextFeature\tnextCoords are $nextCoords\n";
 				#print "incomplete ORF\n\n";
 				print "FT   $nextFeature     $nextCoords\n";
-				print "FT                   /db_xref=\"$nextId\"\n";
+				print "FT                   /Ontology_term=\"$nextId\"\n";
 			}
 			
 			elsif ($nextCoords =~ /(\d+)..(\d+)/) {
@@ -66,9 +66,9 @@ while ($line = <>) {
 				#print "feature is $feature\tcoords are $coords\tnextFeature is $nextFeature\tnextCoords are $nextCoords\n";
 				#print "start codon $1 to $2\n\n";
 				print "FT   $feature     $1..".($1+2)."\n";
-				print "FT                   /db_xref=\"$id\"\n";
+				print "FT                   /Ontology_term=\"$id\"\n";
 				print "FT   $nextFeature     $nextCoords\n";
-				print "FT                   /db_xref=\"$nextId\"\n";
+				print "FT                   /Ontology_term=\"$nextId\"\n";
 
 			}
 		}
