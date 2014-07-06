@@ -6,7 +6,7 @@ if ($#ARGV != 0) {
 }
 
 #lookup hash table of SO terms converted to EMBL feature keys
-my %SO_to_EMBL = qw(CDS CDS dinucleotide_repeat_microsatellite_feature repeat_unit direct_repeat repeat_unit five_prime_LTR repeat_unit five_prime_UTR 5'UTR intron intron inverted_repeat repeat_unit long_terminal_repeat repeat_unit polyA_sequence misc_RNA polyA_signal_sequence misc_RNA polyA_site polyA_site primer_binding_site primer_bind pseudogene misc_RNA region misc_structure RR_tract repeat_unit start_codon misc_RNA TATA_box TATA_signal terminal_inverted_repeat repeat_unit tetranucleotide_repeat_microsatellite_feature repeat_unit three_prime_LTR repeat_unit three_prime_UTR 3'UTR transcription_start_site misc_signal);
+#my %SO_to_EMBL = qw(CDS CDS dinucleotide_repeat_microsatellite_feature repeat_unit direct_repeat repeat_unit five_prime_LTR repeat_unit five_prime_UTR 5'UTR intron intron inverted_repeat repeat_unit long_terminal_repeat repeat_unit polyA_sequence misc_RNA polyA_signal_sequence misc_RNA polyA_site polyA_site primer_binding_site primer_bind pseudogene misc_RNA region misc_structure RR_tract repeat_unit start_codon misc_RNA TATA_box TATA_signal terminal_inverted_repeat repeat_unit tetranucleotide_repeat_microsatellite_feature repeat_unit three_prime_LTR repeat_unit three_prime_UTR 3'UTR transcription_start_site misc_signal);
 
 my $feature = '';
 my $id = '';
