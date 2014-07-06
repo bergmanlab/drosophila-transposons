@@ -10,7 +10,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:6841..7411
 FT   SO_feature      CDS ; SO:0000316:<988..2031
 FT                   /db_xref="FLYBASE:FBgn0027381; Idefix\gag"
 FT                   /db_xref="SPTREMBL:O96739"
-FT                   /protein_id="CAA08806.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA08806.1"
 FT                   /translation="ARKLKDIMAVPQLSETHLNQLLNQIKELNYYDGAPGKLSGFVNQV
 FT                   EQLLSLYPTQEARQAHVIYGAVKRLLVDSALEVVTQERANTWLDMKKALAMAFKDHRPY
 FT                   VTLIRQLEDISYPGSICKFIEKLETQYWIMFDKLELESDHVDKSNYTEMLNKTVKSVID
@@ -21,7 +21,7 @@ FT                   KDIQVPM"
 FT   SO_feature      CDS ; SO:0000316:<1950..5402
 FT                   /db_xref="FLYBASE:FBgn0027380; Idefix\pol"
 FT                   /db_xref="SPTREMBL:O96740"
-FT                   /protein_id="CAA08807.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA08807.1"
 FT                   /translation="PKQDGCKFSSSCLGHSNDREGHTSPYVKIIHHNKNYKGMIDTGSS
 FT                   INIIRENFENLEEKEENLIVYTIKGPITLKRSIIIKPTSVCPSAQKFYIHKFSDNYDFL
 FT                   LGRKYLEDTKAKIDYANETVTLGSKVFKFLYEEKKGETASKCLDPQEKNDSALVDRTKP
@@ -45,7 +45,7 @@ FT                   NRGRKIVHYKSKFKKQKKFNKSKYDNSRPTKEAQSTQHTSNNA"
 FT   SO_feature      CDS ; SO:0000316:5248..6780
 FT                   /db_xref="FLYBASE:FBgn0027382; Idefix\env"
 FT                   /db_xref="SPTREMBL:O96741"
-FT                   /protein_id="CAA08808.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA08808.1"
 FT                   /translation="MINISKKQIVAGRSFTISQNLRNRKSLIRANMIIPDQPKKHKVHN
 FT                   ILLIMLSCILSLIITVKCNNIEVNPVNAKNGYLIFQTGTMEIPTSYEYHYLSINITKTM
 FT                   LMFEDIVSEANNYPNVPQIQYLVDKLKREINGLRIISRSKRGLLNVVGKAYKYLFGTLD
@@ -204,7 +204,7 @@ FT   SO_feature      RR_tract ; SO:0000435:6917..6927
 FT   SO_feature      CDS ; SO:0000316:1074..2393
 FT                   /db_xref="FLYBASE:FBgn0044339; 17.6\gag"
 FT                   /db_xref="SWISS-PROT:P04282"
-FT                   /protein_id="CAA25701.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA25701.1"
 FT                   /translation="MAQEPAIVPPLSDSNMTQVAYQIGNVEKFNGDPGSLYTFVSRIDY
 FT                   ILALYATGDERQQQIIFGHIERSISGEVMRCIGAYDMYTWQQLRRQLVLNYKPQTPNHV
 FT                   LLEEFRKTPFRGNVRAFLEEAESRRQTLTSKLELEQDLEEKTFYLKLIKSSIESLIEKL
@@ -216,7 +216,7 @@ FT                   LQRTQQLQQINTDETNNDNQEPNVEQAENFQPQALENPNI"
 FT   SO_feature      CDS ; SO:0000316:2345..5518
 FT                   /db_xref="FLYBASE:FBgn0014453; 17.6\pol"
 FT                   /db_xref="SWISS-PROT:P04323"
-FT                   /protein_id="CAA25702.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA25702.1"
 FT                   /translation="TGRKFSATSLGKPQYITIKYKENNLKCLIDTGSTVNMTSKNIFDL
 FT                   PIQNTSTFIHTSNGPLIVNKSIIIPSKILFPTTNEFLLHPFSENYDLLLGRKLLAEAKA
 FT                   TISYRDQEVTLYNNKYKLIEGIATHEQSHFQNVNMIPDTMLRQPNKISPILESDLYRLE
@@ -239,7 +239,7 @@ FT                   QLSISQAPGT"
 FT   SO_feature      CDS ; SO:0000316:5488..6903
 FT                   /db_xref="FLYBASE:FBgn0027624; 17.6\env"
 FT                   /db_xref="SWISS-PROT:P04283"
-FT                   /protein_id="CAA25703.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA25703.1"
 FT                   /translation="SALNFTGTWHLITLLLMLITTVHGQQIEINNIDTNHGYLLFSDKP
 FT                   VQIPSSFEHHCLRINLTEIDTIADYFEQRLRTDYHAPQVKFLYNKMRRELAGIALRHRN
 FT                   KRGLINIVGSVFKYLFGTLDENDRVDIQRKLETNAHNSVNLHELNDAIQLINDGMQKIQ
@@ -394,7 +394,7 @@ FT   SO_feature      primer_binding_site ; SO:0005850:342..352
 FT   SO_feature      CDS ; SO:0000316:431..1252
 FT                   /db_xref="FLYBASE:FBgn0020768; 1731\gag"
 FT                   /db_xref="REMTREMBL:CAA30502"
-FT                   /protein_id="CAA30502.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA30502.1"
 FT                   /translation="MSNLYQIDKLEDGSYETWSIQMRSVLVHACLWKVVSGESVKPEVD
 FT                   TGGAWQSQDEKALATIILSVKSSQLGYVKGCLTAAEAWKVLQDVHQPKGPLRTVMLYKK
 FT                   LLSKRLLEGQSISSHIKEFKEIFDALDAVEIGITEKLRSVVLLSSLPESFENFVVAIET
@@ -403,7 +403,7 @@ FT                   DVVCYNCGERRHFKANCRREKVNKESATQEQCSLLNALDSGGFWQNTVVSR"
 FT   SO_feature      CDS ; SO:0000316:1203..4151
 FT                   /db_xref="FLYBASE:FBgn0012032; 1731\RTase"
 FT                   /db_xref="REMTREMBL:CAA30503"
-FT                   /protein_id="CAA30503.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA30503.1"
 FT                   /translation="MRWIVVVFGKTQWCLDSGATSHMCCDRSVFTEFEEHTEKISLAGN
 FT                   GFLLAKGIGTVKLKTDLCTLVLNNVLFVPDLNGNFMSVSRAAQYKCFVNFGPHYADVIQ
 FT                   EGERILRVMRAGNLYMFQGKHNSCFAAVDADGSLWHKRNGHLNTSSLQEMVRKKMVYGV
@@ -525,7 +525,7 @@ FT   SO_feature      CDS ; SO:0000316:803..2047
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044338; 297\gag"
 FT                   /db_xref="SWISS-PROT:P20828"
-FT                   /protein_id="CAA27159.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA27159.1"
 FT                   /translation="MSQPIIALSDINLAEARRQLKDIMPFKGDPETLHTFISRVDYVIS
 FT                   LYQTNDVRQQRILLGAIERNLDGQITRSLGLPNVEDWPTLKARLIAEFKIQTPNYKLLE
 FT                   NFRETPYRGSLRAFCEEAERRRQLLISKLHLEGNQSDFLIYIQGIKESIKILIRKLPIQ
@@ -537,7 +537,7 @@ FT                   LNENFRLTVPENTNT"
 FT   SO_feature      CDS ; SO:0000316:<1999..5178
 FT                   /db_xref="FLYBASE:FBgn0027622; 297\pol"
 FT                   /db_xref="SWISS-PROT:P20825"
-FT                   /protein_id="CAB57796.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB57796.1"
 FT                   /translation="TKRKFSVNSSGKYEYIKIVYKGRSYKCLLDTGSTINMINENIFCL
 FT                   PIQNSRCEVLTSNGPITLNDLIMLPRNSIFKKTEPFYVHRFSNNYDMLIGRKLLKNAQS
 FT                   VINYKNDTVTLFDQTYKLITSESERNQNLYIQRTPESIASSDQESIKKLDFSQFRLDHL
@@ -561,7 +561,7 @@ FT   SO_feature      CDS ; SO:0000316:5145..6560
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0027623; 297\env"
 FT                   /db_xref="SWISS-PROT:P20829"
-FT                   /protein_id="CAB57797.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB57797.1"
 FT                   /translation="TLNFTGTWYPITLLFILITAVHGQQIQINNIDTNHGYLLFSDKPV
 FT                   QIPSSFEHHSLKINLTEIDIVVDYFEQRLRTDYHAPQINFLYNKIKRELARITLKHRNK
 FT                   RGFINIVGSGFKYLFGTLDENDRVEIQKKLEINVHNSVKLHELNDAIRLINDGMQKIQN
@@ -710,7 +710,7 @@ FT   SO_feature      CDS ; SO:0000316:919..5742
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044337; 3S18\ORF"
 FT                   /db_xref="REMTREMBL:AAB03640"
-FT                   /protein_id="AAB03640.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB03640.1"
 FT                   /translation="MFIGSIASNSSLTDCQRFHYLKSYLAGDALALVKHIPVTNDNYRE
 FT                   AWERLEQRYNKQSLIIRSFLNSFMSLPSAINSNIGTVRKIADGADEVIRGLRALNCEER
 FT                   DPWLIFILLSKLDSDTRQAWAQCAESEEKGVTINRFLKFLTSRCDTLEAFELTRSTQAR
@@ -1098,7 +1098,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1701..1728
 FT   SO_feature      CDS ; SO:0000316:379..1398
 FT                   /db_xref="FLYBASE:FBgn0043784; Bari1\ORF"
 FT                   /db_xref="SPTREMBL:Q24258"
-FT                   /protein_id="CAA47913.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA47913.1"
 FT                   /translation="MPKTKELTVEARAGIVARFKAGTPAAKIAEIYQISRRTVYYLIKK
 FT                   FDTVGTLKNKKRSGRKPVLDQRQCRQILGVVAKNPSASPVKIALESKNTIGKQVSSSTI
 FT                   RRRLKEADFKTYVVRKTIEITPTNKTKRLRFALEYVKKPLDFWFNILWTDESAFQYQGS
@@ -1259,7 +1259,7 @@ FT   SO_feature      CDS ; SO:0000316:564..2057
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0043782; Burdock\gag"
 FT                   /db_xref="SPTREMBL:O01350"
-FT                   /protein_id="AAB50147.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB50147.1"
 FT                   /translation="MSDSDNLLDNLVSSLNKWSAHQASRQNSAEKNNKSSDNWWSKTKT
 FT                   TSEMEFEAQLKAIVESAVAGALAVQKQSFEKQLQEMNERIGKLTVNTPEVETYVDAEIR
 FT                   PGVVCSEPLDILKSLPDFDGKSETYVSWRKAAHVAFKVFKDYEGSSTFYQALGIMRNKI
@@ -1273,7 +1273,7 @@ FT   SO_feature      CDS ; SO:0000316:<1994..5119
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0043781; Burdock\pol"
 FT                   /db_xref="SPTREMBL:O01351"
-FT                   /protein_id="AAB50148.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB50148.1"
 FT                   /translation="GRTSELRSCSFFSHKSLLPYIEREIAGRTIKLLIDTGASKNYIQP
 FT                   LPELKNIMPVQNKFTVKSLHGCNTVKQKCFIKLFNTSVQFFILPSLSSFDAIIGLDLLK
 FT                   QGNATLDFKNKTLNINNEVESIQFLRCDSVNFANIENIVVPNQISNKFHTMLRNRLAVF
@@ -1422,7 +1422,7 @@ FT                   /bound_moiety="tRNA:M-i-RB"
 FT   SO_feature      CDS ; SO:0000316:432..4661
 FT                   /db_xref="FLYBASE:FBgn0013437; copia\GIP"
 FT                   /db_xref="SWISS-PROT:P04146"
-FT                   /protein_id="CAA26444.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA26444.1"
 FT                   /translation="MDKAKRNIKPFDGEKYAIWKFRIRALLAEQDVLKVVDGLMPNEVD
 FT                   DSWKKAERCAKSTIIEYLSDSFLNFATSDITARQILENLDAVYERKSLASQLALRKRLL
 FT                   SLKLSSEMSLLSHFHIFDELISELLAAGAKIEEMDKISHLLITLPSCYDGIITAIETLS
@@ -1451,7 +1451,7 @@ FT                   DDQSNAE"
 FT   SO_feature      CDS ; SO:0000316:join(432..1605,4555..4661)
 FT                   /db_xref="FLYBASE:; copia\GIP-RB"
 FT                   /db_xref="SWISS-PROT:P04146"
-FT                   /protein_id="CAA26445.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA26445.1"
 FT                   /translation="MDKAKRNIKPFDGEKYAIWKFRIRALLAEQDVLKVVDGLMPNEVD
 FT                   DSWKKAERCAKSTIIEYLSDSFLNFATSDITARQILENLDAVYERKSLASQLALRKRLL
 FT                   SLKLSSEMSLLSHFHIFDELISELLAAGAKIEEMDKISHLLITLPSCYDGIITAIETLS
@@ -1563,7 +1563,7 @@ FT   source          X17551:1..4725
 FT   SO_feature      CDS ; SO:0000316:213..1910
 FT                   /db_xref="FLYBASE:FBgn0024789; Doc\gag"
 FT                   /db_xref="SPTREMBL:Q04134"
-FT                   /protein_id="CAA35586.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA35586.1"
 FT                   /translation="MNQNDIRSQRQCEQDERRLSLQRNNAYFSFVSPQIGDRAPSPSTN
 FT                   SKLLPSANDRPRSCSPSLPASAHKSWSEETASPTPLLSQRQTTVPGNCNTAITSAVTSL
 FT                   ATATTSTSSAAQLIIAVPAVNNSAALTVCNNNNARKEESKQKQKSISTVQTGMDRYIQI
@@ -1577,7 +1577,7 @@ FT                   TQQSGIEAMMLSLQQSMKDFMTFMQNTLQELMKNQNILIQLLVSSKSP"
 FT   SO_feature      CDS ; SO:0000316:1910..4576
 FT                   /db_xref="FLYBASE:FBgn0024790; Doc\RTase"
 FT                   /db_xref="SPTREMBL:Q04135"
-FT                   /protein_id="CAA35587.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA35587.1"
 FT                   /translation="MASLRISLWNANGVSRHTQELTQFIYEKNIDVMLLSETHLTNKNN
 FT                   FHIPGYLFYGTNHPDGKAHGGTGILIRNRIKHHHLNNFDKNYLQSTSIALQLNNGSTTL
 FT                   AAVYCPPRFPISEDQFMEFFNTLGDRFIAAGDYNAKHTHWGSRLVSPKGKQLYNALTKP
@@ -1806,7 +1806,7 @@ FT   source          join(X15469:94..1010,X51937:1..3430)
 FT   SO_feature      CDS ; SO:0000316:797..3874
 FT                   /db_xref="FLYBASE:FBgn0044029; NOF\ORF"
 FT                   /db_xref="SWISS-PROT:P16320"
-FT                   /protein_id="CAA36201.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA36201.1"
 FT                   /translation="IQQLDTSANLTLNSTFPDDDPEFQITEASKNGPLPILYFNLELDL
 FT                   ELWRSIAPKKDQKTEKLQPNWTDTMAKLIYKKVPLPCAFNFRKAKLSDKVDNIWLRIEG
 FT                   YCNDCSSILKGHCLVKPDEQCGIMISVSVPDTRGIPHNKKRRCTGSRRLEIGNELILKK
@@ -2049,7 +2049,7 @@ FT   SO_feature      CDS ; SO:0000316:1080..2435
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0014965; gypsy\gag"
 FT                   /db_xref="SWISS-PROT:P10405"
-FT                   /protein_id="AAA70218.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA70218.1"
 FT                   /translation="MSWAHNYRKVKVEYESEDSWEEEQVGQALGRPLDSATVDITMDPN
 FT                   QIQALIDNAVRQALSQQQSQFQTQLNSLAARVQSLQVEAPQIKIYEKVSVNPDVRCDIP
 FT                   LDIIKSVPEFSGTQDEYVAWRQSAIYAYELFKPYNGSSAHYQAVAILRNKIRGAAGALL
@@ -2062,7 +2062,7 @@ FT   SO_feature      CDS ; SO:0000316:2438..5470
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0014966; gypsy\pol"
 FT                   /db_xref="SWISS-PROT:P10401"
-FT                   /protein_id="AAA70219.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA70219.1"
 FT                   /translation="MLIDTDAAKNYIRPVKELKNVMPVASPFSVSSIHGSTEIKHKCLM
 FT                   KVFKHISPFFLLDSLNAFDAIIGLDLLTQAGVKLNLAEDSLEYQGIAEKLHYFSCPSVN
 FT                   FTDVNDIVVPDSVKKEFKDTIIRRKKAFSTTNEALPFNTAVTATIRTVDNEPVYSRAYP
@@ -2330,7 +2330,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1622..1653
 FT   SO_feature      CDS ; SO:0000316:387..534
 FT                   /db_xref="FLYBASE:FBgn0044055; HB\T"
 FT                   /db_xref="SPTREMBL:Q27293"
-FT                   /protein_id="CAA25884.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA25884.1"
 FT                   /translation="MLILKLRKEGKTYKDIQKTLKCSAKMVSNAIKYKWKPENRGTKHK
 FT                   TTDIEDRRIVSYSKVYRFASFRDIKSELNLGISDVTIRRRLLNQNFSARSPRKVPLPSP
 FT                   RHIKARLSLAKTYLNWPVSKWRNILWTDGSKIMLFGGTGSLQYI"
@@ -2383,7 +2383,7 @@ FT   SO_feature      CDS ; SO:0000316:732..3497
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0016662; HeT-A\gag"
 FT                   /db_xref="REMTREMBL:AAC17188"
-FT                   /protein_id="AAC17188.3"
+FT                   /db_xref="NCBI_PROTEIN:AAC17188.3"
 FT                   /translation="MSMSDNLFSDDEVLSISSSPEQRSSPFYLNISPMSHGSDNSQINT
 FT                   VIINSKKLPSNQADISLKNSSGAAIKIVNSLSHKKKENTNVNNAQKDPLSLTNTTASTC
 FT                   GAKSSISEGKLSSPPSTSHTYEGKLLTKLTHTHTDFRGAKTSDAMGSFPSLSHSDNSIE
@@ -2520,7 +2520,7 @@ FT   SO_feature      CDS ; SO:0000316:187..1467
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0020417; I-element\gag"
 FT                   /db_xref="SPTREMBL:Q24362"
-FT                   /protein_id="AAA70221.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA70221.1"
 FT                   /translation="MTDPPNIYKITSKTYQSQLGEPKFIIIKRNDNNSFERTSPFIIKK
 FT                   SVDFACGGEVEGCKRTRDGNLLIKTKNELQARKLLKLTKIADEDVTASEHKTLNFSKGV
 FT                   IYCNDLRHIDEDTILQELKPQKVSEVKKIMKRQNPNSNSDTNNITLVETGLIIITFESH
@@ -2533,7 +2533,7 @@ FT   SO_feature      CDS ; SO:0000316:1938..5195
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0020418; I-element\RTase"
 FT                   /db_xref="SPTREMBL:Q24363"
-FT                   /protein_id="AAA70222.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA70222.1"
 FT                   /translation="MAPSWGSPTTNKRGKITHRFIDNMHLILLNDKSPTHFSTHNTYTH
 FT                   IDLTLCSPILAPHAKWKILNDLHGSDHFPIITTLFPTTNPQKFYRPFFKLKEANWEQFN
 FT                   ALTHQTNKKYPTSHNVNKEAALINRIILYSANLSIPQTSPNTHPYRVPWWNKHLDQLRK
@@ -2664,7 +2664,7 @@ FT   SO_feature      CDS ; SO:0000316:300..2051
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0020297; jockey\gag"
 FT                   /db_xref="SWISS-PROT:P21330"
-FT                   /protein_id="AAA28674.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA28674.1"
 FT                   /translation="ISIALYGISIKTIDIMENSFAQSRPSNGCDKFEKMRKVAGVEPGE
 FT                   LRSQLRASCAVVSPNLEGMPTQSAVSSLMVTISSNTNASVTCTISNVQANMICTPTYTD
 FT                   CTTVTTSICPTTPYDNGLPTPLSSLPNKPSKANCPFQAHDRTVNRKRKGVSQPPLPILT
@@ -2680,7 +2680,7 @@ FT   SO_feature      CDS ; SO:0000316:2048..4798
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0015952; jockey\pol"
 FT                   /db_xref="SWISS-PROT:P21328"
-FT                   /protein_id="AAA28675.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA28675.1"
 FT                   /translation="MTQPTLKIGLWNARGLTRGSEELRIFLSDHDIDVMLTTETHMRVG
 FT                   QRIYLPGYLMYHAHHPSGNSRGGSAVIIKSRLCHSPLTPISTNDRQIARVHLQTSVGTV
 FT                   TVAAVYLPPAERWIVDDFKSMFAALGNKFIAGGDYNAKHAWWGNPRSCPRGKMLQEVIA
@@ -2989,7 +2989,7 @@ FT   SO_feature      polyA_signal_sequence ; SO:0000551:5253..5519
 FT   SO_feature      CDS ; SO:0000316:296..4780
 FT                   /db_xref="FLYBASE:FBgn0043882; mdg3\ORF"
 FT                   /db_xref="SPTREMBL:Q94885"
-FT                   /protein_id="CAA65152.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA65152.1"
 FT                   /translation="MDDKIILNDFSLTTLKDWLRILGQNTEGTKTELIARLQDIPTAVR
 FT                   GDCPPEHPQKNAPPGNDIFSSLDFQNCEINTDHVSVNAMNRKESTETGSERETNMFELQ
 FT                   QLRAELAEAKAMLNGTRSSLQFQEQQQPEQSKATVSSVIQTAQFTQAGATKENTTFHSP
@@ -3423,7 +3423,7 @@ FT   source          X51968:1..5356
 FT   SO_feature      CDS ; SO:0000316:319..1731
 FT                   /db_xref="FLYBASE:FBgn0044825; R1A1-element\ORF1"
 FT                   /db_xref="SWISS-PROT:P16424"
-FT                   /protein_id="CAA36226.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA36226.1"
 FT                   /translation="PVSASIRLLDSSKGGATIGATPMESDSSVSALSGSSASKVSRRGR
 FT                   RRSHLASKSSAPTQAKLVALASNGVPEPVGVLEEAFSSLEDARAATSNAANDAAPPAAA
 FT                   PAVDHTVAPDVSTAAKIAATTATAATAAARAGQAAMMAELSATQRMVRNSFRSLGGVDT
@@ -3436,7 +3436,7 @@ FT                   IYGALLARVQARH"
 FT   SO_feature      CDS ; SO:0000316:1728..4790
 FT                   /db_xref="FLYBASE:FBgn0044824; R1A1-element\ORF2"
 FT                   /db_xref="SWISS-PROT:P16425"
-FT                   /protein_id="CAA36227.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA36227.1"
 FT                   /translation="TLMFSFIQANCGRGRAATIELGVRLRRSESMFALVQEPYLGGDEM
 FT                   DVLPEGMRVFTDRRGKAAILVDHQEAICMPVETLTTDYGVCLVVKGSFGSIFLCAAYCQ
 FT                   FDAPLEPYLRYMDAVLLQASRTPAILGLDANAVSPMWLSKLSRHAEGQANYRRGELLSE
@@ -3562,7 +3562,7 @@ FT   source          X51967:1..3607
 FT   SO_feature      CDS ; SO:0000316:181..3351
 FT                   /db_xref="FLYBASE:FBgn0016699; R2-element\ORF"
 FT                   /db_xref="SWISS-PROT:P16423"
-FT                   /protein_id="CAA36225.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA36225.1"
 FT                   /translation="FERKNFSDGLVPQRKFIHIGTTSTNNEPRIPLHNLMTTRPSVDIF
 FT                   PEDQYEPNAAATLSRVPCTVCGRSFNSKRGLGVHMRSRHPDELDEERRRVDIKARWSDE
 FT                   EKWMMARKEVELTANGCKHINKQLAVYFANRSVEAIKKLRQRGDYKEKIEQIRGQSALA
@@ -3663,7 +3663,7 @@ FT   SO_feature      CDS ; SO:0000316:404..1441
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044019; S-element\T"
 FT                   /db_xref="REMTREMBL:AAC47095"
-FT                   /protein_id="AAC47095.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC47095.1"
 FT                   /translation="MPGKRLAFEVTQLIYYNHQLGKSIPELVEIFSVSRKTVYNILNRX
 FT                   XKEGRLEPKSGGGCKTKINKRVDRLIMRKAIANPRISVRSLAQDIREECHLTVSHETVR
 FT                   QVILRHRYSSRVARKKPLLSEINIEKRHSFAVSMMDHAEEYWDDVIFCDETKMMLFYND
@@ -3720,7 +3720,7 @@ FT   SO_feature      CDS ; SO:0000316:1058..2422
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044343; springer\gag"
 FT                   /db_xref="SPTREMBL:Q967T6"
-FT                   /protein_id="AAK52057.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52057.1"
 FT                   /translation="MSESFRQYRNSKKCASDSESESDDSTENSVRKNTPTNAFTAYKMS
 FT                   LETEQIKALIRALQEQALESQRREADLRKTIQDLAGQVAAIQIAPARAEAPPIKVYRPV
 FT                   EITGLVPCGETLDAVKCLPDFMGTQETYVSWRQAANAAYHMFRKYEDSSRHYQAVVIIR
@@ -3733,7 +3733,7 @@ FT   SO_feature      CDS ; SO:0000316:2434..5475
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044342; springer\pol"
 FT                   /db_xref="SPTREMBL:Q967T5"
-FT                   /protein_id="AAK52055.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52055.1"
 FT                   /translation="MKLLIDTGAAKNFIRPFKGLKGVRPVQSPFTIHSIHGVTTITKKC
 FT                   FVSIFNLKATFFLLPDLTSFDAIVGLDLLKQAGASLCLASGKLKWGSGAEQIDFHTCPD
 FT                   VNFTKVDCSDAPPLIKDAFLKMLGNRKKAFADPNEALPYNTSVVATIRTVDEEPIYAKL
@@ -3756,7 +3756,7 @@ FT   SO_feature      CDS ; SO:0000316:5870..7147
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044344; springer\env"
 FT                   /db_xref="SPTREMBL:Q967T4"
-FT                   /protein_id="AAK52056.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52056.1"
 FT                   /translation="MLDMFPQSHMKKLLSVDIAHLRDMLDSLSIHHRVARSLDFLGTAL
 FT                   KVVAGTPDAEDFEKVKFTEARLVDAHNSQIEINTKTQVRINELTDTINKLLKISKSAQI
 FT                   DTGHLYETLSTRNRIIVMELQNLMLTITLAKINVVSPNFLDHADLESIWGEEPTNTPIR
@@ -3917,7 +3917,7 @@ CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:206..3349
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /product="gag protein"
-FT                   /protein_id="AAT12844.1"
+FT                   /db_xref="NCBI_PROTEIN:AAT12844.1"
 FT                   /db_xref="GI:47231635"
 FT                   /translation="MDGHNGDINEGWATVLSISSDDSNQLSSPPSIIVSSLDTTPTSN
 FT                   ETTIVRRSLHNPKADMKSYRFENIVLNENKNTILPDPLFVDKCGNTANTTEANEKKPA
@@ -3941,7 +3941,7 @@ FT                   KDCPKSPKNPFRDPIFV"
 FT   SO_feature      CDS ; SO:0000316:3350..6628
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /product="pol protein"
-FT                   /protein_id="AAT12845.1"
+FT                   /db_xref="NCBI_PROTEIN:AAT12845.1"
 FT                   /db_xref="GI:47231636"
 FT                   /translation="MLFLVTSEVTFPMTRECNRDILKIAFWNAGGINNKIDELKLFIL
 FT                   NIDAHIIIVTETRLDNNSTKLELPGYFTYLAQNPASSKRGGVATIVNSSLRHMALEPI
@@ -4185,7 +4185,7 @@ FT   SO_feature      CDS ; SO:0000316:1760..4672
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;" 
 FT                   /db_xref=”GI:45594384”
-FT                   /protein_id="AAS68533.1"
+FT                   /db_xref="NCBI_PROTEIN:AAS68533.1"
 FT                   /translation="MDGQNVNQSGGWASVLSISSDDGNCSSSPPSAIVSSLDTTPTSN
 FT                   ETTIVRRSLYQTNADMKSYDFENIVLNENKNTILPDPLFVDKCGSTANTTEANEKQPA
 FT                   DSPFPISISKNFSTSSPLTHVDTPTQEDDASAFNTLKAAKTARIIFPTHTQIEPAKPS
@@ -4207,7 +4207,7 @@ FT   SO_feature      CDS ; SO:0000316:4710..7952
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;" 
 FT                   /db_xref=”GI:45594385”
-FT                   /protein_id="AAS68534.1"
+FT                   /db_xref="NCBI_PROTEIN:AAS68534.1"
 FT                   /translation="MTRACNRDILKIAFWNAGGINNKIDELKLFILNIDAHIVIVTET
 FT                   RLDNKSTKLELPGYFTYLAQNPVSSKRGGVATIVNSSIRHMALEPIEKECIQSAPIVL
 FT                   LPENNRRSEMIVIASVYCPPSLSWSPHHFTDVLNFAEKTLGGQTKFILCGDWNAKHRQ
@@ -4491,7 +4491,7 @@ FT                   /product="gag protein"
 FT                   /db_xref="FLYBASE:FBgn0014071; TART-element\ORF1"
 FT                   /db_xref="SPTREMBL:Q23999"
 FT                   /db_xref=”GI:603663”
-FT                   /protein_id="AAC46493.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC46493.1"
 FT                   /translation="MDGHNGDQSEGWATVLSISSDDSNSLSSPPSIIVSSLDTTPTSHE
 FT                   TTIVRRSLYQTNADMKSYDFENIVLNENKNTILPDPLFVDKCGSTANTTEANEKKPANS
 FT                   PFPISISKNFSTSSPLTHVDTPTQEDDASAFNTLKAAKTARIIFPTHTHIKPTKPSPPS
@@ -4516,7 +4516,7 @@ FT                   /product="pol protein"
 FT                   /db_xref="FLYBASE:FBgn0014072; TART-element\ORF2
 FT                   /db_xref="REMTREMBL:AAC46494"
 FT                   /db_xref=”GI:603664”
-FT                   /protein_id="AAC46494.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC46494.1"
 FT                   /translation="MTRADNRDILKIAFWNAGGINNKIDELKLFILNIDAHIIIVTETR
 FT                   LDNNSTKLELPGYFTYLAQNPVSSKRGGVATIVNSSIRHMALKPIEKECIQSAPIVLLP
 FT                   ENNRRSEMIVIASVYCPPSLRWLPHHFTDVLNFAEKTLGGQTKFILCGDWNAKHRQWGC
@@ -4914,7 +4914,7 @@ FT   SO_feature      polyA_site ; SO:0000553:5019..5024
 FT   SO_feature      CDS ; SO:0000316:760..4761
 FT                   /db_xref="FLYBASE:FBgn0043491; flea\polyprotein"
 FT                   /db_xref="SPTREMBL:Q24262"
-FT                   /protein_id="CAA81643.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA81643.1"
 FT                   /translation="MFTRTPPTNKKLNTDQIQAILENESEDESRKEKMNEEDQKLAPVG
 FT                   EAEAKKQNKDASAKVEEKFEQMMNTLTQSMLAKSKQEGQVIIAAEKFEKVVSDCDGKSI
 FT                   PIKKWFEIFEKNAEAYELSEKQKYVQARSKMIGSAELFLESECVSGYTELKELLIEEFS
@@ -5042,7 +5042,7 @@ FT   source          AY180918:1..7521
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..518
 FT   SO_feature      three_prime_LTR ; SO:0000426:7004..7521
 FT   SO_feature      CDS ; SO:0000316:1578..2831
-FT                   /protein_id="AAN87270.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87270.1"
 FT                   /translation="MEETLRALSESLNALTNVVTGIKEDIKKNNDRLAILEQERGNAD
 FT                   PTVDQPQPLVRARTEYELREISVLPDCVKELQAFEGRQEAYLSWINRAQSILTEYDLI
 FT                   KTRPLYRAIVLHIRQKIRGHADMALAAYGVQDDDWDDIKRVLALHYADKRDLRTLEHE
@@ -5052,7 +5052,7 @@ FT                   FRTPFSPGSGRFSQNSYRTQGPRQAIKMESNRSGQSYQSGYSGRQEEGSGIKRMSEGN
 FT                   NPFQKAQRLYHMELAPPPLAPAASGDNQGRSHEGYYDDESQAVERSNNYPPQKNVEGV
 FT                   TDAPHNLETEGGANFMTNASPVYRT"
 FT   SO_feature      CDS ; SO:0000316:2972..5983
-FT                   /protein_id="AAN87271.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87271.1"
 FT                   /translation="MITHRLVGKFFKPLGNDSDITFFVLPNLHSFDGIIGDDTLKDLK
 FT                   AIVDRKNNCLIITPGIKIPLLARASINVNPLLAAEHPDGTQEILNSLLGEFPRIFEPP
 FT                   LSGMSVETAVKAEIRTNTQDPIYAKSYPYPVNMRGEVERQIDELLQDGIIRPSNSPYN
@@ -5215,7 +5215,7 @@ FT   source          AY180917:1..9092
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..429
 FT   SO_feature      three_prime_LTR ; SO:0000426:8665..9092
 FT   SO_feature      CDS ; SO:0000316:1275..8357
-FT                   /protein_id="AAN87269.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87269.1"
 FT                   /db_xref="FLYBASE:FBgn0043856; roo\ORF"
 FT                   /translation="MMSEKTIQFLKKQSEIILEIRKLEVKPTLTDVEILKLNELQKCF
 FT                   IANHSNLLKIGVVDHEYFNAKQYDLIMMVLEKIKNKNEKIKGESVENTFPKSNTVPKS
@@ -5426,12 +5426,12 @@ FT   source          AY180916:1..7410
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..398
 FT   SO_feature      three_prime_LTR ; SO:0000426:7011..7410
 FT   SO_feature      CDS ; SO:0000316:966..1271
-FT                   /protein_id="AAN87266.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87266.1"
 FT                   /db_xref="FLYBASE:FBgn0045863; blood\sORF"
 FT                   /translation="MSTKQTFEHPAPVEQRDLPSIKEVIEVDPSAGPKPLTIQEYKAR
 FT                   TAAREQPPKKKRGGRRIKLLSARRLNIELLKTATNEEDRQRYKERLAAINQQLRGAK"
 FT   SO_feature      CDS ; SO:0000316:1863..3116
-FT                   /protein_id="AAN87267.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87267.1"
 FT                   /db_xref="FLYBASE:FBgn0045865; blood\ORF1"
 FT                   /translation="MEWLNLTISINNIRDAFDKSYKCINKTALIKTQTLIFHIKVLIT
 FT                   QYNTLQNLIVTNKSKLTEEHKVQCFKVLSSFGKRLHNTSVRHSIIIEVPTELTKIAEF
@@ -5442,7 +5442,7 @@ FT                   KFATKESISAMTKNCANEALKMILTAGTFSTFNDAMEKYLHCSTEITGNSNTVLFYNG
 FT                   NNRRGNYNAYYRGRGRNNYNHNYNQNYNQGYNNNNRGRGGYRGHGNNRDGGNRRGNQS
 FT                   QNNNNNRNVRNVQSENSQTPLSDQQ"
 FT   SO_feature      CDS ; SO:0000316:3749..6733
-FT                   /protein_id="AAN87268.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87268.1"
 FT                   /db_xref="FLYBASE:FBgn0045864; blood\ORF2"
 FT                   /translation="MKDYDIFTTPVEKENRTEEILKQLRFPKQFNNELTKLCTEFSDI
 FT                   FGLETEPISANNFYKQKLRLGEKTPVYIKNYRMADSQKPEIARQVKKLIDDGIVEPSM
@@ -5605,7 +5605,7 @@ FT   SO_feature      CDS ; SO:0000316:join(494..531,6387..8004)
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0024272; ZAM\env"
 FT                   /db_xref="SPTREMBL:O46113"
-FT                   /protein_id="CAA04048.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA04048.1"
 FT                   /translation="MENTLLNLLLVLLSCHGAYQSIFIHNFNSTNLLAKVPVGKTLVIG
 FT                   NYKKISHIIDLSEYTNCIEKLYHTIDTLRQDETLTDSISILNAKLAQTQSKIDALTPFS
 FT                   RHKRGLINGLGSLVKVVTGNMDANDAKNIETEINHLKSQSTTISDNFEIQNSFNDEVQL
@@ -5620,7 +5620,7 @@ FT   SO_feature      CDS ; SO:0000316:1789..2820
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0024271; ZAM\gag"
 FT                   /db_xref="SPTREMBL:O46114"
-FT                   /protein_id="CAA04049.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA04049.1"
 FT                   /translation="MSKKLTQTIKQTTRSVLESHTFPKRVTRSVSKTNTLPVIRESTPL
 FT                   PPLQPINMDSGNASVGNSAPVTPTVSGFSSIATALSATDILAFVKELPTFDGTPGQLDK
 FT                   YITSVEEIIMLIRGTDQTPYGLLTLRAIRNKIVGRADEALNLANTKLIWDDIKSNLLRL
@@ -5632,7 +5632,7 @@ FT   SO_feature      CDS ; SO:0000316:<2795..6448
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0024270; ZAM\pol"
 FT                   /db_xref="SPTREMBL:O46115"
-FT                   /protein_id="CAA04050.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA04050.1"
 FT                   /translation="NKLWATQHRRRKTHPTLPYQLKFSGTRLRNPTGYINPTTHATSLP
 FT                   YITLNLQQKFPLSFLIDTGSNNSFIDPESANQLECTILPTSTSITTALNSFKIEEKAIF
 FT                   PMPPEFKTEGQITLLKFKFHSYFNGLIGMDLLSHLEAKVDLVNLQLVTSKSTLPIFLYT
@@ -5820,7 +5820,7 @@ FT   SO_feature      RR_tract ; SO:0000435:8236..8507
 FT   SO_feature      CDS ; SO:0000316:1741..6456
 FT                   /db_xref="FLYBASE:FBgn0044067; GATE\polyprotein"
 FT                   /db_xref="SPTREMBL:O76925"
-FT                   /protein_id="CAA09069.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA09069.1"
 FT                   /translation="MPIGDDKKKLSADKPRSIFSPQGPKSPRIPSISVKTPAQISDDCA
 FT                   TPSKATVQRTAKNMAASDLALAKFISVSDAQANLRLRSTLRNPQLQPSRCLASVATKSE
 FT                   AYGTRLKRIRPLLRVPCVSRRAAASGMPILRASYSYCYSVYERCVAQLVDKIEQGHFSV
@@ -6011,7 +6011,7 @@ FT   SO_feature      CDS ; SO:0000316:322..1827
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0041613; X-element\ORF1"
 FT                   /db_xref="SPTREMBL:Q9NBX5"
-FT                   /protein_id="AAF81410.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF81410.1"
 FT                   /translation="MNTLNETAAADESLDTAFLSSPQCAAPQRFQKIKRKSRASPETER
 FT                   KKPKSTIGKQGENPSATEPRYGGNSNRFGLLAHLTADKQVGNEIGDLYDQPSTSHQAAI
 FT                   AAAKRDAASAGTTSSAKRAQSKPPPIVMEGVDDVYLMMQSIENIVDLEKIEARASMSGV
@@ -6025,7 +6025,7 @@ FT   SO_feature      CDS ; SO:0000316:1827..4553
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0041612; X-element\ORF2"
 FT                   /db_xref="SPTREMBL:Q9NBX4"
-FT                   /protein_id="AAF81411.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF81411.1"
 FT                   /translation="MMPLRILVWNADGVSTKLPEVECFVRRHEIDVLLLSETHCKGAET
 FT                   PKLFGFVAYTANDPSGGNAKGGAAILIKNSLAHFPLTPIATAKVQLAPAVIETALGPIS
 FT                   FGAVYCPPRFAWTTDEFKDILEEFQTKFIVAGDWNASHWLWGAGRSNQRGIALANLVLN
@@ -6137,7 +6137,7 @@ FT   SO_feature      CDS ; SO:0000316:668..1603
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0040266; Transpac\gag"
 FT                   /db_xref="SPTREMBL:Q9NHF8"
-FT                   /protein_id="AAF36670.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF36670.1"
 FT                   /translation="MNENSLAAFNSTMNCIKLIQNFDGTDTNQLPDLITQIENILPSFD
 FT                   VFDTNTKNILFGFIKNKFVGLCRPVIHRHGNMTEWESFKRVILKNFGEKETSDVLMDML
 FT                   KLCRVESTIEEYYNKINEISNRVHNRILIHDDKTYTTLEVNRIALRVFRDNLPEPTKTL
@@ -6148,7 +6148,7 @@ FT   SO_feature      CDS ; SO:0000316:1726..4839
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0040265; Transpac\pol"
 FT                   /db_xref="SPTREMBL:Q9NHF7"
-FT                   /protein_id="AAF36671.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF36671.1"
 FT                   /translation="MGNKIKIRKLCRFPCFQEFEAEGYICEFLEYNFHNYFDGLIGCNI
 FT                   LNDLHAVIDYSNKKIQLNNVYLDLLVQENHLDLGIHNLIPMNLICPQARSSINELIQKF
 FT                   EHIFYKEGQDLSFTSEIKHRIITKNDLPIYSKTYKYPEIHKDEVNRQIAEMLDQGIIRH
@@ -6418,7 +6418,7 @@ FT   SO_feature      polyA_signal_sequence ; SO:0000551:5149..5182
 FT   SO_feature      CDS ; SO:0000316:437..1933
 FT                   /db_xref="FLYBASE:FBgn0041727; Rt1a\gag"
 FT                   /db_xref="SPTREMBL:Q9N9Z2"
-FT                   /protein_id="CAB99191.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB99191.1"
 FT                   /translation="MDRTGGGSAPDPNDPFRRSGRLSRSPIRGVGTQIQGGGGEQAGPP
 FT                   PPKASDCSAAVEVETLATTVSTTATSLKTMDFISVPAQRAGAKSPSGSPHRSPELTTTL
 FT                   QNEDLQGILDMMKAKITAILSSFETRRHVTSEDRGVLVDLSALNKRAIELQEGINKKPP
@@ -6431,7 +6431,7 @@ FT                   KNHATGGFACPTYKANTKGANSRQNDARRN"
 FT   SO_feature      CDS ; SO:0000316:1884..4853
 FT                   /db_xref="FLYBASE:FBgn0041726; Rt1a\pol"
 FT                   /db_xref="SPTREMBL:Q9N9Z1"
-FT                   /protein_id="CAB99192.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB99192.1"
 FT                   /translation="MMPEEINIIQLNVNHCAAAQNLLTQTAKERHADVVLLSEPYLPGV
 FT                   GNSGVLLDETGKAAIKCTSRLLVEEWDTVPMRGIAYAKIRGIHFYSCYAPPSDSPEQFE
 FT                   DMLEKLVNHASGRRPTVIGGDLNAWATEWGSRISNTRGRAVIDAMNLLDLVLLNDGFKP
@@ -6555,10 +6555,10 @@ XX
 FT   source          AC005734:107957..102787
 FT   SO_feature      CDS ; SO:0000316:AC005734:107575..106079
 FT                   /db_xref="FLYBASE:;"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT   SO_feature      CDS ; SO:0000316:AC005734:106095..103132
 FT                   /db_xref="FLYBASE:;"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 XX
 CC   Sequence from I. Busseau (personal communication to FlyBase).
 CC   Michael Ashburner.
@@ -6669,7 +6669,7 @@ FT   SO_feature      CDS ; SO:0000316:1074..2081
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044353; Quasimodo\gag"
 FT                   /db_xref="SPTREMBL:Q967T3"
-FT                   /protein_id="AAK52060.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52060.1"
 FT                   /translation="MAQPSEQIMILSELHLNQALGQIRHISTFDGSTRELASFVRRVDF
 FT                   VMSLYPTTDKRQHSVLYSAIERQLSQHAQEVSQLQQCNTWAELRSVLIDEFKTQIPYEE
 FT                   LLRRLYNTYWSGSIRKFVEELENKMFEISSKLSLENNYTNTTLYTAAMANTIKDVIYKR
@@ -6680,7 +6680,7 @@ FT   SO_feature      CDS ; SO:0000316:2084..5281
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044352; Quasimodo\pol"
 FT                   /db_xref="SPTREMBL:Q967T2"
-FT                   /protein_id="AAK52058.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52058.1"
 FT                   /translation="MNNIKLKCLIDTGSSINLMSKNFFNCPINSKAPLDVHTINGQIIL
 FT                   KSKITLKPSKLCPTKQTFYLHKFSEKYDILLGREYLEDSKATICYTSNTVTLNKYTFKL
 FT                   RLEDINEEEETPKESLKENLLDSPNIEYVNYVIDNELNETNEFRLDHLNDEERKALTSV
@@ -6704,7 +6704,7 @@ FT   SO_feature      CDS ; SO:0000316:5145..6701
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044354; Quasimodo\env"
 FT                   /db_xref="SPTREMBL:Q967T1"
-FT                   /protein_id="AAK52059.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK52059.1"
 FT                   /translation="MRNITKKQIEEEKLNIINLNLKNKRELIKVNTIPAQLPKIKWGPI
 FT                   KQLFIITLIICFIRAVRGQSLEVNPIQAKNGYLIFKTGSINIPINYEYHYLSVNLTKTE
 FT                   QTFANLIKQAEEYGTIAQIQYLTEKLDREMNGIRIIKRNKRGLINIIGTAYKYLFGTLD
@@ -6860,7 +6860,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:6796..7062
 FT   SO_feature      CDS ; SO:0000316:1527..2930
 FT                   /db_xref="FLYBASE:FBgn0044442; HMS-Beagle\gag"
 FT                   /db_xref="SPTREMBL:Q967S7"
-FT                   /protein_id="AAK53387.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK53387.1"
 FT                   /translation="MANPNNIIRPSAFSSNERPVPSERHDLPEQHRVDMSVEQLTALIG
 FT                   QTVAQVLPGLIKQMNNNTLDFTDVSDQVVEPEYRNNLADFDRVPDIVKSIREFSGNPAE
 FT                   FGSWKKSVDRIMETYTPFVGTPKYYGILHTIRNKIVGSADVALESYSIPLDWKAMSRCL
@@ -6873,7 +6873,7 @@ FT                   RDHVLHFLE"
 FT   SO_feature      CDS ; SO:0000316:<2870..6049
 FT                   /db_xref="FLYBASE:FBgn0044441; HMS-Beagle\pol"
 FT                   /db_xref="SPTREMBL:Q967S6"
-FT                   /protein_id="AAK53386.1"
+FT                   /db_xref="NCBI_PROTEIN:AAK53386.1"
 FT                   /translation="WTNRQFGQRTTRPRVAFFRVEDSSLPYFECRVGSGKVLRVLIDTG
 FT                   SNKNYIQPNLVTNAIPNNKPYIADTPGGDVKISHYKRASLFDFEIKFFLLPTLKTFDAI
 FT                   LGKDTMKGMGAQIDLKNLTMTLENGKRVVLKEKQFEAVSTISPRIKHLEVEQRMILNKI
@@ -7888,7 +7888,7 @@ FT   SO_feature      CDS ; SO:0000316:970..2718
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0066320; 1360\T"
 FT                   /db_xref="SPTREMBL:Q86BW1"
-FT                   /protein_id="AAN39288.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN39288.1"
 FT                   /translation="MNASDKECILACDEVAIKKNLTYNVSVDIIDGIEHLLDRSNKIGS
 FT                   HICVFVLRGILKKWKFILNYFVAETNIKGDCLKSLIYKNIIIAETIGFKVRGVVYDQGG
 FT                   NNRKCTSLLEVTNEKPYFTLNNKKYMFYDIPHLFKSVRNNFLRANFETPDGLVDFDVIR
@@ -10339,7 +10339,7 @@ SY   synonym: DOC6
 XX
 FT   source          AY180919:1..4236
 FT   SO_feature      CDS ; SO:0000316:179..1330
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /db_xref="FLYBASE:; Juan\ORF1"
 FT                   /translation="MRTKRNKPLVERQNERGSKQFTNYFRPLQTLDDDNDDKPIETDTL
 FT                   DEIIIKPPPITLIKQNTKFVHELMAKIKTDDYFIKTISIGIKIFLPNMDCFNAACNQLK
@@ -10349,7 +10349,7 @@ FT                   KTSCAHCAGSHQTAVCMDVNNKKCANCKGDHPSTELTCPCRISYLNLLSKRSSQRIGRN
 FT                   NLEAHGMRNSKQHIAPSALFGNQPQISLPTQTKRVQQLNFGSYSNALTNIHTLPNPKAN
 FT                   ITNETNLFSCEEINSLLSELITRFNECSNKGEQFQVISQLAIKYVYTNK"
 FT   SO_feature      CDS ; SO:0000316:1329..3983
-FT                   /protein_id="AAN87272.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN87272.1"
 FT                   /db_xref="FLYBASE:FBgn0062541; Juan\pol"
 FT                   /translation="MFTQTNNFIDNLNIMAWNARAVRNKRIELIKFLENNHIHIALIN
 FT                   ETWLTHSDRFNIPEYTIYRNDRKESRGGGVAIAVSNTLIHEQIPCIKSHVIENVGIQI
@@ -10456,7 +10456,7 @@ FT   source          AF492763:1..2483
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..203
 FT   SO_feature      three_prime_LTR ; SO:0000426:2281..2483
 FT   SO_feature      CDS ; SO:0000316:997..2244
-FT                   /protein_id="AAM11672.1"
+FT                   /db_xref="NCBI_PROTEIN:AAM11672.1"
 FT                   /translation="MLLAVAAEKDLHMHQIDISNAYLNSDLEEDVYLKQPKNYVDKEN
 FT                   PGKVLKLQKAIYGLKQSERLWNDALNEVLQNMGFKRSKNEACLYYKKQQNGFSYIAVY
 FT                   VDDLIIISPKESDIEDIKGSIATKFDMKDGGQLRYFLGMEISRKGQTGPIKLCQKRYI
@@ -10524,7 +10524,7 @@ FT   SO_feature      five_prime_LTR ; SO:0000425:1..367
 FT   SO_feature      three_prime_LTR ; SO:0000426:6952..7318
 FT   SO_feature      CDS ; SO:0000316:1282..2535
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAM11673.1"
+FT                   /db_xref="NCBI_PROTEIN:AAM11673.1"
 FT                   /translation="MATASPIILSDSNMSQVERQINAVEIFNGDPNTLHTFITRIDFI
 FT                   LALYQTTDERQKLIIYGHIERNISGDVIRTLGTNNFTSWIELRTRLILYYKPQAPSHQ
 FT                   LLEDFRNIQYKGNIRQFLEEAEKRRQVLMSKLELENNSAETALFTRLIQDSIENLILK
@@ -10535,7 +10535,7 @@ FT                   EMVSNQPEYPYHYYYPYYPDNFQPQPYPYQMSYIPDPTQIPFEQDHDTSDKTQQEQTA
 FT                   PNDDESDNTKEAENFRLVAPDQTNI"
 FT   SO_feature      CDS ; SO:0000316:2595..5144
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAM11674.1"
+FT                   /db_xref="NCBI_PROTEIN:AAM11674.1"
 FT                   /translation="MLTWNIFETPIQQTNHLIHTSNGSVTINETTTIPPNNYFPIAQE
 FT                   FLIHKFSDHYDMLIGRKLLSKAKAIIDYQKKTATLFNKVYKIKDTEKLTDQNHAQVDS
 FT                   SFPQDPTFLETSTLQENLFRLNHLNAEEKYKLTNLLTRFKDIQFHEGDKLSFTNQEKH
@@ -10553,7 +10553,7 @@ FT                   YFPNSQLLIQNIINECQVCNLAKTEHRNTEMPMKITPKPEHCRDKFVIDIYSSEGNHY
 FT                   LSCIDIYSKFATLEQIKTKDWVECKNALMRIFNQLGKPKLLKADRDGDSPA"
 FT   SO_feature      CDS ; SO:0000316:5823..6575
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAM11675.1"
+FT                   /db_xref="NCBI_PROTEIN:AAM11675.1"
 FT                   /translation="MLRELNAITLHQTNRQKRGLINIMGSAFKYLFGTLDNNDRIQIH
 FT                   NQLESATNNSINIHEMSDIIQLINSNMQKIKEFEDEHNNREQMLYELIQFTEYIEDIA
 FT                   MGMQLSRLGLFNPKLLNYDKLENVDSSNILQTKTSTWINTNQLLIIAHIPTKQKTIHT
@@ -11188,7 +11188,7 @@ FT   SO_feature      CDS ; SO:0000316:172..>804
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0046700; Penelope\ORF1"
 FT                   /db_xref="SPTREMBL:Q95VB4"
-FT                   /protein_id="AAL14648.1"
+FT                   /db_xref="NCBI_PROTEIN:AAL14648.1"
 FT                   /translation="MERSPEPSININGRHAVCTATNMSYAKIKTKYKDSKRTINKFQLT
 FT                   LVKLTKLKSSLKFLLKCRKSNLIPNFIKNLTQHLTILTTDNKTHPDITRTLTRHTHFYH
 FT                   TKILNLLIKHKHNLLQEQTKHMEKAKTNIEQLMTTDDAKAFFESERNIENKITTTLKKR
@@ -11225,7 +11225,7 @@ FT   SO_feature      five_prime_LTR ; SO:0000425:1..223
 FT   SO_feature      three_prime_LTR ; SO:0000426:7432..7650
 FT   SO_feature      CDS ; SO:0000316:2298..3512
 FT                   /db_xref="FLYBASE:FBgn0063781; accord2\gag"
-FT                   /protein_id="AAN34649.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN34649.1"
 FT                   /translation="MLGKKANISNTVRGRLGLRSESGLSEIREATEPKEKDQSVQSEDN
 FT                   NPTNTMDSGNDTAAISPIVNSSRNTNLSLQQLLTLVHQLPTYEGPPDNLDRFIDRVDQL
 FT                   LLLASSVDQTTGGKYLLGTIRDKIKGRADEALNVCDVLLTWDDIKINLKRLYSSKKTEE
@@ -11236,7 +11236,7 @@ FT                   NSHNDSNGRQDRETLGRNPFHNNEQPDQTLSHQNRNKHNPSAPLCNINDDANFLLEASG
 FT                   SQSAT"
 FT   SO_feature      CDS ; SO:0000316:3811..5034
 FT                   /db_xref="FLYBASE:FBgn0063780; accord2\pol"
-FT                   /protein_id="AAN34648.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN34648.1"
 FT                   /translation="MDILSSLNAKINLAESILETPETAIPILTRANPVDTVYNLPQNTK
 FT                   MLLPLPVNLMEGDFIYETTNLDNQVSITGGLNTANAGSAYFEVCNNSDQIQTLYLEEPL
 FT                   QAEEFSSQTHQYLNCMTAATDTERQDDQQLNILTEHLNSEEKQYILKLCKSFKRLFHNE
@@ -11391,7 +11391,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:5953..6450
 FT   SO_feature      CDS ; SO:0000316:1279..2562
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0063916; McClintock\gag"
-FT                   /protein_id="AAN34650.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN34650.1"
 FT                   /translation="MAVAAPSPIILSDSNMIQVERQINGVEQFNGDPQTLYTFISRIDF
 FT                   ILALYQTTDERQKLTIFGHIERNIAGEVIRTLGVTNLTTWTELRTHLILNYKPQRPNHL
 FT                   LLEDFRNTQFRGNVREFLEEAERRRQILTNKLDLESDTAETTLYNQLIRTSIETLILRL
@@ -11403,7 +11403,7 @@ FT                   PTEPPMELITEAQTAENFRPQASEQANS"
 FT   SO_feature      CDS ; SO:0000316:2622..5642
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0063915; McClintock\pol"
-FT                   /protein_id="AAN34651.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN34651.1"
 FT                   /translation="MATQNFFKLPIQEIAKKINSSNGQFIAQKKVTLPKNNLFPKPYDF
 FT                   FIYPFSTKYDLILGRQLLDEGTTSVNYGPRTVTIYGHVHEMIDAFLPSEEIHIQDTQNN
 FT                   SFRLDHLNSEEKAKLITLLKEFQDLQYKKGDQLTFTNNVKHTIRTSHNDPVYRKPYGYA
@@ -11892,7 +11892,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:946..1064
 FT   SO_feature      CDS ; SO:0000316:565..873
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;"
-FT                   /protein_id="AAN34654.1"
+FT                   /db_xref="NCBI_PROTEIN:AAN34654.1"
 FT                   /translation="MKEVDINSYEKRLSFALEYKEKPIEFWFDVLWTDEIGFQFQRSFS
 FT                   KKFMHFPKKLKVECRPANQSIWWWHGDVLGLFKLLWIWRHGTDRGYNKSNRIPPYLK"
 XX
@@ -11934,7 +11934,7 @@ FT   SO_feature      primer_binding_site ; SO:0005850:394..411
 FT   SO_feature      RR_tract ; SO:0000435:8296..8305
 FT   SO_feature      CDS ; SO:0000316:1710..7202
 FT                   /db_xref="FLYBASE:FBgn0063918; Max-element\gag-pol"
-FT                   /protein_id="CAD32253.1"
+FT                   /db_xref="NCBI_PROTEIN:CAD32253.1"
 FT                   /translation="MPLEGDKKKTPAPGKEQKFNPQSPISTRGRPAPKSVSPRVKTATP
 FT                   TPKPKVLPSTSSKTTPRLVISRPVTRASSESSLSRKSESPSAVGTDFLRVTRSTTKRMA
 FT                   SSEQPTPANAALHKFIAVSDRVSLFEAKINTPDQASPSLHTLQVRLQQVRALWDKVERE
@@ -12126,7 +12126,7 @@ FT   source          nnnnnnnn:1..1790
 FT   SO_feature      CDS ; SO:0000316:<2..1618
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; BS3\RT"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="IKRRCARKAPLADNSGAWCRTFIEQAEVFAVHLAERFQPLNLASP
 FT                   QDVDATHDQLSQALQMDLPMQPITPSEIADVIAKQNPKKAPGHDTTCNSTLRTLPRCAI
 FT                   LYITLLFNAMVRLQYFPPQWKLGIISMIHKPGKPEKNPGSYRPISLLPSISKVFERLIA
@@ -12212,7 +12212,7 @@ XX
 FT   SO_feature      CDS ; SO:0000316:<1..1743
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; Doc4-element\ORF2"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="IQNEIREQRQREQDERRLSSIKNNAYFSFVSTETLKPSQDQRAHS
 FT                   CSPSLPSTVPKSWSEECASPMPQPTTNYTQTPLTIVAKPPLLSLAAVTTSTVASLTTAI
 FT                   ASTTTLTATVSSTQTIQSTTSRAFALQAKQLTATITDLRESKSNPSGRPNSVMQTGMDR
@@ -12290,7 +12290,7 @@ FT   source          nnnnnnnn:1..4682
 FT   SO_feature      CDS ; SO:0000316:211..1947
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; Porto1\ORF"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MSASDAQNQKRELQAKQNKNNSYLSFTHISNYTNNYQSLHPQSDG
 FT                   RARSCSPALERPNNYSQHRSAECAPNSSARTPTTTSAIPINTHSTLPLTAVTLSALPLW
 FT                   TLPLSATSETNTTTVATIATTTTVFYVSMPICSSSANIKTPSSIPASTKINKTQSSLPN
@@ -12305,7 +12305,7 @@ FT                   LDK"
 FT   SO_feature      CDS ; SO:0000316:?..?
 FT   SO_feature      start_codon ; SO:0000318:?..?
 FT                   /db_xref="FLYBASE:; Porto1\ORF"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="NRLQYYLSKLETTLSTNYSLWKATKKFTNSTIHKPPIKRNNNTWA
 FT                   RSNKEKADTIYNDNAELPRQITNLNCAIKTITKAEIKSHIKQIKNKKAPGYDLIGGKIL
 FT                   KELPDAIITYIRNLFNGILRLQYFPITWKVGQIKAIPKPNKNANTVSSYRPISLLPVLS
@@ -12411,7 +12411,7 @@ FT   source          nnnnnnnn:1..3961
 FT   SO_feature      CDS ; SO:0000316:2..1249
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; Fw2\ORF1"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="XSTTQTAIDRYIQIKRKLSPQNYSMGNKSKINCDITRQKTNMPNN
 FT                   DNRFAILADLDDLPNSDKDIKKTPKPPPIYIREKSSSALVNKKMDLIEKDSFHIIPLTK
 FT                   GNIHETKVQVKTEVNFRALTKYLNDAKKNFYTYQPKSSKGLQSSIKGLRPEITPEEISG
@@ -12423,7 +12423,7 @@ FT                   LMRNQDLLIQMLVSQQSK"
 FT   SO_feature      CDS ; SO:0000316:1256..1249
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; Fw2\ORF2"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MAPLRITLWNANGVSRHKLEMAQFLQDKHIDVMLLSETHLTNKYK
 FT                   FQINGYIFYGTNHPDGKAHGGTGVLIRNRIKHTFRNDFGTNYLQATSLNIQLGNGQITL
 FT                   AAVYWPPRFTISENQFLDFFNTLGDRFIAAGDYNAKHTHWGSRLVTAKGKLLYKTIIKV
@@ -12615,7 +12615,7 @@ XX
 FT   SO_feature      CDS ; SO:0000316:<1..716
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; R1-2\ORF1"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="XXCSAVVMCDDPSIPGKQSAERVRKEVAPALGVRVHEVRELKCGG
 FT                   AVIRTPSVSEMKKVVANKKLAEVGLKVQPKKSQRPKVQVFDVDSGIQPDGGIVRQQFKE
 FT                   EFSPAAFMKEMHLNTKPWSVTDGERANLTLEVDEKALNVLEQTGRVYIKWFSYRCRSLV
@@ -12624,7 +12624,7 @@ FT                   SFTCPIYGAVLARVNARH"
 FT   SO_feature      CDS ; SO:0000316:719..3216
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; R1-2\ORF2"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MFSFLQANCGRGRAPTIELxVRLRDSGHLFALVQEPYVDLAGRIT
 FT                   VFSDRRGKAAVYVDSTDSICMPIEPLVTEFGVCVSVTGSFGSIFLCSVYCQFNTGLEQ
 FT                   GVPSGMRYLGYLDAVLLLASRTPVILGLDANAVSPMWFSKLPERAQGSANYLRGELLS
@@ -12714,7 +12714,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1619..1644
 FT   SO_feature      CDS ; SO:0000316:356..1375
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; Tc1-2\ORF"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MGKTKELSEFIKNEIIIKYNSGISVQNIIDLYKIPRATVYYQINK
 FT                   YKKTHTTKNVARSGRPRKTTQKDDGYILRKFKQNVLQTPRSVAKELKEGAEIDISERTV
 FT                   RRRLKEADFGTYVSRVIPLITPRNKLKRLDFAKKYVGQPASFWNNVLWSDESSFEFHCS
@@ -12767,7 +12767,7 @@ FT   source          nnnnnnnn:1..2841
 FT   SO_feature      CDS ; SO:0000316:16..2727
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:; G5A\ORF"
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MGPLRIPTWNSIGASLKTNEFLALIELHDIDILLLSEVHFSSRSN
 FT                   FRVNGFTLHTANHPDDSQHGGAAILVGSNISHQPFATLSQNHIQAVVIQLTASRGNFNV
 FT                   ASVYCPPTLRWTDAIVGQFITQFGTKFLAAGDWNAKHRWWGNYRMRTRGRVLYSALAEE
@@ -13407,7 +13407,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:7883..10218
 FT   SO_feature      CDS ; SO:0000316:3141..4553
 FT                   /db_xref="FLYBASE:; gypsy12\gag"
 FT                   /db_xref=""
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="MGLDRSPTRKSPSVSNPVCKLCAAEISTQDLYVTTCHHEFYRECI
 FT                   GNHFKKSEICSRCKLTCRPPAEATERVGRETRSKTKNRRNSRRGSFDISQRCGEKLAVK
 FT                   LKIAATVDGGPSTSASGANANEASSSAVSANAALLAMERRLLATLSEKMADLVQNAITS
@@ -13420,7 +13420,7 @@ FT                   ANTYKPSCRKCSKNFKVGMSKLPVKPKTSNAARNQSTMTDQ"
 FT   SO_feature      CDS ; SO:0000316:4740..7710
 FT                   /db_xref="FLYBASE:; gypsy12\pol"
 FT                   /db_xref=""
-FT                   /protein_id=""
+FT                   /db_xref="NCBI_PROTEIN:"
 FT                   /translation="KKCKASLDYISSIPTGPRDPRPFLPMRLLNCLVYGLLDSGASISC
 FT                   IGGGVVQAAMENEKFKSLIGEAATADGNSQRIVGLLKIEVEYGDIKKLLKLYVVPSLKQ
 FT                   DLYLGIDFWKLYDLLPANLKIAEILSPEPNQQTVVDQHELCEGDKAKLANVINCFPSFS
@@ -13728,7 +13728,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:6587..7060
 FT   SO_feature      intron ; SO:0000188:1277..5158
 FT   SO_feature      CDS ; SO:0000316:859..2055
 FT                   /db_xref="FLYBASE:FBgn0028827; Dana\Tom\gag"
-FT                   /protein_id="CAA80823.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA80823.1"
 FT                   /translation="MAQPAQPENTLNESNLAEARGQLKDVPPFRGEPETLFTFISRVDY
 FT                   ILSLYHTNDVRQQRILLGAIERNIEGHVTRTLGLPTIEDWPTLRSRMINEYKPQAPNYK
 FT                   LLENFRETPYKGNLRAFCEEAERRRQILISKLHLEGNQSNLIIYLQAVRDSMKTLVRKL
@@ -13738,7 +13738,7 @@ FT                   QPIFNRIPFPKSNFNLTPQTQQPRMPSNPNFPLQQTTKRPRPSDSEQTKMSIDELRLQE
 FT                   AQEYEQNYQQPYEQEYYDYTQYQDQTYEEQCQAPINQDQAEINFDENFQSPAPEDTNT"
 FT   SO_feature      CDS ; SO:0000316:2115..5237
 FT                   /db_xref="FLYBASE:FBgn0028826; Dana\Tom\pol"
-FT                   /protein_id="CAA80824.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA80824.1"
 FT                   /translation="MMRKNFFSLPIHNTECEVFTSNGPMTLKDSITLPSNNIFRTPEQF
 FT                   YLHDFSDDYDVLIGRKLLNKAQGIINYKTHTITLFDKTYPLIDTDSNKGQFFYTQDSYE
 FT                   KPIPKSDKKIDFSPFRLDHLNPEETYKLKHLLNKFKDLQYFEGERLTFTNTIKHVLNTT
@@ -13759,7 +13759,7 @@ FT                   TLDAQKIKEQKINKLNDDRQEYDIDTKFRKGPLQKGKLENPFKENKNVEQTDPDHYKIT
 FT                   NRNRTTNYYKTQFKKRKKLMRSPFHRYLAHSDDTVPVAYHELCPTNSDRRH"
 FT   SO_feature      CDS ; SO:0000316:5176..6564
 FT                   /db_xref="FLYBASE:FBgn0028828; Dana\Tom\env"
-FT                   /protein_id="CAA80825.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA80825.1"
 FT                   /translation="MILSLLLTMSYAQQIQIGGIDTNHGYLLFSSKPIQRPSAFEHHCL
 FT                   TVNLTEINTITTYFGNKIQNSTDTPRIKFLYNKLIKELNGITLHKERRQKRGLFNFVGS
 FT                   AFKFLFGTLDDNDRIQFEEKLNSEAENSIKIHEFNEVMQFVNDGLQRIKKYENNRNSID
@@ -13958,7 +13958,7 @@ FT   SO_feature      CDS ; SO:0000316:<1267..2509
 FT   SO_feature      start_codon ; SO:0000318:<1..2
 FT                   /db_xref="FLYBASE:FBgn0027838; Dbuz\Osvaldo\gag"
 FT                   /db_xref="SPTREMBL:Q9XZR6"
-FT                   /protein_id="CAB39732.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB39732.1"
 FT                   /translation="TMVRAWVYNLKKDDVLRYGDEFGVTLSGTLDVMRRQFGEWVETNE
 FT                   GRIPYSLTVAELARLHGRRPSNSEDVPTVIVGNDQYEEDPNAARQSLPSTSAAARLQQT
 FT                   EQGAWRATSTPQPEIRTRGPSSSEQEYPKVAKHVREWNFRFDGTSKPLEFLEQVEWSAD
@@ -13971,7 +13971,7 @@ FT   SO_feature      CDS ; SO:0000316:<2214..5658
 FT   SO_feature      start_codon ; SO:0000318:<1..2
 FT                   /db_xref="FLYBASE:FBgn0027837; Dbuz\Osvaldo\pol"
 FT                   /db_xref="SPTREMBL:Q9XZR7"
-FT                   /protein_id="CAB39733.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB39733.1"
 FT                   /translation="WPRRGDAAERSPGGESSSCTKDWCHGTKDTHPKSIQSVPGVWPRR
 FT                   TPSCQVPQQGTGLLLAMWTHRRAHRGLLPIGKRPAVPAVQGGAGAMPNSPKTLIGSLHD
 FT                   EGHQLTAIVAIGAEQQKATIDTGASSSFISERLAKRLHGGGVVRATRRRIRLANGSCSE
@@ -13996,7 +13996,7 @@ FT   SO_feature      CDS ; SO:0000316:join(<5163..5623,6440..7746)
 FT   SO_feature      start_codon ; SO:0000318:<1..2
 FT                   /db_xref="FLYBASE:FBgn0027839; Dbuz\Osvaldo\env"
 FT                   /db_xref="SPTREMBL:Q9XZR8"
-FT                   /protein_id="CAB39734.1"
+FT                   /db_xref="NCBI_PROTEIN:CAB39734.1"
 FT                   /translation="LTLAVNSSVSASTGYTAAFITQGREPRLPKTMFDAQTLGTGQEAQ
 FT                   SPIERAAKMREVLEIVRRNLERAAQDQARITICGGGSGSRLLGTKCGRRNATCPMPRTD
 FT                   LQRSWHRDTEGHIRWSSLYRRSSAGISSDAEKRTRTAHVADLKPWRGETGGQTRMRDKG
@@ -14211,7 +14211,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1259..1286
 FT   SO_feature      CDS ; SO:0000316:172..1209
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0013835; Dmau\mariner\T"
-FT                   /protein_id="AAA28678.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA28678.1"
 FT                   /translation="MSSFVPNKEQTRTVLIFCFHLKKTAAESHRMLVEAFGEQVPTVKK
 FT                   CERWFQRFKSGDFDVDDKEHGKPPKRYEDAELQALLDEDDAQTQKQLAEQLEVSQQAVS
 FT                   NRLREMGKIQKVGRWVPHELNERQMERRKNTCEILLSRYKRKSFLHRIVTGDEKWIFFV
@@ -14260,7 +14260,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..253
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1519..1773
 FT   SO_feature      CDS ; SO:0000316:join(332..745,806..1477)
 FT                   /db_xref="FLYBASE:FBgn0013814; Dhyd\Minos\T"
-FT                   /protein_id="CAA82359.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA82359.1"
 FT                   /translation="MSQYSMQKNFRLLQISRSLATMVRGKPISKEIRVLIRDYFKSGK
 FT                   TLTEISKQLNLPKSSVHGVIQIFKKNGNIENNIANRGRTSAITPRDKRQLAKIVKADR
 FT                   RQSLRNLASKWSQQLAKLSSESGRDKLKSIGYGFYKAKEKPLLTLRQKKKRLQWARER
@@ -14348,7 +14348,7 @@ FT   SO_feature      CDS ; SO:0000316:<464..1865
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;"
 FT                   /db_xref="SPTREMBL:O46183"
-FT                   /protein_id="AAB92392.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB92392.1"
 FT                   /translation="RRALPGWTVPLLCSSWEPYGEIIKYCKQNQKRERHSPNACREKSQ
 FT                   AGEGSGPKAGPIRSDAGKTCTVKDAGMNPGGSHPKPGMGGKSTPKTDTMVGQLSNIAAA
 FT                   QPSGEAAGEDLPSTSVQAKKYSYAEKRSAGHILRRQNASQEVSPTADWLKKVEWASTVL
@@ -14362,7 +14362,7 @@ FT   SO_feature      CDS ; SO:0000316:<1801..3465
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;"
 FT                   /db_xref="SPTREMBL:O46184"
-FT                   /protein_id="AAB92393.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB92393.1"
 FT                   /translation="QWWRMFLMKSLRLLQINLHHCKAASAALILRLVASGGDIVLIQEP
 FT                   WVVGGRVCGLATKDYNLIVAQTEGKIRTCILARKHLNIFLLHNFSNGDNTAASLELQGT
 FT                   RLNLVSSYMAHEESDPPSDLVRKIVSDSERSDTSLLIGCDANAHHTQWGSSDTNVRGES
@@ -14377,7 +14377,7 @@ FT   SO_feature      CDS ; SO:0000316:<3386..5413
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:;"
 FT                   /db_xref="SPTREMBL:O46185"
-FT                   /protein_id="AAB92394.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB92394.1"
 FT                   /translation="GKPLNLRLSGAQHAYRKGKSTETALHEVISAVEKSLHVKEYSLIA
 FT                   FLDIEGAFNNVIPGAITEALTDLGVDRHLVMLIDQLLTCRTVTSSMGSSTQSRYVNRGT
 FT                   PQGGVLSPLLWNIAVNKILCDLEGEGCKVVAYADDVAIIFSGKFPQTLCELMTAKLARL
@@ -14651,7 +14651,7 @@ FT   SO_feature      TATA_box ; SO:0000174:293..296
 FT   SO_feature      CDS ; SO:0000316:366..1121
 FT                   /db_xref="FLYBASE:FBgn0044280; Dhet\Uhu"
 FT                   /db_xref="SPTREMBL:Q02881"
-FT                   /protein_id="CAA44763.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA44763.1"
 FT                   /translation="MGKRTTIEQRNLILEHFKIGYSYRQIAKMVNLSTTTVFNIIRRFV
 FT                   DENRIEDKGRKAPNKIFTEQEKRRIIRKIRENPKLSAPKLTQQVQDEMGKKCSVQTVRR
 FT                   VLHNHDFNAQVPRKKPFISTKNKGTRMTFAKTHLDKDLEFWNTVIFEDESKFNIFDSDG
@@ -14707,7 +14707,7 @@ FT   SO_feature      CDS ; SO:0000316:<411..4493
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044186; Dsim\ninja\pol"
 FT                   /db_xref="SPTREMBL:O02006"
-FT                   /protein_id="BAA19771.1"
+FT                   /db_xref="NCBI_PROTEIN:BAA19771.1"
 FT                   /translation="RFRRPARICVSAASATYRQRSRSQRQWRAVSDIEGRSLRRTPVRT
 FT                   SRSQRQGDARSVICGDRSQRSEGVRDAILEAQRRHHLELGKMQHSPRKSARLNGGEATP
 FT                   ITTASQQPASSGAGTRTRVNITAASIPCPATTVTTVASQPRSTAVTAASSVPEVNQPLV
@@ -14736,7 +14736,7 @@ FT   SO_feature      CDS ; SO:0000316:<4471..6237
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044186; Dsim\ninja\pol"
 FT                   /db_xref="SPTREMBL:O02007"
-FT                   /protein_id="BAA19772.1"
+FT                   /db_xref="NCBI_PROTEIN:BAA19772.1"
 FT                   /translation="RTCCYGLDSKTVLRWIGSTHRRYKQFVGNRVAEILESSKVSQWRW
 FT                   VPTADNAADDATRSQKGVDLSQESRWLRGPAFLRQPAASWPGPEEGTERVPDAPDEEEM
 FT                   PSEFALVAADDFVIPFQRFSSFSRLVRTTAWVLRFARWCRKQRNELEEYGLTAAECKAA
@@ -14908,7 +14908,7 @@ FT   SO_feature      CDS ; SO:0000316:617..3190
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044148; Dvir\Penelope\ORF1"
 FT                   /db_xref="SPTREMBL:Q24736"
-FT                   /protein_id="AAA92124.2"
+FT                   /db_xref="NCBI_PROTEIN:AAA92124.2"
 FT                   /translation="MERSPEPSININGRHAVCTATNMSYAKIKTKYKDSKRTINKFQLT
 FT                   LVKLTKLKSSLKFLLKCRKSNLIPNFIKNLTQHLTILTTDNKTHPDITRTLTRHTHFYH
 FT                   TKILNLLIKHKHNLLQEQTKHMEKAKTNIEQLMTTDDAKAFFESERNIENKITTTLKKR
@@ -15020,7 +15020,7 @@ FT   SO_feature      primer_binding_site ; SO:0005850:2140..2150
 FT                   /bound_moiety="tRNA-lys"
 FT   SO_feature      CDS ; SO:0000316:3422..4870
 FT                   /db_xref="FLYBASE:FBgn0044141; Dvir\Ulysses\ORF2"
-FT                   /protein_id="CAA39966.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA39966.1"
 FT                   /translation="MGRRSATAEPSWRAGANANEFPGSLMRETDPCKGGSPGRLGGKNW
 FT                   RNSLDLHGTWSSQKPRKTQCSNPAANAAIAQAHQRISACSAIWHQRVHPRGDASWLHGN
 FT                   DEGHPLMCLGRQGAKPAETNTAPKPPRTCRAGTANRRHPERTEVFQREHSTTVPPKPRR
@@ -15032,7 +15032,7 @@ FT                   TRPVVHEVEVPPHLTETPPGELEEAFVRTRNSSELYAGTRDSSTTSLETACPRSGKYSA
 FT                   IGVESRTRSARSVKTVRETPEGAR"
 FT   SO_feature      CDS ; SO:0000316:4836..8027
 FT                   /db_xref="FLYBASE:FBgn0044142; Dvir\Ulysses\ORF1"
-FT                   /protein_id="CAA39967.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA39967.1"
 FT                   /translation="KLSGKPQRERGDGGTDAFRDGDRGKAGEGHLPEPIIIGKETEIWN
 FT                   KDQDKANYNNSISKGGTLRGLPYEERVRAYMSARNRIFGERQLEGMTLATRRMVKARAR
 FT                   FRRRRITRRQVVEAVRREESIDPRVFAEVEVAGAKMKGLLDTGASVSLLGQGCRELVEK
@@ -15255,7 +15255,7 @@ FT   SO_feature      CDS ; SO:0000316:857..1642
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0028756; Dvir\Tv1\gag"
 FT                   /db_xref="SPTREMBL:O76325"
-FT                   /protein_id="AAC33317.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC33317.1"
 FT                   /translation="MTMELSEQHLNQALSQLRQVPSFDGSTDQLNAFIKRIDYILHLYP
 FT                   TRDVRQHSILYGAIELQVTGDAQRISQRTAANTWQELRNALIEEYKVQTPFEELLRRLY
 FT                   NTNYQGNVRKFIEELENKSFVILNKLALENIPSNTTLYTNAMNNTIKDVITKKLPDRLF
@@ -15265,7 +15265,7 @@ FT   SO_feature      CDS ; SO:0000316:<1416..4982
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0028755; Dvir\Tv1\pol"
 FT                   /db_xref="SPTREMBL:O76326"
-FT                   /protein_id="AAC33318.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC33318.1"
 FT                   /translation="MKIVLLKNLKIIMFREIQITIVGTWEIISKMLTQPPFQVVIPTRI
 FT                   RVITHKINSIISPKTIRKLTTSFQQKLSQGRYQNPLNYQISPIHAECTKPSRLTSRDSN
 FT                   SGQIRIWDNIGKFLFSKPREPNRNKSIHKNWIMELTKFLKCVIDTGSTINLMKTNRLNF
@@ -15291,14 +15291,14 @@ FT   SO_feature      CDS ; SO:0000316:complement(5005..5292)
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044143; Dvir\Tv1\epigene"
 FT                   /db_xref="SPTREMBL:O76327"
-FT                   /protein_id="AAC33320.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC33320.1"
 FT                   /translation="MLTKPLLLRLAIFKPFISLFNFSTRYSICIRLLNSLLCSIKLLKV
 FT                   SSVFVILTVKQWEFVICRNVYGSCFKYEISVMGFDRINFNTLCIYIVYSY"
 FT   SO_feature      CDS ; SO:0000316:5445..6110
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0028757; Dvir\Tv1\env"
 FT                   /db_xref="SPTREMBL:O76328"
-FT                   /protein_id="AAC33319.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC33319.1"
 FT                   /translation="MNELDQEKQKGKKLDILIFNLQHFTEYIEDIEMGMQLTRLGIFNP
 FT                   KLLKHDYLLHVNSEKLLNTKTSTWFKSDTNEILIISHIPREIIKSPVFEIIPYPDENNN
 FT                   ILTEIAHEKYFTQDKKVYSRETKKLINNKCLTGILNQITSECSYTKILQNFQINYIEPN
@@ -15437,7 +15437,7 @@ FT   SO_feature      CDS ; SO:0000316:720..>2485
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044144; Dvir\Tel\Tel1"
 FT                   /db_xref="SPTREMBL:O16111"
-FT                   /protein_id="AAB66824.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB66824.1"
 FT                   /translation="MFDEGASANGNDEATSASQVAVGTQAAVFKIKIKNLTDRLNRLSS
 FT                   ELDPARLRDVDDYELQDYISMASDLQAKFEIVCDGLLEVDHASVDEDLQTSFESTIRQL
 FT                   RLSLQRERGNRSKVQQIPHCSTFNSAAADDSRSTFVVPNHSRLPQLKLPEFSGGYTEWA
@@ -15586,19 +15586,19 @@ FT   SO_feature      TATA_box ; SO:0000174:740..745
 FT   SO_feature      primer_binding_site ; SO:0005850:795..811
 FT   SO_feature      CDS ; SO:0000316:768..1286
 FT                   /db_xref="FLYBASE:FBgn0063547; Dmir\TRIM\ORF0"
-FT                   /protein_id="CAA41923.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA41923.1"
 FT                   /translation="FTRESSPDTWLQTKVVFIPKAGKPSHTAPKDFRPISLSSFLLKAM
 FT                   ELLLGLHLTACIPSSLISDSQHAYRKGRSTETALHSITSIIEASLNFKEYTLVAFLDIK
 FT                   GAFNNILPTAITGALTDLGVDSRTVSLIDQMLQCRTVEASLGTLTCTRFVSRGTPQGES
 FT                   SRPSYGTWQ"
 FT   SO_feature      CDS ; SO:0000316:1193..1444
 FT                   /db_xref="FLYBASE:FBgn0063546; Dmir\TRIM\ORF1"
-FT                   /protein_id="CAA41924.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA41924.1"
 FT                   /translation="GITGDANVYQICQQRHTAGRVLSPLLWNVAVNTLLREIEGGGCRV
 FT                   VAYADDVAIAFSGKFPQTLCECITSTLTKMSNGQTNAG"
 FT   SO_feature      CDS ; SO:0000316:1390..2955
 FT                   /db_xref="FLYBASE:FBgn0063545; Dmir\TRIM\ORF2"
-FT                   /protein_id="CAA41925.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA41925.1"
 FT                   /translation="VHYKYSHENVEWADKCGLGVNPSKTELVLFTRKYKVPVLIPPRLC
 FT                   GETLVFSNNAKYLGLILDRKLDWKLSIEDRVKKATVALYTCRKAIGLKWGMTPYIVRWL
 FT                   YTAIIRPIMLYGVVVWWPALDRRTCLNKLSRVQRMAELCITGGLRTTPGEALDTVLDLL
@@ -15611,7 +15611,7 @@ FT                   FCRSCRDEEEEESVLHFFCHCPALGNRRLRILGAAFLADISGLSEIKPGTLSKYIQATG
 FT                   WDCP"
 FT   SO_feature      CDS ; SO:0000316:2624..3103
 FT                   /db_xref="FLYBASE:FBgn0063544; Dmir\TRIM\ORF3"
-FT                   /protein_id="CAA41926.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA41926.1"
 FT                   /translation="YAHIDRRSAQQSCTDSAEHSVLQLLEPLRDTGRSALMPPDCQSLI
 FT                   TTSAGVVATRRRRNRSSTSSAIAQPLEIVVFVFSGPLSLRTFRACPKSNQGPCPNTSKP
 FT                   PDGTALNPAVVCSHGSGNEKGHMPMRQHNGPSIGPSELGGGRLLSPPSAYRLNLT"
@@ -15686,7 +15686,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..242
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1489..1730
 FT   SO_feature      CDS ; SO:0000316:394..1440
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="CAA89219.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA89219.1"
 FT                   /db_xref="FLYBASE:FBgn0044149; Dvir\Paris\T"
 FT                   /db_xref="TrEMBL:Q27281"
 FT                   /translation="MPGQRINENVIQLVYFHYHKGKCAKELAEMFSIKLRTIYNIINR
@@ -16152,7 +16152,7 @@ FT   SO_feature      terminal_inverted_repeat ; SO:0000481:..
 FT   SO_feature      CDS ; SO:0000316:join(155..447,512..1179,1242..1967,2159..2733)
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /db_xref="FLYBASE:FBgn0044301; Dbif\P-element\T"
-FT                   /protein_id="CAA43305.1"
+FT                   /db_xref="NCBI_PROTEIN:CAA43305.1"
 FT                   /translation="MKYCKFCCKVVTAGVSLVHVPKCSVKRKLWEESLGCSLGGNSQI
 FT                   CATHFNDSQWKSTENKGQANKRRRLNKDAIPTKEIEPEPENVKEGYTSSSTQTECCSL
 FT                   SKENKSLRQTIRAMEYDLQRLRSQLEESRQLEESLGKIFTETQIKILKNGGKRSTFTS
@@ -16983,7 +16983,7 @@ FT   source          AF043258:34..5724
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..587
 FT   SO_feature      three_prime_UTR ; SO:0000205:3276..5691
 FT   SO_feature      CDS ; SO:0000316:588..3275
-FT                   /protein_id="AAC01742.1"
+FT                   /db_xref="NCBI_PROTEIN:AAC01742.1"
 FT                   /translation="MAQVILSDDSSNDEVLSLFSSPESQNTPFYLEISPMSQNSNNSQ
 FT                   FNISIINMKKSSSNSAINSLKNPSEAAIKIINSLTYKGKENRENKNAQKDPLFLTNTN
 FT                   KETAGAKSSVSNGPVVSLLSVTHTNRGKKLTTAHNTNAAETTNTNMDDKKSGALRNFP
@@ -17111,7 +17111,7 @@ FT   SO_feature      five_prime_UTR ; SO:0000204:1..197
 FT   SO_feature      three_prime_UTR ; SO:0000205:7957..8500
 FT   SO_feature      CDS ; SO:0000316:198..3311
 FT   SO_feature      CDS ; SO:0000316:3362..7957
-FT                   /protein_id="AAO67563.1"
+FT                   /db_xref="NCBI_PROTEIN:AAO67563.1"
 FT                   /translation="MQKPTVSKSPPKSPHNASEITANSAVPPHRATEECSISERAKSE
 FT                   LSQLQQQLTKNPQKQLSREHRRQQLLRLCEEEERLMPDVPAQQPTLTLKHKPKLKTVL
 FT                   ANSSPPSSAPLRMSLTKSSKAKARKESQSSACREKSPEENTYVNVLESDDESDIAANK
@@ -17131,7 +17131,7 @@ FT                   QQQLQLEQQQQQRQQQQQQQQQLQPEQQQQLQRQQRLRQQQLPEQQKRQQYQRQQEQQ
 FT                   SHEQQQRHQQQSQQQQHRQQADSPLLEALQQNVISINEMSKKIDMLISLLLTMAASNT
 FT                   NINKQGEQQTIPLTTSTSDTLNNVNKKNNFPNLMSTLISTAQPINNSQSANANCEHIA
 FT                   TDSSQYV"
-FT                   /protein_id="AAO67562.1"
+FT                   /db_xref="NCBI_PROTEIN:AAO67562.1"
 FT                   /translation="RRGVELLRSIHSNKKLNILATGGATHFPYTSRNRPSAIDIAVYR
 FT                   ALTMTGLQTHSTIDLESDHLPIHIGLRVGRFPYKQTTMRLLPINANVKKFQNHLDKNV
 FT                   RLNTEIISGPDIEDAIDILNKNIYNASLAATHPPRRHQQQQRQGTNTNRMNHGRFKLT
@@ -17313,7 +17313,7 @@ FT   source          AY369259:7671..14072
 FT   SO_feature      five_prime_UTR ; SO:0000204:1-1274
 FT   SO_feature      three_prime_UTR ; SO:0000205:3999..6342
 FT   SO_feature      CDS ; SO:0000316:1274-3998
-FT                   /protein_id="AAQ75089.1"
+FT                   /db_xref="NCBI_PROTEIN:AAQ75089.1"
 FT                   /translation="MSDPNTTPTTHLSAEPTISPGLLSNLSGLLLSPILTMPASMNGL
 FT                   LSISVDSLAPATALSPQALISTASETPAQKGQEQKRAAGKETENTVSETTTTSSITAK
 FT                   TTATNTNIESIHIPADAQAQLAHFKRLIAQLELDTTPPNSQAADNFTSYYDEHSSSDS
@@ -17606,7 +17606,7 @@ XX
 FT   source          AY369259:1..1757
 FT   SO_feature      CDS ; SO:0000316:<1..1134
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAF75688.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF75688.1"
 FT                   /translation="VVGSSRLELETKGAQLMSIVGAWGAEAGVAVSTSKTAVMLLKGI
 FT                   LSRNRRPMVRFAGANLPYVDNYRYLGITVSERLNYQRHIASLRERLTGVVGALGRVLR
 FT                   VDWGVSPRDKRTIYAGLMMPCALFGASVWYRTTDRGVTAKKRLIRCQRLILLGCLPVC
@@ -17657,7 +17657,7 @@ XX
 FT   source          U23198:1..1753
 FT   SO_feature      CDS ; SO:0000316:<1..1134
 FT   SO_feature      start_codon ; SO:0000318:2..3
-FT                   /protein_id="AAA91003.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA91003.1"
 FT                   /translation="ARSISGPFIWNLLMDVLLQRLEPHCAVSAYADDLFLFVDGNSRA
 FT                   DLERKGEQLMGIVGAWGSEVGVSVSTSKTAIMLLKGSLSQQRRPTVRFAGTSLPYVIK
 FT                   CRYLGILVGERLSFLPHISALRDRLSGVVAGLARVLRVDWGLSSRAKRTIYRGLMMPC
@@ -17710,7 +17710,7 @@ FT   source          AF015277:143..3914
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..468
 FT   SO_feature      CDS ; SO:0000316:<469..1786
 FT   SO_feature      start_codon ; SO:0000318:2..2
-FT                   /protein_id="AAB94026.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB94026.1"
 FT                   /translation="TEEAQPRSCSARAAMKDALIMPPPDSPPRKIVACYEVSEDSDTS
 FT                   LAATITGKGSRSRLLLLPLRLYPLLHLLLSLLLPLLLLLLPMRGHRHPPPTAATVAAV
 FT                   PDAKVSSNSVVERMQHIERKLRKAILVEDVPNAVALSVLDLAAKYQELVLDMYGAMKE
@@ -17721,7 +17721,7 @@ FT                   DQKALDILEDHERIYVEWFSFRWHTVTPTYACYKCVSFDHRVAQCRMNEEICRQCGQA
 FT                   GHRASKCSNPVSCRNCSFKGMPSTHRMLSAACPIYGAVLARVASRH"
 FT   SO_feature      CDS ; SO:0000316:<1779..3772>
 FT   SO_feature      start_codon ; SO:0000318:2..3
-FT                   /protein_id="AAB94027.1"
+FT                   /db_xref="NCBI_PROTEIN:AAB94027.1"
 FT                   /translation="TLIMFRVIQANCGRSRAAVIDLGVRMRDSGVTSALLQEPYVDRG
 FT                   GRITGLPAGMRVFSDSRNKAAVIVHQEVVCMPVSSLITEHGVYVSASGNFGSIFLTSV
 FT                   YCQFNAELEPYLLYMDAVLLLASRTPVIYGLDANAVSPLWFSKLPERSRGYLNRQRGE
@@ -17810,7 +17810,7 @@ FT   source          AF248068:1..2038
 FT   SO_feature      three_prime_UTR ; SO:0000205:1078..2038
 FT   SO_feature      CDS ; SO:0000316:<1..1077
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAF75689.1"
+FT                   /db_xref="NCBI_PROTEIN:AAF75689.1"
 FT                   /translation="VEGQSRAEIEALAGAHLRTVCDWGNSVGVSLAMDKTTTMLLKGR
 FT                   LSASRHPSIGLNGAFLRYVTEVKYLGITFGERMCFTPHFTGLKRRLLGVVGQVRRILR
 FT                   NEWGLSRRAVRTIYNGLFVACATYGSSVWCDAVTTVVGRKKVLACQRVTMMGCMPVCR
@@ -17907,7 +17907,7 @@ FT   SO_feature      five_prime_UTR ; SO:0000204:1..1230
 FT   SO_feature      three_prime_UTR ; SO:0000205:3907..6564
 FT   SO_feature      CDS ; SO:0000316:1231..3906
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /protein_id="AAQ75088.1"
+FT                   /db_xref="NCBI_PROTEIN:AAQ75088.1"
 FT                   /translation="MIGLRIGIWHANGLSNKTDELEQFIIRHNVDLMLISETRFNFNS
 FT                   RVQIPGYSIITANSPQTHLCIGGAAILISNHIEYQALPGISLPQLQCAIVRLRTDLGG
 FT                   ANIASCYWPPNHAVLADDYVCLFNQLGENFLIGGDWNAKHRLWGNMRRCPRGSILANI
@@ -18045,7 +18045,7 @@ DR   FLYBASE; FBgn0013017; Dtei\I-element.
 XX
 FT   source          M28878:1..5386
 FT   SO_feature      CDS ; SO:0000316:190..1479
-FT                   /protein_id="AAA74494.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA74494.1"
 FT                   /translation="MTDPPDIHNFTAKSYQSQLGNPKFIVIKRKDNNSLERISPFIIK
 FT                   KSVDFACGGEVEVCKRTRDGSLLIKTKNELQAIKLLKLTTMADVEVTATEHKTLNFSK
 FT                   GVIYCNDLRYIDEDTILQELKPQKVTEVKKIMKRQNPNSNSDTNNTTLIETGLIIITF
@@ -18055,7 +18055,7 @@ FT                   ERHGFQLRDSYAKTLTNGTTQIKTNTQAPNIDANTHTIQSQNQNSYITPTSTPHTTSS
 FT                   KTTTTGPAKTTPLSNQPQQRHHHHCYDEPEDMDTYHPTDHPTFTPYSSQHTEDLKIKI
 FT                   YSKDKSNNLSTNLKASKIKAKALNKKKHTNNSDSESI"
 FT   SO_feature      CDS ; SO:0000316:1559..5263
-FT                   /protein_id="AAA74495.1"
+FT                   /db_xref="NCBI_PROTEIN:AAA74495.1"
 FT                   /translation="MSLTVIQWNLKGYVNNYSQLLILIKKYSPHIISLQETHIQHTNT
 FT                   IPTPINYKLLTNIATNRFGGVRILVHKSIQYTTLNITSDPEAIAINIQSKIKLNIFST
 FT                   YISPTKNISDQTLQNTFNIQQTPSLITGDFNGWHPSWGSPTTNTRGKITQRFIDNTHL
@@ -18179,7 +18179,7 @@ DR   FLYBASE; FBgn0063755; Osvaldo.
 XX
 FT   source          AY089271:1..1543
 FT   SO_feature      CDS ; SO:0000316:172..1527
-FT                   /protein_id="AAL90009.1"
+FT                   /db_xref="NCBI_PROTEIN:AAL90009.1"
 FT                   /translation="MGVGAATVRFRNLVQKGPAEHRCRRTFKTTSAGDEPKNELEVHE
 FT                   QPREQQGCRCFEEMRRKVKQPPQKFPDYLEEDGKLYRHIAHRACNEEVASWKMCIPIG
 FT                   QRQRVMTENHDMPTAARYYWPGMHRGVRKYVRNCECCMMYKPSQLQAAGKMLTQVPEE
@@ -18229,7 +18229,7 @@ FT   SO_feature      five_prime_UTR ; SO:0000425:1..452
 FT   SO_feature      three_prime_UTR ; SO:0000426:6698..10463
 FT   SO_feature      CDS ; SO:0000316:453..3350
 FT                   /db_xref="TAHRE:; TAHRE\gag"
-FT                   /protein_id="CAD65868.3"
+FT                   /db_xref="NCBI_PROTEIN:CAD65868.3"
 FT                   /translation="MSTSDHLFSDDEVHSISSSPEQRNSPFHLEISPMSHESDNSQSN
 FT                   ISIINLRKLPLKPTNNISKCSSGTAINIFHSLSHKEKENMNTNIAQKDPLSIDNTAAD
 FT                   TDGAKSSILKGKLPSPPLSSHTYKGKLPPATTHTNISALTHTDASQREKIPTSVICTN
@@ -18249,7 +18249,7 @@ FT                   QEKLRKARCERKEQDPEEKKTNIRMGDDESPPTTSRAARAFLKPRIIDDNIPTPMDTY
 FT                   SNPQKSPSDFDSKSLTQRVENIEKKIDNLMELLFKCLESTKESTLAHLMTS"
 FT   SO_feature      CDS ; SO:0000316:3386..6687
 FT                   /db_xref="TAHRE:; TAHRE\pol"
-FT                   /protein_id="CAD65869.1"
+FT                   /db_xref="NCBI_PROTEIN:CAD65869.1"
 FT                   /translation="MTFNLNNGQASNTLKIGYWNSCGITNKTNELEAYIKKEGIQIML
 FT                   VTETRLERNSNALNIKGFHTYLAQNPTSHRKGGTATIVSQNIRHACLNPIETDFMQSA
 FT                   PIALIPSSRIRADMTIVAPIYCPPVYKWTTEQFSKLFNHFEMLLDGKSKFILGGDWNC
