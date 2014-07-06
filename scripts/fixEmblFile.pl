@@ -27,7 +27,7 @@ while ($line = <>) {
 	    #find length of SO feature string and add padding to make columns 6-20 in EMBL file
 		my $feature_string_length = length $feature;
 		my $padding = '';
-		for (my $i=$feature_string_length; $i<30; $i++) {
+		for (my $i=$feature_string_length; $i<100; $i++) {
 			$padding .= " ";
 		}			
 
@@ -43,7 +43,7 @@ while ($line = <>) {
 			$next_feature_string_length = length $nextFeature;
 			$next_padding = '';
 			
-			for (my $i=$next_feature_string_length; $i<30; $i++) {
+			for (my $i=$next_feature_string_length; $i<100; $i++) {
 				$next_padding .= " ";
 			}
 			
