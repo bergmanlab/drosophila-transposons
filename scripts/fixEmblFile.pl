@@ -25,7 +25,7 @@ while ($line = <>) {
 		$coords = $3;
 
 	    #find length of SO feature string and add padding to make columns 6-20 in EMBL file
-		my $feature_string_length = length $SO_to_EMBL{$feature};
+		my $feature_string_length = length $feature;
 		my $padding = '';
 		for (my $i=$feature_string_length; $i<16; $i++) {
 			$padding .= " ";
@@ -40,7 +40,7 @@ while ($line = <>) {
 				$nextCoords = $3;
 			}
 			
-			$next_feature_string_length = length $SO_to_EMBL{$nextFeature};
+			$next_feature_string_length = length $nextFeature;
 			$next_padding = '';
 			
 			for (my $i=$next_feature_string_length; $i<16; $i++) {
@@ -51,8 +51,8 @@ while ($line = <>) {
 				#print "$line";
 				#print "feature is $feature\tcoords are $coords\tnextFeature is $nextFeature\tnextCoords are $nextCoords\n";
 				#print "incomplete ORF\n\n";
-				print "FT   $SO_to_EMBL{$nextFeature}$next_padding$nextCoords\n";
-				print "FT                   /db_xref=\"$nextId; $nextFeature\"\n";
+				print "FT   $nextFeature$next_padding$nextCoords\n";
+				print "FT                   /db_xref=\"$nextId\"\n";
 			}
 			
 			elsif ($nextCoords =~ /(\d+)..(\d+)/) {
@@ -60,10 +60,10 @@ while ($line = <>) {
 				#print "$line";
 				#print "feature is $feature\tcoords are $coords\tnextFeature is $nextFeature\tnextCoords are $nextCoords\n";
 				#print "start codon $1 to $2\n\n";
-				print "FT   $SO_to_EMBL{$feature}$padding$1..".($1+2)."\n";
-				print "FT                   /db_xref=\"$id; $feature\"\n";
-				print "FT   $SO_to_EMBL{$nextFeature}$next_padding$nextCoords\n";
-				print "FT                   /db_xref=\"$nextId; $nextFeature\"\n";
+				print "FT   $feature$padding$1..".($1+2)."\n";
+				print "FT                   /db_xref=\"$id\"\n";
+				print "FT   $nextFeature$next_padding$nextCoords\n";
+				print "FT                   /db_xref=\"$nextId\"\n";
 
 			}
 		}
