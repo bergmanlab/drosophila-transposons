@@ -73,7 +73,7 @@ while ($line = <>) {
 			#print "FT   $SO_to_EMBL{$feature}$padding$coords\n";
 			print "FT   $feature$padding$coords\n";
 			#print "FT                   /db_xref=\"$id; $feature\"\n";
-			print "FT                   /db_xref=\"$id\"\n";
+			print "FT                   /ontology_term=\"$id\"\n";
 		}
 	}
 		
