@@ -20,9 +20,4 @@ for ($i=0; $i<$length; $i++) {
 	}
 }
 
-for ($i=0; $i<$length; $i++) {
-	if ($lines[$i] =~ /start_codon/) {
-	}
-}
-
 print @reordered;

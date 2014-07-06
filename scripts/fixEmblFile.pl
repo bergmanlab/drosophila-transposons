@@ -31,7 +31,7 @@ while ($line = <>) {
 			$padding .= " ";
 		}			
 
-		#convert position of start codons for + strand, complete orfs		
+		#convert position of start codons for complete orfs on the + strand	
 		if ($feature eq 'start_codon') {
 			$nextLine = <>;
 			if ($nextLine =~ /SO_feature\s+(\S+)\s\;\s(\S+):(\S+)/) {
@@ -70,8 +70,10 @@ while ($line = <>) {
 
 		#map SO feature back to EMBL feature keys and make new FT line with dbxref to SO
 		else {
-			print "FT   $SO_to_EMBL{$feature}$padding$coords\n";
-			print "FT                   /db_xref=\"$id; $feature\"\n";
+			#print "FT   $SO_to_EMBL{$feature}$padding$coords\n";
+			print "FT   $feature$padding$coords\n";
+			#print "FT                   /db_xref=\"$id; $feature\"\n";
+			print "FT                   /db_xref=\"$id\"\n";
 		}
 	}
 		

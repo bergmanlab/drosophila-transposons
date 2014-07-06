@@ -6,14 +6,17 @@ use Bio::SeqIO;
 $seqin = Bio::SeqIO->new( -format => 'EMBL' , -file => 'test.embl.reordered.fixed');
 $seqout= Bio::SeqIO->new( -format => 'Fasta', -file => '>test.embl.reordered.fixed.fa');
 
+##gff-version 3
+
 while(my $seqobj = $seqin->next_seq()) { 
 	
 	print "Processing sequence ",$seqobj->display_id(),", start of seq ", substr($seqobj->seq,1,10),"\n";
 		
 	$seqout->write_seq($seqobj);
 	
-	
+	#GFF3 for full sequence
 	print $seqobj->display_id(), "\t.\tSO:0000101\t1", $seqobj->length(), "\t.\tID=", $seqobj->display_id(), "\n"
+
 	if( $seqobj->alphabet eq 'dna') {	
 
 		foreach $feat ($seqobj->get_SeqFeatures()) {	
