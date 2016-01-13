@@ -21,13 +21,18 @@ Version 9.411 and is available [here](https://github.com/cbergman/transposons/bl
 FlyBase made minor modifications to Version 9.411 to generate
 version 9.42 in 2009, which is the most recent release available at [FlyBase](http://flybase.org/). 
  
-From Jan 2013 (version version 9.43 onwards), this dataset has been under continuous version control
-by Casey Bergman (University of Manchester) at: https://github.com/cbergman/transposons/. The major changes
-from version 9.42 to 9.43 are to separate the metadata into a separarte README file and 
+From version v9.43 onwards, this dataset has been maintained under continuous version control by 
+Casey Bergman (Manchester) at: https://github.com/cbergman/transposons/. Contributions
+are welcome by submitting pull requests or opening issues for this repository. 
+For pull requests, please make suggested edits to the files in [the "current" directory](https://github.com/cbergman/transposons/tree/master/current). 
+These contributions will be reviewed and, if merged, will be used to make an incremented version of the dataset in
+[the "releases" directory](https://github.com/cbergman/transposons/tree/master/releases).
+
+The major changes from version 9.42 to 9.43 are to separate the metadata into a separarte README file and 
 add TART-A, TART-B, and TART-C DNA sequences. Versions 9.42, 9.43 and subsequent releases 
-of this dataset can be found [here](https://github.com/cbergman/transposons/tree/master/releases). 
-The most up-to-date version of the dataset can be found [here](https://github.com/cbergman/transposons/tree/master/current), 
-which may contain additional improvements to the dataset that have not yet been incorporated 
+of this dataset can be found in [the "releases" directory](https://github.com/cbergman/transposons/tree/master/releases). 
+The most up-to-date version of the dataset can be found in the [the "current" directory](https://github.com/cbergman/transposons/tree/master/current). 
+Files in the "current" directory may contain additional improvements to the dataset that have not yet been incorporated 
 into an official release.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
