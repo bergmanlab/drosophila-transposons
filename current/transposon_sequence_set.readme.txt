@@ -1,5 +1,5 @@
-!transposon_sequence_set.readme.v9.44.txt
-!March 29 2014
+!transposon_sequence_set.readme.v9.45.txt
+!July 7 2014
 !Comments, corrections to casey.bergman@manchester.ac.uk
 
 
@@ -33,10 +33,20 @@ sequences and/or annotations.
 
 ===============================================================================
 
+July 7 2014. v.9.45
+=======================
+1. fixed unquoted peptide string in DM_ROO
+2. added INV to FB ID line
+3. changed CDS SO feature for G-element to be 1 line
+4. fixed SO lines in DPSEMINIME
+5. reordered start_codon / CDS features for XXX
+6. changed protein_id to dbxrefs
+7. fixed join in G CDS
+8. split CDS SO features into name & dbxref 
+
 January 29 2014. v.9.44
 =======================
 1. Fixed ID line of TAHRE
-
 
 January 31 2013. v.9.43
 =======================
