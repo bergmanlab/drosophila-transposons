@@ -22,9 +22,15 @@ Drosophila Genome Project and was a collaboration between M. Ashburner
 Version 8.0 this set has been maintained by Michael Ashburner and Casey
 Bergman in Cambridge. The last version updated by Michael Ashburner was 
 Version 9.411. FlyBase generated version 9.42 from these files in 2009, 
-which have not been updated since. From version v9.43 onwards, this set 
-has been under continuous version control on by Casey Bergman (Manchester) 
-at: https://github.com/cbergman/transposons/
+which have not been updated since. 
+
+From version v9.43 onwards, this set has been under continuous version control by 
+Casey Bergman (Manchester) at: https://github.com/cbergman/transposons/. Contributions
+are welcome by submitting pull requests or opening issues for this repository. 
+For pull requests, please make suggested edits to the files in: 
+https://github.com/cbergman/transposons/tree/master/current. These contributions will 
+be reviewed, and if merged, will be used to make an incremented version of the dataset in 
+https://github.com/cbergman/transposons/tree/master/releases.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis, 
 Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve 
