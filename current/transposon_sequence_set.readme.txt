@@ -34,12 +34,13 @@ sequences and/or annotations.
 ===============================================================================
 
 July 7 2014. v.9.45
-=======================
+===================
 1. fixed unquoted peptide string in DM_ROO
 2. added INV to FB ID line
 3. changed CDS SO feature for G-element to be 1 line
 4. fixed SO lines in DPSEMINIME
-5. reordered start_codon / CDS features for XXX
+5. reordered start_codon relative to CDS features for NEOR1A, Dtak\R1A2, Dmer\R1A3 and
+   Dnet\R1B
 6. changed protein_id to dbxrefs
 7. fixed join in G CDS
 8. split CDS SO features into name & dbxref 
