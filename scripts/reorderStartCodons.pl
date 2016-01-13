@@ -1,5 +1,9 @@
 #! /usr/bin/perl -w
 
+# this script re-orders the location of SO_features with type 
+# "start_codon" to be positioned before features with type "CDS".
+# Note: not all CDSs have an associated start_codon entry
+
 @lines='';
 @reordered='';
 
