@@ -35,7 +35,8 @@ https://github.com/cbergman/transposons/tree/master/releases.
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis, 
 Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve 
 Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for 
-sequences and/or annotations.
+sequences and/or annotations. We thank Nicholas Davies for contributions to 
+this repository.
 
 ===============================================================================
 
