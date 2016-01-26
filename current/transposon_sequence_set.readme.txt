@@ -1,5 +1,5 @@
-!transposon_sequence_set.readme.v9.45.txt
-!July 7 2014
+!transposon_sequence_set.readme.v9.44.txt
+!January 26 2016
 !Comments, corrections to casey.bergman@manchester.ac.uk
 
 
@@ -39,8 +39,8 @@ sequences and/or annotations.
 
 ===============================================================================
 
-January 26 2016
-===============
+January 26 2016. v.9.44
+=======================
 
 1. Corrected header entries for gypsy4 and gypsy5, which had lengths swapped.
 2. Renamed Stalker3T to Stalker3 in EMBL file to match header and common usage.
@@ -53,8 +53,8 @@ January 26 2016
       DR   FLYBASE; FBgn0063571; Dbuz\ISBu2.
 7. Fixed a minor alignment issue in the header entry for BS4.
 
-July 7 2014. v.9.45
-===================
+July 7 2014. v.9.43.2
+=====================
 1. fixed unquoted peptide string in DM_ROO
 2. added INV to FB ID line
 3. changed CDS SO feature for G-element to be 1 line
@@ -65,8 +65,8 @@ July 7 2014. v.9.45
 7. fixed join in G CDS
 8. split CDS SO features into name & dbxref 
 
-January 29 2014. v.9.44
-=======================
+January 29 2014. v.9.43.1
+=========================
 1. Fixed ID line of TAHRE
 
 January 31 2013. v.9.43
