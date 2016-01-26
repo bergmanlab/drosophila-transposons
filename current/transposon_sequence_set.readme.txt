@@ -39,6 +39,20 @@ sequences and/or annotations.
 
 ===============================================================================
 
+January 26 2016
+===============
+
+1. Corrected header entries for gypsy4 and gypsy5, which had lengths swapped.
+2. Renamed Stalker3T to Stalker3 in EMBL file to match header and common usage.
+3. Renamed Dvir\Het-A to Dvir\HeT-A in EMBL file to match header and common usage.
+4. Changed lengths of Dvir\Tv1, Dvir\Paris, and Helena in header to match EMBL file.
+5. Removed final base of Ddip\Bari1 in EMBL file, which is annotated on Genbank as 
+   originating from an induced direct repeat and appears to have been included in the
+   canonical sequence by mistake.
+6. Added full stop to end of EMBL file line:
+      DR   FLYBASE; FBgn0063571; Dbuz\ISBu2.
+7. Fixed a minor alignment issue in the header entry for BS4.
+
 July 7 2014. v.9.45
 ===================
 1. fixed unquoted peptide string in DM_ROO
@@ -203,8 +217,8 @@ FBgn0063436    gtwin             nnnnnnnn          7411bp     complete
 FBgn0001167    gypsy             M12927            7469bp     complete
 FBgn0063435    gypsy2            nnnnnnnn          6841bp     complete
 FBgn0063434    gypsy3            nnnnnnnn          6973bp     complete
-FBgn0063433    gypsy4            nnnnnnnn          7369bp     complete
-FBgn0063432    gypsy5            nnnnnnnn          6852bp     complete
+FBgn0063433    gypsy4            nnnnnnnn          6852bp     complete
+FBgn0063432    gypsy5            nnnnnnnn          7369bp     complete
 FBgn0063431    gypsy6            nnnnnnnn          7826bp     complete
 FBgn0067384    gypsy7            AE003788          5486bp     incomplete
 FBgn0067383    gypsy8            AE003788          4955bp     incomplete
@@ -249,14 +263,14 @@ FBgn0004642    Dmir\TRIM         X59239            3111bp     ?complete
 FBgn0015168    Dsim\ninja        D83207            6644bp     complete
 FBgn0004146    Dvir\Ulysses      X56645           10653bp     complete
 FBgn0020675    Dvir\Tel          AF009439          2485bp     incomplete
-FBgn0013099    Dvir\Tv1          AF056940          6898bp     complete
+FBgn0013099    Dvir\Tv1          AF056940          6868bp     complete
 
 non-LTR retrotransposons:
 
 FBgn0063440    baggins           nnnnnnnn          5453bp     complete
 FBgn0000224    BS                nnnnnnnn          5142bp     complete
 FBgn0067624    BS3               nnnnnnnn          1790bp     ?complete
-FBgn0067623    BS4               nnnnnnnn          754bp      incomplete
+FBgn0067623    BS4               nnnnnnnn           754bp     incomplete
 FBgn0063594    Cr1a              nnnnnnnn          4470bp     complete
 FBgn0000481    Doc               X17551            4725bp     ?incomplete
 FBgn0063534    Doc2-element      nnnnnnnn          4789bp     complete
@@ -273,7 +287,7 @@ FBgn0063504    G5                nnnnnnnn          4856bp     complete
 FBgn0069433    G5A               nnnnnnnn          2841bp     incomplete
 FBgn0063503    G6                nnnnnnnn          2042bp     complete
 FBgn0067419    G7                AC003788          1192bp     incomplete
-FBgn0020425    Helena            nnnnnnnn          1318bp     incomplete
+FBgn0020425    Helena            nnnnnnnn          1317bp     incomplete
 FBgn0004141    HeT-A             U06920            6083bp     complete
 FBgn0001249    I-element         M14954            5371bp     complete
 FBgn0043055    Ivk               nnnnnnnn          5402bp     complete
@@ -359,7 +373,7 @@ FBgn0010242    Dhyd\Minos        Z29098            1773bp     complete
 FBgn0014755    Dkoe\Gandalf      U29466             979bp     incomplete
 FBgn0002651    Dmau\mariner      M14653            1286bp     complete
 FBgn0026463    Dsub\GEM          AJ131629          1730bp     ?complete
-FBgn0015678    Dvir\Paris        Z49253            1728bp     complete
+FBgn0015678    Dvir\Paris        Z49253            1730bp     complete
 
 MITE elements:
 
