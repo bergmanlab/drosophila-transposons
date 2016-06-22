@@ -40,10 +40,11 @@ this repository.
 
 ===============================================================================
 
-June 6 2016. v.9.44.1
+June 22 2016. v.9.44.1
 =======================
 
 1. Added LTRs to aurora-element and updated aurora-element annotations.
+2. Added Xanthias
 
 January 26 2016. v.9.44
 =======================
@@ -61,6 +62,7 @@ January 26 2016. v.9.44
 
 July 7 2014. v.9.43.2
 =====================
+
 1. fixed unquoted peptide string in DM_ROO
 2. added INV to FB ID line
 3. changed CDS SO feature for G-element to be 1 line
@@ -73,6 +75,7 @@ July 7 2014. v.9.43.2
 
 January 29 2014. v.9.43.1
 =========================
+
 1. Fixed ID line of TAHRE
 
 January 31 2013. v.9.43
