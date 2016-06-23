@@ -18630,7 +18630,7 @@ ID   Xanthias    standard; DNA; INV; 4533 BP
 XX
 AC   FJ238509;
 XX
-DR   FLYBASE; FBte0001316; Dmel\Xanthias .
+DR   FLYBASE; FBte0001316; Dmel\Xanthias.
 XX
 FT   source          FJ238509:1..4533
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..206
