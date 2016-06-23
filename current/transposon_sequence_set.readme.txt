@@ -1,5 +1,5 @@
 !transposon_sequence_set.readme.v9.44.txt
-!January 26 2016
+!June 22 2016
 !Comments, corrections to casey.bergman@manchester.ac.uk
 
 
@@ -45,6 +45,7 @@ June 22 2016. v.9.44.1
 
 1. Added LTRs to aurora-element and updated aurora-element annotations.
 2. Added Xanthias
+3. Replaced FBgn IDs with FBte IDs
 
 January 26 2016. v.9.44
 =======================

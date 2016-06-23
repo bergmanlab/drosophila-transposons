@@ -2706,7 +2706,7 @@ ID   DMLINEJA   standard; DNA; INV; 5020 BP.
 XX
 AC   M22874;
 XX
-DR   FLYBASE; FBgn0001283; jockey.
+DR   FLYBASE; FBte0000088; Dmel\jockey.
 XX
 SY   synonym: wallaby
 SY   synonym: sancho
@@ -2714,7 +2714,7 @@ XX
 FT   source          M22874:115..5134
 FT   SO_feature      CDS ; SO:0000316:300..2051
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="jockey\gag"
+FT                   /name="Dmel\jockey\gag"
 FT                   /db_xref="FLYBASE:FBgn0020297"
 FT                   /db_xref="SWISS-PROT:P21330"
 FT                   /db_xref="NCBI_PROTEIN:AAA28674.1"
@@ -2731,7 +2731,7 @@ FT                   RARATVQAEVIPTSDNSLNNKFMTLDNSIRAINTRMDELFKLIHETVEANKAFRELVQV
 FT                   LITRIPK"
 FT   SO_feature      CDS ; SO:0000316:2048..4798
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="jockey\pol"
+FT                   /name="Dmel\jockey\pol"
 FT                   /db_xref="FLYBASE:FBgn0015952"
 FT                   /db_xref="SWISS-PROT:P21328"
 FT                   /db_xref="NCBI_PROTEIN:AAA28675.1"
@@ -2846,7 +2846,7 @@ ID   DMTRDNA    standard; DNA; INV; 1435 BP.
 XX
 AC   X80025;
 XX
-DR   FLYBASE; FBgn0014967; hopper.
+DR   FLYBASE; FBte0000670; Dmel\hopper.
 XX
 SY   synonym: M4
 XX
@@ -2888,7 +2888,7 @@ ID   DMRTMGD1   standard; DNA; INV; 7480 BP.
 XX
 AC   X59545;
 XX
-DR   FLYBASE; FBgn0002697; mdg1.
+DR   FLYBASE; FBte0000015; Dmel\mdg1.
 XX
 FT   source          X59545:1..7480
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..441
@@ -3033,7 +3033,7 @@ ID   DMMDG3     standard; DNA; INV; 5519 BP.
 XX
 AC   X95908;
 XX
-DR   FLYBASE; FBgn0002698; mdg3.
+DR   FLYBASE; FBte0000010; Dmel\mdg3.
 XX
 FT   source          X95908:1..5519
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..267
@@ -3041,7 +3041,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:5253..5519
 FT   SO_feature      transcription_start_site ; SO:0000315:178
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:5253..5519
 FT   SO_feature      CDS ; SO:0000316:296..4780
-FT                   /name="mdg3\ORF"
+FT                   /name="Dmel\mdg3\ORF"
 FT                   /db_xref="FLYBASE:FBgn0043882"
 FT                   /db_xref="SPTREMBL:Q94885"
 FT                   /db_xref="NCBI_PROTEIN:CAA65152.1"
@@ -3175,7 +3175,7 @@ XX
 AC   X14037;
 AC   X15066;
 XX
-DR   FLYBASE; FBgn0002745; micropia.
+DR   FLYBASE; FBte0000042; Dmel\micropia.
 XX
 FT   source          join(X14037:5..3664,X15066:3534..3593,X14037:3721..5461)
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..476
@@ -3184,7 +3184,7 @@ FT   SO_feature      primer_binding_site ; SO:0005850:477..489
 FT                   /bound_moiety="tRNA-leu"
 FT   SO_feature      primer_binding_site ; SO:0005850:4939..4956
 FT   SO_feature      CDS ; SO:0000316:540..4415
-FT                   /name="micropia\polyprotein"
+FT                   /name="Dmel\micropia\polyprotein"
 FT                   /db_xref="FLYBASE:FBgn0043876"
 FT                   /translation="
 FT                   MQNRNLAELVKIMQKTPAREQQPSYDVKLPKFNPDAACVEAAKWCSTTDI
@@ -3315,13 +3315,13 @@ ID   PPI251     standard; DNA; SYN; 2907 BP.
 XX
 AC   X06779; V01520; X69493;
 XX
-DR   FLYBASE; FBgn0003055; P-element.
+DR   FLYBASE; FBte0000037; Dmel\P-element.
 XX
 FT   source          X06779:996..3902
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..31
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:2877..2907
 FT   SO_feature      CDS ; SO:0000316:join(153..442,501..1168,1222..1947,2138..2709)
-FT                   /name="P\T"
+FT                   /name="Dmel\P\T"
 FT                   /db_xref="FLYBASE:FBgn0013311"
 FT                   /translation="
 FT                   MKYCKFCCKAVTGVKLIHVPKCAIKRKLWEQSLGCSLGENSQICDTHFND
@@ -3419,7 +3419,7 @@ ID   DMPOGOR11  standard; DNA; INV; 2121 BP.
 XX
 AC   X59837; S90749;
 XX
-DR   FLYBASE; FBgn0003122; pogo.
+DR   FLYBASE; FBte0000568; Dmel\pogo.
 XX
 FT   source          X59837:1..2121
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..21
@@ -3478,7 +3478,7 @@ DR   FLYBASE; FBte0000118; Dmel\R1A1-element.
 XX
 FT   source          X51968:1..5356
 FT   SO_feature      CDS ; SO:0000316:319..1731
-FT                   /name="R1A1-element\ORF1"
+FT                   /name="Dmel\R1A1-element\ORF1"
 FT                   /db_xref="FLYBASE:FBgn0044825"
 FT                   /db_xref="SWISS-PROT:P16424"
 FT                   /db_xref="NCBI_PROTEIN:CAA36226.1"
@@ -3492,7 +3492,7 @@ FT                   AQFKKSVHLVTKAWSATDGATVNVTLEVDDRAMAKLDVGRVYIKWFSFRCRSQVRTYAC
 FT                   HRCVGFDHKVSECRQKESVCRQCGQQGHTAAKCQNPVDCRNCRHRGQPSGHYMLSNACP
 FT                   IYGALLARVQARH"
 FT   SO_feature      CDS ; SO:0000316:1728..4790
-FT                   /name="R1A1-element\ORF2"
+FT                   /name="Dmel\R1A1-element\ORF2"
 FT                   /db_xref="FLYBASE:FBgn0044824"
 FT                   /db_xref="SWISS-PROT:P16425"
 FT                   /db_xref="NCBI_PROTEIN:CAA36227.1"
@@ -3619,7 +3619,7 @@ DR   FLYBASE; FBte0000030; Dmel\R2-element.
 XX
 FT   source          X51967:1..3607
 FT   SO_feature      CDS ; SO:0000316:181..3351
-FT                   /name="R2-element\ORF"
+FT                   /name="Dmel\R2-element\ORF"
 FT                   /db_xref="FLYBASE:FBgn0016699"
 FT                   /db_xref="SWISS-PROT:P16423"
 FT                   /db_xref="NCBI_PROTEIN:CAA36225.1"
@@ -3714,14 +3714,14 @@ ID   DM33463    standard; DNA; INV; 1736 BP.
 XX
 AC   U33463;
 XX
-DR   FLYBASE; FBgn0004905; S-element.
+DR   FLYBASE; FBte0001005; Dmel\S-element.
 XX
 FT   source          U33463:37..1772
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..234
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1503..1736
 FT   SO_feature      CDS ; SO:0000316:404..1441
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="S-element\T"
+FT                   /name="Dmel\S-element\T"
 FT                   /db_xref="FLYBASE:FBgn0044019"
 FT                   /db_xref="REMTREMBL:AAC47095"
 FT                   /db_xref="NCBI_PROTEIN:AAC47095.1"
@@ -3772,14 +3772,14 @@ ID   SPRINGER    standard; DNA; INV; 7546 BP.
 XX
 AC   AF364549;
 XX
-DR   FLYBASE; FBgn0003490; springer.
+DR   FLYBASE; FBte0000333; Dmel\springer.
 XX
 FT   source          AF364549:1..7546
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..403
 FT   SO_feature      three_prime_LTR ; SO:0000426:7143..7546
 FT   SO_feature      CDS ; SO:0000316:1058..2422
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="springer\gag"
+FT                   /name="Dmel\springer\gag"
 FT                   /db_xref="FLYBASE:FBgn0044343"
 FT                   /db_xref="SPTREMBL:Q967T6"
 FT                   /db_xref="NCBI_PROTEIN:AAK52057.1"
@@ -3793,7 +3793,7 @@ FT                   KQHRAQVHSAPRSDRMARENMPEPMDVDPSLSRMQPSHAPAYPKSKPAASGRSVPPKRQ
 FT                   RVNHVAQASDDLDKVYNTAASSAAVKVDDDSILEYDSDTINFLGESPCYPSSDEE"
 FT   SO_feature      CDS ; SO:0000316:2434..5475
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="springer\pol"
+FT                   /name="Dmel\springer\pol"
 FT                   /db_xref="FLYBASE:FBgn0044342"
 FT                   /db_xref="SPTREMBL:Q967T5"
 FT                   /db_xref="NCBI_PROTEIN:AAK52055.1"
@@ -3817,7 +3817,7 @@ FT                   RADPDDPHTDVQEKIKNAQILTRKRENASRQNRVFQVGDKVLVKSNRRLGNKLTPLCEE
 FT                   KTIEADLGTTVLIKGRVVHKDNLK"
 FT   SO_feature      CDS ; SO:0000316:5870..7147
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="springer\env"
+FT                   /name="Dmel\springer\env"
 FT                   /db_xref="FLYBASE:FBgn0044344"
 FT                   /db_xref="SPTREMBL:Q967T4"
 FT                   /db_xref="NCBI_PROTEIN:AAK52056.1"
@@ -3966,7 +3966,7 @@ ID   TARTC    standard; DNA; INV; 11124 BP.
 XX
 AC   AY600955;
 XX
-DR   FLYBASE; FBgn0004904; TART-C.
+DR   FLYBASE; FBte0001208; Dmel\TART-C.
 XX	
 FT   source          AY600955:1..11124
 FT   SO_feature      non_LTR_retrotransposon ; SO:0000189
@@ -3980,7 +3980,7 @@ FT                   SO:0000433:11103..11124
 CC                   derived from polyA tail of RNA transposition intermediate  
 FT   SO_feature      CDS ; SO:0000316:206..3349
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="TART-element\gag"
+FT                   /name="Dmel\TART-element\gag"
 FT                   /db_xref="FLYBASE:FBgn0014071"
 FT                   /db_xref="NCBI_PROTEIN:AAT12844.1"
 FT                   /db_xref="SPTREMBL:Q6J4U8"
@@ -4005,7 +4005,7 @@ FT                   NPANTHLTHFRPPPLAQNIPNDESKELSGEQYLLNRIEGMEKKLNNLLEIVTRLLSQG
 FT                   KDCPKSPKNPFRDPIFV"
 FT   SO_feature      CDS ; SO:0000316:3350..6628
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="TART-element\pol"
+FT                   /name="Dmel\TART-element\pol"
 FT                   /db_xref="FLYBASE:FBgn0014072"
 FT                   /db_xref="NCBI_PROTEIN:AAT12845.1"
 FT                   /db_xref="SPTREMBL:Q6J4U7"
@@ -4235,7 +4235,7 @@ ID   AY561850    standard; DNA; INV; 13424 BP.
 XX
 AC   AY561850;
 XX
-DR   FLYBASE; FBgn0004904; TART-A.
+DR   FLYBASE; FBte0001206; Dmel\TART-A.
 XX
 FT   source          AY561850:1..13424
 FT   SO_feature      non_LTR_retrotransposon ; SO:0000189
@@ -4537,7 +4537,7 @@ ID   DM14101    standard; DNA; INV; 10654 BP.
 XX
 AC   U14101;
 XX
-DR   FLYBASE; FBgn0004904; TART-B.
+DR   FLYBASE; FBte0001207; Dmel\TART-B.
 XX
 FT   source          U14101:1..10654
 FT   SO_feature      non_LTR_retrotransposon ; SO:0000189
@@ -4553,7 +4553,7 @@ FT                   SO:0000433:10638..10654
 CC                   derived from polyA tail of RNA transposition intermediate 
 FT   SO_feature      CDS ; SO:0000316:962..4093
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="TART-element\gag"
+FT                   /name="Dmel\TART-element\gag"
 FT                   /db_xref="FLYBASE:FBgn0014071"
 FT                   /db_xref="SPTREMBL:Q23999"
 FT                   /db_xref=”GI:603663”
@@ -4578,7 +4578,7 @@ FT                   NKRLHRMKKPRKETSPPTTSKKVLASLEESRKNPNSVLNPANTHLTHFRPPPLAQNIPN
 FT                   DEPKELSGEQYLLNRIEGMEKKINNLLEIVTRLLRQGKDCPKSPKNPFRDPIFV"
 FT   SO_feature      CDS ; SO:0000316:4131..7385
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="TART-element\pol"
+FT                   /name="Dmel\TART-element\pol"
 FT                   /db_xref="FLYBASE:FBgn0014072"
 FT                   /db_xref="REMTREMBL:AAC46494"
 FT                   /db_xref="GI:603664"
@@ -4801,7 +4801,7 @@ ID   TIRANT   standard; DNA; INV; 8526 BP.
 XX
 AC   nnnnnnnn;
 XX
-DR   FLYBASE; FBgn0004082; Tirant.
+DR   FLYBASE; FBte0000179; Dmel\Tirant.
 XX
 SY   synonym: prygun
 XX
@@ -4967,7 +4967,7 @@ ID   DMBLPP     standard; DNA; INV; 5034 BP.
 XX
 AC   Z27119;
 XX
-DR   FLYBASE; FBgn0014947; flea.
+DR   FLYBASE; FBte0000660; Dmel\flea.
 XX
 SY   synonym: blastopia
 SY   synonym: Kermit
@@ -4978,7 +4978,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:4766..5035
 FT   SO_feature      polyA_site ; SO:0000553:5006..5011
 FT   SO_feature      polyA_site ; SO:0000553:5019..5024
 FT   SO_feature      CDS ; SO:0000316:760..4761
-FT                   /name="flea\polyprotein"
+FT                   /name="Dmel\flea\polyprotein"
 FT                   /db_xref="FLYBASE:FBgn0043491"
 FT                   /db_xref="SPTREMBL:Q24262"
 FT                   /db_xref="NCBI_PROTEIN:CAA81643.1"
