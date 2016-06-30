@@ -10591,7 +10591,7 @@ ID   FROGGER    standard; DNA; INV; 2 BP.
 XX
 AC   AF492763;
 XX
-DR   FLYBASE; FBte0000982; Dmel\frogger.
+DR   FLYBASE; FBte0000314; Dmel\frogger.
 XX
 FT   source          AF492763:1..2483
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..203
@@ -12074,7 +12074,7 @@ ID   DME487856  standard; DNA; INV; 8556 BP.
 XX
 AC   AJ487856;
 XX
-DR   FLYBASE; FBte0000963; Dmel\Max-element.
+DR   FLYBASE; FBte0000304; Dmel\Max-element.
 XX
 FT   source          AJ487856:73..8628
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..321
