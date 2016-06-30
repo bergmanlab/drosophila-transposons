@@ -59,7 +59,7 @@ H	DMHFL1	hobo	FBte0000154
 HB	DMTHB1	HB	FBte0000414	
 Helena	HEL	Helena	FBte0000984	
 HeT-A	DM06920	HeT-A	FBte0000143	
-HeT-Tag	-	HeT-Tag	FBte0001217	Not in Ensembl set
+HeT-Tag	-	HeT-Tag	FBte0001217	Not in EMBL set
 HMS-Beagle	Beagle	HMS-Beagle	FBte0000726	
 HMS-Beagle2	Beagle2	HMS-Beagle2	FBte0001399	
 hopper	DMTRDNA	hopper	FBte0000670	
@@ -84,7 +84,7 @@ McClintock	McCLINTOCK	McClintock	FBte0000926
 mdg1	DMRTMGD1	mdg1	FBte0000015	
 mdg3	DMMDG3	mdg3	FBte0000010	
 micropia	DMDM11	micropia	FBte0000042	
-ninja-Dsim-like	-	ninja-Dsim-like	FBte0001097	Not in Ensembl set
+ninja-Dsim-like	-	ninja-Dsim-like	FBte0001097	Not in EMBL set
 NOF	FB	NOF	FBte0000466	Synonym of FB?
 opus	OPUS	opus	FBte0000918	
 pogo	DMPOGOR11	pogo	FBte0000568	
@@ -124,5 +124,5 @@ transib4	TRANSIB4	transib4	FBte0001174
 Transpac	AF222049	Transpac	FBte0001377	
 X-element	ROXELEMENT	X-element	FBte0001160	
 Xanthias	Xanthias	Xanthias	FBte0001316	
-Y	-	Y-element	FBte0001427	Not in Ensembl set
+Y	-	Y-element	FBte0001427	Not in EMBL set
 ZAM	DMZAM	ZAM	FBte0000217	
