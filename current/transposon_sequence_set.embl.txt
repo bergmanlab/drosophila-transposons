@@ -6651,7 +6651,7 @@ CC   Sequence from I. Busseau (personal communication to FlyBase).
 CC   Michael Ashburner.
 CC   Any changes to original sequence record are annotated in an FT line.
 XX
-SQ   Sequence 5150 BP; 1371 A; 1339 C; 1477 G; 984 T; 0 other;
+SQ   Sequence 5171 BP; 1371 A; 1339 C; 1477 G; 984 T; 0 other;
      GCTGCCAACT TGGCGCAGCG GGCGATCTGG AGAGGGAGGC GTTGCCAGAT CAACCGTGTG        60
      ATCAGTGTTG TGTTGCGACA GTAGAGCGCG AAATTCAAAA TTAAACTTAA AATTAAACCG       120
      TTGAATTTTA ATTTAATTTT AATTTTGATT CTGGTTACTG GGAGCGCACA AGTCTTTAAG       180
@@ -15793,7 +15793,7 @@ CC   Derived from X59239 (Rel. 35, Last updated, Version 3).
 CC   Michael Ashburner, 18-March-2004.
 CC   Any changes to original sequence record are annotated in an FT line.
 XX
-SQ   Sequence 3126 BP; 799 A; 873 C; 789 G; 665 T; 0 other;
+SQ   Sequence 3111 BP; 796 A; 870 C; 789 G; 656 T; 0 other;
      attctcggac cacaggtacg tggaaactgt cttctccttc tcagtaccga agccagtccg        60
      attccggaac atcaggcgga caaactggac tcggtactct gattacctct gtcgtgttct       120
      ccctgagccc ccatctgagg aggagttctc cacggaggcc acgactcgtc ttcttaagat       180
