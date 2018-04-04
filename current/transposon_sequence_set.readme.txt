@@ -1,6 +1,6 @@
 !transposon_sequence_set.readme.v9.44.txt
-!June 22 2016
-!Comments, corrections to casey.bergman@manchester.ac.uk
+!April 4 2018
+!Comments, corrections to cbergman@uga.edu
 
 
         TRANSPOSON SEQUENCE CANONICAL SETS FOR DROSOPHILA
@@ -25,12 +25,12 @@ Version 9.411. FlyBase generated version 9.42 from these files in 2009,
 which have not been updated since. 
 
 From version v9.43 onwards, this set has been under continuous version control by 
-Casey Bergman (Manchester/UGA) at: https://github.com/cbergman/transposons/. Contributions
+Casey Bergman (Manchester/UGA) at: https://github.com/bergmanlab/transposons/. Contributions
 are welcome by submitting pull requests or opening issues for this repository. 
 For pull requests, please make suggested edits to the files in: 
-https://github.com/cbergman/transposons/tree/master/current. These contributions will 
+https://github.com/bergmanlab/transposons/tree/master/current. These contributions will 
 be reviewed and, if merged, will be used to make an incremented version of the dataset in 
-https://github.com/cbergman/transposons/tree/master/releases.
+https://github.com/bergmanlab/transposons/tree/master/releases.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis, 
 Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve 
@@ -39,6 +39,11 @@ sequences and/or annotations. We thank Nicholas Davies and Portia Hollyoak for c
 this repository.
 
 ===============================================================================
+
+April 4 2018. v.9.44.2
+=======================
+
+1. Removed Dmel\Penelope since this element does not exist in nature.
 
 June 22 2016. v.9.44.1
 =======================
