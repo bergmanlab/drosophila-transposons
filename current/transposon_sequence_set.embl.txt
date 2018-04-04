@@ -3967,7 +3967,7 @@ XX
 AC   AY600955;
 XX
 DR   FLYBASE; FBte0001208; Dmel\TART-C.
-XX	
+XX
 FT   source          AY600955:1..11124
 FT   SO_feature      non_LTR_retrotransposon ; SO:0000189
 CC                   telomeric retrotransposon
@@ -3975,9 +3975,9 @@ FT   SO_feature      direct_repeat ; SO:0000314:1..331
 FT   SO_feature      direct_repeat ; SO:0000314:10383..10713
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..205
 FT   SO_feature      three_prime_UTR ; SO:0000205:6629..11102
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; 
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
 FT                   SO:0000433:11103..11124
-CC                   derived from polyA tail of RNA transposition intermediate  
+CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:206..3349
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /name="Dmel\TART-element\gag"
@@ -4030,18 +4030,18 @@ FT                   QTGLALSPKLLKIPDIDDCRTVKKRSEREKIRQMHLTELPTLLRLEEEEEELKRIKKQ
 FT                   EEREKRERENQKWPPDRWCELEINRYNKQYRKGDLTRQEVIEKFRGQPLNVQRIILPD
 FT                   YEGD"
 XX
-CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially 
-CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").   
+CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially
+CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").
 CC   Distinguishing characteristics of PNTR’s are that the 3’ repeat terminates
 CC   upstream of the 3’ end of the element and that the 5’ PNTR extends a short
-CC   distance into ORF-1. The 5’ ends of TART-C elements are variable and the 
-CC   minimal size for functionality has not been determined.  Thus, this 
-CC   canonical sequence, AY600955, may be 5’ truncated within the 5’ PNTR (M-L 
+CC   distance into ORF-1. The 5’ ends of TART-C elements are variable and the
+CC   minimal size for functionality has not been determined.  Thus, this
+CC   canonical sequence, AY600955, may be 5’ truncated within the 5’ PNTR (M-L
 CC   Pardue, 2009).
 XX
-CC   Derived from AY600955, Michael Ashburner, 6-Apr-2004; updated Jan-2009 as 
+CC   Derived from AY600955, Michael Ashburner, 6-Apr-2004; updated Jan-2009 as
 CC   per Mary-Lou Pardue and Greg DeBaryshe.
-CC   Any changes to original sequence record are annotated in an FT line. 
+CC   Any changes to original sequence record are annotated in an FT line.
 XX
 SQ   Sequence 11124 BP; 3774 A; 2893 C; 2173 G; 2284 T; 0 other;
      AAGCTTCGCG GGATATCGAT AACAATCAGG TGGTTAAAAA TACTATAACA TCGAGTACCA        60
@@ -4244,12 +4244,12 @@ FT   SO_feature      direct_repeat ; SO:0000314:1..1850
 FT   SO_feature      direct_repeat ; SO:0000314:11179..13028
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..1759
 FT   SO_feature      three_prime_UTR ; SO:0000205:7953..13411
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; 
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
 FT                   SO:0000433:13412..13424
-CC                   derived from polyA tail of RNA transposition intermediate  
+CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:1760..4672
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /db_xref="FLYBASE:FBgnXXXXXXX" 
+FT                   /db_xref="FLYBASE:FBgnXXXXXXX"
 FT                   /db_xref=”GI:45594384”
 FT                   /db_xref="NCBI_PROTEIN:AAS68533.1"
 FT                   /translation="MDGQNVNQSGGWASVLSISSDDGNCSSSPPSAIVSSLDTTPTSN
@@ -4271,7 +4271,7 @@ FT                   LNRIRAFDKKPRKETSPPTTSKKVLASLEESSKNPNSVLNPANTHLTHFCPPPITQDI
 FT                   PNDEPTEPSQEQYLLNRIEGMEKKLNNLLEIVTRLLNQGRECPKSPKNPFRDPILI"
 FT   SO_feature      CDS ; SO:0000316:4710..7952
 FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /db_xref="FLYBASE:FBgnXXXXXXX" 
+FT                   /db_xref="FLYBASE:FBgnXXXXXXX"
 FT                   /db_xref=”GI:45594385”
 FT                   /db_xref="NCBI_PROTEIN:AAS68534.1"
 FT                   /translation="MTRACNRDILKIAFWNAGGINNKIDELKLFILNIDAHIVIVTET
@@ -4294,18 +4294,18 @@ FT                   HRFSETTKSHPNVAVRRIFSRHYIPNRLERSRQRYLKMTMDHITQKQTGLTLSPKLLK
 FT                   IPDLDDCRTLKKRSEREKIRQTHLTELPTLLRLEEEEAELKRIKKQEERERRERENQK
 FT                   WPPDRWCELEINRYNKKYRNGDLTRQEIIEKFRGQPLNVQRIILPDYEGD"
 XX
-CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially 
-CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").   
+CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially
+CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").
 CC   Distinguishing characteristics of PNTR’s are that the 3’ repeat terminates
 CC   upstream of the 3’ end of the element and that the 5’ PNTR extends a short
-CC   distance into ORF-1. The 5’ ends of TART-A elements are variable and the 
-CC   minimal size for functionality has not been determined.  Thus, this 
-CC   canonical sequence, AY561850, may be 5’ truncated within the 5’ PNTR (M-L 
+CC   distance into ORF-1. The 5’ ends of TART-A elements are variable and the
+CC   minimal size for functionality has not been determined.  Thus, this
+CC   canonical sequence, AY561850, may be 5’ truncated within the 5’ PNTR (M-L
 CC   Pardue, 2009).
 XX
-CC   Derived from AY561850, Michael Ashburner, 6-Apr-2004; updated Jan-2009 as 
+CC   Derived from AY561850, Michael Ashburner, 6-Apr-2004; updated Jan-2009 as
 CC   per Mary-Lou Pardue and Greg DeBaryshe.
-CC   Any changes to original sequence record are annotated in an FT line. 
+CC   Any changes to original sequence record are annotated in an FT line.
 XX
 SQ   Sequence 13424 BP; 4373 A; 3415 C; 2870 G; 2766 T; 0 other;
      CACGCTTTTT GGCCCCTGGC CGATCTTCAT ATATCTCAAA TCGACGGCTG CTTTTACCCT        60
@@ -4548,9 +4548,9 @@ FT   SO_feature      five_prime_UTR ; SO:0000204:1..961
 FT   SO_feature      three_prime_UTR ; SO:0000205: 7386..10637
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10479..10484
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10600..10605
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; 
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
 FT                   SO:0000433:10638..10654
-CC                   derived from polyA tail of RNA transposition intermediate 
+CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:962..4093
 FT   SO_feature      start_codon ; SO:0000318:1..3
 FT                   /name="Dmel\TART-element\gag"
@@ -4603,18 +4603,18 @@ FT                   RIFTRHYIPNRLERSRQRYLKMTNEHITQKQTGQTLSPKLLKIPDLNDCRTLKKRNERD
 FT                   KIRQTHLIELPTLLRLEEEEEELRRIKKQEERERREKETQKWPPDRWCELEINLYNKQY
 FT                   RRGDLTRQEIIQKFRGQPLNVQRIILPDYKGDQEHN"
 XX
-CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially 
-CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").   
+CC   A PNTR (Perfect Non-Terminal Repeat) is a perfect direct repeat partially
+CC   overlapping the UTRs (annotated as "direct_repeat ; SO:0000314").
 CC   Distinguishing characteristics of PNTR’s are that the 3’ repeat terminates
 CC   upstream of the 3’ end of the element and that the 5’ PNTR extends a short
-CC   distance into ORF-1. The 5’ ends of TART-B elements are variable and the 
-CC   minimal size for functionality has not been determined.  Thus, this 
-CC   canonical sequence, U14101, may be 5’ truncated within the 5’ PNTR (M-L 
+CC   distance into ORF-1. The 5’ ends of TART-B elements are variable and the
+CC   minimal size for functionality has not been determined.  Thus, this
+CC   canonical sequence, U14101, may be 5’ truncated within the 5’ PNTR (M-L
 CC   Pardue, 2009).
 XX
 CC   Derived from U14101 (g603662) (Rel. 42, Last updated, Version 1).
-CC   Takis Benos and Michael Ashburner, 20-Aug-1997; updated Jan-2009 as per 
-CC   Mary-Lou Pardue and Greg DeBaryshe.  
+CC   Takis Benos and Michael Ashburner, 20-Aug-1997; updated Jan-2009 as per
+CC   Mary-Lou Pardue and Greg DeBaryshe.
 CC   Any changes to original sequence record are annotated in an FT line.
 XX
 SQ   Sequence 10654 BP;  3669 A; 2717 C; 2036 G; 2232 T; 0 other;
@@ -7298,7 +7298,7 @@ FT                   EPIYNIEDYPKESKYRLEVAYNRARIMLEEQKKKNKELYDLKLNDISISIGDKVLLKN
 FT                   ETGHKLDFKYTGPYTVVKIEERDNIVISNDKKKPQTVHKDRLKLFSS"
 XX
 CC   Sequence & annotation from Horacio F. Naveira, September 21 2001.
-CC   Personal Communication from Horacio F. Naveira in FBrf0138603 
+CC   Personal Communication from Horacio F. Naveira in FBrf0138603
 CC   Any changes to original sequence record are annotated in an FT line.
 XX
 SQ   Sequence 7345 BP; 2928 A; 1303 C; 1286 G; 1828 T; 0 other;
@@ -13838,7 +13838,7 @@ FT   SO_feature      three_prime_LTR ; SO:0000426:6587..7060
 FT   SO_feature      intron ; SO:0000188:1277..5158
 FT   SO_feature      CDS ; SO:0000316:859..2055
 FT                   /name="Dana\Tom\gag"
-FT                   /db_xref="FLYBASE:FBgn0028828"
+FT                   /db_xref="FLYBASE:FBgn0028827"
 FT                   /db_xref="SPTREMBL:V9H1F7"
 FT                   /db_xref="NCBI_PROTEIN:CAA80823.1"
 FT                   /translation="MAQPAQPENTLNESNLAEARGQLKDVPPFRGEPETLFTFISRVDY
@@ -13850,7 +13850,7 @@ FT                   QPIFNRIPFPKSNFNLTPQTQQPRMPSNPNFPLQQTTKRPRPSDSEQTKMSIDELRLQE
 FT                   AQEYEQNYQQPYEQEYYDYTQYQDQTYEEQCQAPINQDQAEINFDENFQSPAPEDTNT"
 FT   SO_feature      CDS ; SO:0000316:2115..5237
 FT                   /name="Dana\Tom\pol"
-FT                   /db_xref="FLYBASE:FBgn0028827"
+FT                   /db_xref="FLYBASE:FBgn0028826"
 FT                   /db_xref="SPTREMBL:V9H1K3"
 FT                   /db_xref="NCBI_PROTEIN:CAA80824.1"
 FT                   /translation="MMRKNFFSLPIHNTECEVFTSNGPMTLKDSITLPSNNIFRTPEQF
@@ -13873,7 +13873,7 @@ FT                   TLDAQKIKEQKINKLNDDRQEYDIDTKFRKGPLQKGKLENPFKENKNVEQTDPDHYKIT
 FT                   NRNRTTNYYKTQFKKRKKLMRSPFHRYLAHSDDTVPVAYHELCPTNSDRRH"
 FT   SO_feature      CDS ; SO:0000316:5176..6564
 FT                   /name="Dana\Tom\env"
-FT                   /db_xref="FLYBASE:FBgn0028826"
+FT                   /db_xref="FLYBASE:FBgn0028828"
 FT                   /db_xref="SPTREMBL:V9H1L4"
 FT                   /db_xref="NCBI_PROTEIN:CAA80825.1"
 FT                   /translation="MILSLLLTMSYAQQIQIGGIDTNHGYLLFSSKPIQRPSAFEHHCL
@@ -18354,7 +18354,7 @@ SQ   Sequence 1543 BP; 471 A; 359 C; 469 G; 244 T; 0 other;
      ACAAGCAAGA AAGAAAAGAC AGCACACATA AGCGATCTGA AGCCGGGAAG CGCGGGCGCC      1500
      GGCGGGCCAG GAGACTTCGA GGAATAAAAA AAAAAAAAAA AAA                        1543
 //
-ID   TAHRE    standard; DNA; INV; 10463 BP 
+ID   TAHRE    standard; DNA; INV; 10463 BP
 XX
 AC   AJ542581;
 XX
@@ -18588,7 +18588,7 @@ SQ   Sequence 10463 BP; 3913 A; 2638 C; 1670 G; 2242 T;
      AAGGCAAAAT AAATTGTGGA TGCGGAACAG AATTTATTCT GTCTCCGTAC CTCCACCAGC     10440
      AAAGTTAAAA AAAAAAAAAA AAA                                             10463
 //
-ID   Xanthias    standard; DNA; INV; 4533 BP 
+ID   Xanthias    standard; DNA; INV; 4533 BP
 XX
 AC   FJ238509;
 XX

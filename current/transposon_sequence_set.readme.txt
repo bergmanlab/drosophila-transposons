@@ -20,23 +20,23 @@ Subsequent curation of these sequences has been in the context of the
 Drosophila Genome Project and was a collaboration between M. Ashburner
 (Cambridge), Josh Kaminker (Berkeley) and Casey Bergman (Berkeley).  From
 Version 8.0 this set has been maintained by Michael Ashburner and Casey
-Bergman in Cambridge. The last version updated by Michael Ashburner was 
-Version 9.411. FlyBase generated version 9.42 from these files in 2009, 
-which have not been updated since. 
+Bergman in Cambridge. The last version updated by Michael Ashburner was
+Version 9.411. FlyBase generated version 9.42 from these files in 2009,
+which have not been updated since.
 
-From version v9.43 onwards, this set has been under continuous version control by 
-Casey Bergman (Manchester/UGA) at: https://github.com/bergmanlab/transposons/. Contributions
-are welcome by submitting pull requests or opening issues for this repository. 
-For pull requests, please make suggested edits to the files in: 
-https://github.com/bergmanlab/transposons/tree/master/current. These contributions will 
-be reviewed and, if merged, will be used to make an incremented version of the dataset in 
-https://github.com/bergmanlab/transposons/tree/master/releases.
+From version v9.43 onwards, this set has been under continuous version control
+by Casey Bergman (Manchester/UGA) at: https://github.com/bergmanlab/transposons/.
+Contributions are welcome by submitting pull requests or opening issues for
+this repository. For pull requests, please make suggested edits to the files
+in: https://github.com/bergmanlab/transposons/tree/master/current. These
+contributions will be reviewed and, if merged, will be used to make an
+incremented version of the dataset in: https://github.com/bergmanlab/transposons/tree/master/releases.
 
-We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis, 
-Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve 
-Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for 
-sequences and/or annotations. We thank Nicholas Davies and Portia Hollyoak for contributions to 
-this repository.
+We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
+Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve
+Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for
+sequences and/or annotations. We thank Nicholas Davies and Portia Hollyoak for
+contributions to this repository.
 
 ===============================================================================
 
@@ -44,6 +44,7 @@ April 4 2018. v.9.44.2
 =======================
 
 1. Removed Dmel\Penelope since this element does not exist in nature.
+2. Fixed FBgn for Dana\Tom
 
 June 22 2016. v.9.44.1
 =======================
@@ -59,7 +60,7 @@ January 26 2016. v.9.44
 2. Renamed Stalker3T to Stalker3 in EMBL file to match header and common usage.
 3. Renamed Dvir\Het-A to Dvir\HeT-A in EMBL file to match header and common usage.
 4. Changed lengths of Dvir\Tv1, Dvir\Paris, and Helena in header to match EMBL file.
-5. Removed final base of Ddip\Bari1 in EMBL file, which is annotated on Genbank as 
+5. Removed final base of Ddip\Bari1 in EMBL file, which is annotated on Genbank as
    originating from an induced direct repeat and appears to have been included in the
    canonical sequence by mistake.
 6. Added full stop to end of EMBL file line:
@@ -77,7 +78,7 @@ July 7 2014. v.9.43.2
    Dnet\R1B
 6. changed protein_id to dbxrefs
 7. fixed join in G CDS
-8. split CDS SO features into name & dbxref 
+8. split CDS SO features into name & dbxref
 
 January 29 2014. v.9.43.1
 =========================
@@ -145,7 +146,7 @@ April 7 2004. v.9.2
 April 7 2004. v.9.1
 ===================
 
-1. The following R1-element variants have been added: Dnet\R1A, Dtak\R1A2, 
+1. The following R1-element variants have been added: Dnet\R1A, Dtak\R1A2,
    Dmer\R1A3, Dnet\R1B. The original melanogaster element has been
    re-named:R1A1-element.
 
@@ -157,7 +158,7 @@ April 6 2004. v.9.0
    Dmau\mariner, Dhyd\Minos, Dfun\Isfun-1, Dsub\bilbo, Dsil\Loa,
    Dhet\Uhu, Dvir\Ulysses, Dsim\ninja, Dvir\Helena, Dvir\Penelope,
    Dvir\Tv1, Dvir\Tel, Dmir\TRAM, Dmir\TRIM, Dvir\Paris, Dmir\spock,
-   Dmir\worf, Dwil\Vege, Dwil\Mar, Damb\P-element_T, Dbif\P-element_M, 
+   Dmir\worf, Dwil\Vege, Dwil\Mar, Damb\P-element_T, Dbif\P-element_M,
    Dbif\P-element_O, Dsub\SGM, Ddip\Bari1, Dpse\mini-me, Dbuz\BuT1,
    Dbuz\BuT2, Dbuz\BuT3, Dbuz\BuT4, Dbuz\BuT5, Dbuz\BuT6, Dbuz\INE-1,
    Dbuz\ISBu2, Dbuz\Galileo, Dbuz\Kepler, Dbuz\Newton, Dyak\TART,
