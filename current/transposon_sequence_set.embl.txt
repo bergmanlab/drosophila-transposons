@@ -11321,44 +11321,6 @@ SQ   Sequence 1881 BP; 636 A; 292 C; 365 G; 588 T; 0 other;
      aaatttttct aaaaataaat gtaaaaacat taatgataaa acaaaatttc acgggtaaaa      1860
      agttgggcgc gaaagggtta a                                                1881
 //
-ID   AF418572   standard; RNA; INV; 804 BP.
-XX
-AC   AF418572;
-XX
-DR   FLYBASE; FBte0000967; Dmel\Penelope.
-XX
-FT   source          AF418572:1..804
-FT   SO_feature      CDS ; SO:0000316:172..>804
-FT   SO_feature      start_codon ; SO:0000318:1..3
-FT                   /name="Penelope\ORF1"
-FT                   /db_xref="FLYBASE:FBgn0046700"
-FT                   /db_xref="SPTREMBL:Q95VB4"
-FT                   /db_xref="NCBI_PROTEIN:AAL14648.1"
-FT                   /translation="MERSPEPSININGRHAVCTATNMSYAKIKTKYKDSKRTINKFQLT
-FT                   LVKLTKLKSSLKFLLKCRKSNLIPNFIKNLTQHLTILTTDNKTHPDITRTLTRHTHFYH
-FT                   TKILNLLIKHKHNLLQEQTKHMEKAKTNIEQLMTTDDAKAFFESERNIENKITTTLKKR
-FT                   QETKHDKLRDQRNLALADNNTQREWFVNKTKIEFPPNVVALLAKGPKF"
-XX
-CC   Derived from AF418572 (AF418572) (Rel. 70, Last updated, Version 3).
-CC   Michael Ashburner, 15-August-2002.
-CC   Any changes to original sequence record are annotated in an FT line.
-XX
-SQ   Sequence 804 BP; 355 A; 163 C; 120 G; 166 T; 0 other;
-     ctcagtaaca atctccacgt caaaaagcgc agacgtgtaa aataattgcc ctgaagacgg        60
-     tttgccgatg tgcaaccgaa atatatcgga agagaattga ataaaattgt ttttcattgt       120
-     ttgttttaac aaactcggac ctcgagccag ccaacaaata aatattgaaa tatggaaagg       180
-     tcgccagagc catcaataaa tatcaacgga aggcacgccg tatgcacagc aaccaacatg       240
-     agctacgcaa aaataaaaac taaatacaag gattcgaaaa gaacaattaa taaattccaa       300
-     ctaacactgg taaaattaac taaacttaaa tctagtttaa aatttttgtt aaaatgtaga       360
-     aaatcaaatt taatacctaa cttcatcaaa aacttgacac agcatttgac catactgacc       420
-     actgacaata aaacccaccc tgacataaca agaacattga ctagacacac acatttttac       480
-     cataccaaaa tattaaactt acttataaaa cacaaacaca acctattaca agaacaaaca       540
-     aaacatatgg aaaaagcaaa aacaaacata gaacaactga tgaccacaga tgacgcaaaa       600
-     gcgttttttg agagcgagag aaatatagaa aacaaaataa caacaacact caagaaaaga       660
-     caagaaacga aacacgataa gttacgagat caacggaacc tagccttagc ggataacaac       720
-     acgcaaagag agtggtttgt aaacaaaaca aaaatagaat tcccgccaaa cgtcgtagcg       780
-     ttactcgcaa aagggccgaa gttc                                              804
-//
 ID   QBERT    standard; DNA; INV; 7650 BP.
 XX
 AC   AF541947;
