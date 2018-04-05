@@ -16616,7 +16616,7 @@ ID   DPSEMINIME    standard; DNA; INV; 4622 BP.
 XX
 AC   AC131959;
 XX
-DR   FLYBASE; FBtennnnnnn; Dpse\mini-me.
+DR   FLYBASE; FBtennnnnn1; Dpse\mini-me.
 XX
 FT   source          AC131959:30620..35241
 FT   SO_feature      CDS ; SO:0000316:2480..3364
@@ -17995,7 +17995,7 @@ ID   GEM    standard; DNA; INV; 1730 BP.
 XX
 AC   AJ131629;
 XX
-DR   FLYBASE; FBtennnnnnn; Dsub\GEM.
+DR   FLYBASE; FBtennnnnn2; Dsub\GEM.
 XX
 FT   source          AJ131629:1..1730
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..128
