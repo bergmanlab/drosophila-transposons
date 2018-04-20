@@ -8,7 +8,7 @@ use Bio::SeqIO;
 #use LFastaIO;
 use Bio::Tools::GFF;
 
-# {{{ Documentation
+# Documentation
 
 use constant USAGE =><<END;
 
@@ -48,7 +48,7 @@ the same terms as Perl itself.
 
 END
 
-# {{{ Options and Args
+# Options and Args
 
 my $informat = '';
 my $outformat = '';
@@ -66,16 +66,13 @@ my $infile = shift @ARGV if @ARGV;
 my $outfile = shift @ARGV if @ARGV;
 
 
-# }}}
-
-# {{{ Guess format and check for wrong options
+# Guess format and check for wrong options
 
 $informat = guessformat($informat ? $informat : $infile) or
   die "Could not guess informat.\n";
 $outformat = guessformat($outformat ? $outformat : $outfile) or
   die "Could not guess outformat.\n";
 
-# {{{ IO
 
 # Create the input file handle:
 my $in;
@@ -134,20 +131,10 @@ if ($gff && $informat =~ /Fasta/ && $outformat =~ /(EMBL)|(GenBank)|(SwissProt)|
 
 # Bioperl reformatting
 while (my $seq = <$in>) {
-  # # No whitespace in ids:
-  # if ($seq->id =~ /\s/) {
-  #     warn "White space in ID: \"", $seq->id, "\" (accession: ", $seq->accession_number(), ") skipping entry...\n";
-  #   next;
-  # }
-
   if ($gffout) {
     my $gfflines = get_gff_features($seq);
     print $gffout $_ for (@$gfflines);
-  } elsif ($gffin) {
-    $seq->accession_number($seq->id);
-    add_gff_features($seq);
   }
-
   # Print in the required format:
   print $out $seq;
 }
