@@ -12,16 +12,16 @@ GetOptions(
 				"i:s"=>\$fIn,
         "t:s"=>\$fIn2,
 				) or &USAGE;
-&USAGE unless ($fIn and $fOut and $fIn2);
+&USAGE unless ($fIn and $fIn2);
 
 sub USAGE {#
 	my $usage=<<"USAGE";
 Description:	this program is used to replace embl id with flybase id
 Usage:
   Options:
-  -i <file>  embl file,forced
-  -t <file>  te id file,forced
-  -o <file>  output file,forced  
+  -i <file>  embl file, required
+  -t <file>  te id file, required
+  -o <file>  output file, not required
   -h         Help
 
 USAGE
@@ -29,13 +29,15 @@ USAGE
 	exit;
 }
 
-my %hash;
-
-# open( my $TABLE, '<', "../current/te_id_table.tsv" );
 open (IN, '<', $fIn) or die $!;
 open (ID, '<', $fIn2) or die $!;
-open (OUT, '>', $fOut) or die $!;
+if ($fOut) {
+    open (OUT, '>', $fOut);
+} else {
+    open(OUT, ">&STDOUT");
+}
 
+my %hash;
 
 #read line of TE file from standard input
 while (my $line = <ID>) {
@@ -45,14 +47,9 @@ while (my $line = <ID>) {
 }
 close ID;
 
-# print "Key: $_ and Value: $hash{$_}\n" foreach (keys%hash);
-
-# open( my $EMBL_DATA, '<', "../current/transposon_sequence_set.embl.txt" );
-# open( my $OUTPUT, '>', "../current/transposon_sequence_set.embl.id_replaced.txt" );
-
 while ( <IN> ) {
   foreach my $key ( sort keys %hash ) {
-     s/\b$key\b/$hash{$key}/g;
+     s/\s$key\s/$hash{$key}/g;
   }
   print OUT $_; 
 }
