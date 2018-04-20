@@ -11,15 +11,15 @@ GetOptions(
 				"o:s"=>\$fOut,
 				"i:s"=>\$fIn,
 				) or &USAGE;
-&USAGE unless ($fIn and $fOut);
+&USAGE unless ($fIn);
 
 sub USAGE {#
 	my $usage=<<"USAGE";
 Description:	this program is used to generate look up table for embl id, flybase id and source id
 Usage:
   Options:
-  -i <file>  input file,forced
-  -o <file>  output file,forced  
+  -i <file>  input file, required
+  -o <file>  output file, not required  
   -h         Help
 
 USAGE
@@ -27,13 +27,18 @@ USAGE
 	exit;
 }
 
+open (IN, '<', $fIn) or die $!;
+
+if ($fOut) {
+    open (OUT, '>', $fOut);
+} else {
+    open(OUT, ">&STDOUT");
+}
+
 my @lines=();
 my @embl_id=();
 my @fb_id=();
 my @source_id=();
-
-open (IN, '<', $fIn) or die $!;
-open (OUT, '>', $fOut) or die $!;
 
 #read line of TE file from standard input
 while (my $line = <IN>) {
