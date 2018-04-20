@@ -114,19 +114,10 @@ if ($outfile) {
   }
 }
 
-my $gffin;
 my $gffout;
-my %gffhash;
-if ($gff && $informat =~ /Fasta/ && $outformat =~ /(EMBL)|(GenBank)|(SwissProt)|(LFasta)/) {
-  open $gffin, "$gff" or die "$gff: $!\n";
-  while (my $l = <$gffin>) {
-    my @gff = split /\t/, $l;
-    push @{$gffhash{$gff[0]}}, $l;
-  }
-} elsif ($gff && $outformat =~ /Fasta/ && $informat =~ /(EMBL)|(GenBank)|(SwissProt)|(LFasta)/) {
+if ($outformat =~ /gff/i) {
   open $gffout, ">$gff" or die "$gff: $!\n";
-} elsif ($outformat =~ /gff/i) {
-  open $gffout, ">$gff" or die "$gff: $!\n";
+  print $gffout "##gff-version 3"
 }
 
 # Bioperl reformatting
