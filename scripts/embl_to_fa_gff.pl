@@ -117,7 +117,7 @@ if ($outfile) {
 my $gffout;
 if ($outformat =~ /gff/i) {
   open $gffout, ">$gff" or die "$gff: $!\n";
-  print $gffout "##gff-version 3"
+  print $gffout "##gff-version 3\n"
 }
 
 # Bioperl reformatting
