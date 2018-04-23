@@ -49,7 +49,7 @@ close ID;
 
 while ( <IN> ) {
   foreach my $key ( sort keys %hash ) {
-     s/\s$key\s/$hash{$key}/g;
+     s/\s$key\s/ $hash{$key} /g;
   }
   print OUT $_; 
 }
