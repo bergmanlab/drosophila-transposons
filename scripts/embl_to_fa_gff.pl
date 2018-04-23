@@ -141,8 +141,13 @@ sub get_gff_features {
   for my $f (@features) {
     my $id = $seq->id;
     my $gff = $gffio->_gff3_string($f);
-
     $gff =~ s/^SEQ/$id/mg;
+    if ($gff =~ /source/) {
+      my @outtmp = split(' ', $gff);
+      # print "@outtmp[0]\n";
+      my @gfftmp = ("##sequence-region", $outtmp[0], $outtmp[3], $outtmp[4]);
+      $gff = join(" ", @gfftmp);
+    }
     push @gfflines, "$gff\n";
   }
 
