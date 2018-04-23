@@ -139,16 +139,20 @@ sub get_gff_features {
   my $gffio = Bio::Tools::GFF->new(-gff_version => $gffversion);
 
   for my $f (@features) {
+    my $length = $seq->length;
     my $id = $seq->id;
     my $gff = $gffio->_gff3_string($f);
     $gff =~ s/^SEQ/$id/mg;
     if ($gff =~ /source/) {
       my @outtmp = split(' ', $gff);
-      # print "@outtmp[0]\n";
-      my @gfftmp = ("##sequence-region", $outtmp[0], $outtmp[3], $outtmp[4]);
+      my @gfftmp = ("##sequence-region", $id, 1, $length);
       $gff = join(" ", @gfftmp);
-    }
-    push @gfflines, "$gff\n";
+      push @gfflines, "$gff\n";
+    } else {
+        if ($gff !~ /non_LTR_retrotransposon\s/) {
+        push @gfflines, "$gff\n";
+        }
+      }
   }
 
   return \@gfflines;
