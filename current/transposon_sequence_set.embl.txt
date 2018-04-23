@@ -17447,9 +17447,9 @@ XX
 DR   FLYBASE; FBte0000538; Dvir\HeT-A.
 XX
 FT   source          AY369259:7671..14072
-FT   SO_feature      five_prime_UTR ; SO:0000204:1-1274
+FT   SO_feature      five_prime_UTR ; SO:0000204:1..1274
 FT   SO_feature      three_prime_UTR ; SO:0000205:3999..6342
-FT   SO_feature      CDS ; SO:0000316:1274-3998
+FT   SO_feature      CDS ; SO:0000316:1274..3998
 FT                   /db_xref="NCBI_PROTEIN:AAQ75089.1"
 FT                   /translation="MSDPNTTPTTHLSAEPTISPGLLSNLSGLLLSPILTMPASMNGL
 FT                   LSISVDSLAPATALSPQALISTASETPAQKGQEQKRAAGKETENTVSETTTTSSITAK
