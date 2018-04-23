@@ -16621,7 +16621,7 @@ DR   FLYBASE; FBtennnnnn1; Dpse\mini-me.
 XX
 FT   source          AC131959:30620..35241
 FT   SO_feature      CDS ; SO:0000316:2480..3364
-FT   SO_feature      inverted_repeat ; SO:0000294:252.. 693
+FT   SO_feature      inverted_repeat ; SO:0000294:252..693
 FT   SO_feature      inverted_repeat ; SO:0000294:4189..4622
 FT   SO_feature      dinucleotide_repeat_microsatellite_feature ; SO:0000290:100..111
 FT                   /remark="repeat=TA"
