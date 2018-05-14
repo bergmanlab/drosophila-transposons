@@ -16215,7 +16215,7 @@ ID   P_O    standard; DNA; INV; 2986 BP.
 XX
 AC   X71634;
 XX
-DR   FLYBASE; FBte0000598_1; Dbif\P-element_O.
+DR   FLYBASE; FBte0001485; Dbif\P-element_O.
 XX
 FT   source          X71634:1..2986
 FT   SO_feature      CDS ; SO:0000316:join(173..453,542..1221,1288..2013,2198..2781)
@@ -16280,7 +16280,7 @@ ID   P_M    standard; DNA; INV; 2935 BP.
 XX
 AC   X60990;
 XX
-DR   FLYBASE; FBte0000598_2; Dbif\P-element_M.
+DR   FLYBASE; FBte0001486; Dbif\P-element_M.
 XX
 FT   source          X60990:1..2935
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..31
@@ -16617,7 +16617,7 @@ ID   DPSEMINIME    standard; DNA; INV; 4622 BP.
 XX
 AC   AC131959;
 XX
-DR   FLYBASE; FBtennnnnn1; Dpse\mini-me.
+DR   FLYBASE; FBte0001484; Dpse\mini-me.
 XX
 FT   source          AC131959:30620..35241
 FT   SO_feature      CDS ; SO:0000316:2480..3364
@@ -17738,7 +17738,7 @@ ID   NEOR1A    standard; DNA; INV; 1757 BP.
 XX
 AC   AF248067;
 XX
-DR   FLYBASE; FBte0000925_1; Dnet\R1A.
+DR   FLYBASE; FBte0001482; Dnet\R1A.
 XX
 FT   source          AF248067:1..1757
 FT   SO_feature      CDS ; SO:0000316:<1..1134
@@ -17941,7 +17941,7 @@ ID   NETR1B    standard; DNA; INV; 2038 BP.
 XX
 AC   AF248068;
 XX
-DR   FLYBASE; FBte0000925_2; Dnet\R1B.
+DR   FLYBASE; FBte0001483; Dnet\R1B.
 XX
 FT   source          AF248068:1..2038
 FT   SO_feature      three_prime_UTR ; SO:0000205:1078..2038
@@ -17996,7 +17996,7 @@ ID   GEM    standard; DNA; INV; 1730 BP.
 XX
 AC   AJ131629;
 XX
-DR   FLYBASE; FBtennnnnn2; Dsub\GEM.
+DR   FLYBASE; FBte0001481; Dsub\GEM.
 XX
 FT   source          AJ131629:1..1730
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..128
