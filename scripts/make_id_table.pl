@@ -37,6 +37,8 @@ if ($fOut) {
 
 my @lines=();
 my @embl_id=();
+my @species=();
+my @te_name=();
 my @fb_id=();
 my @source_id=();
 
@@ -61,6 +63,13 @@ for (my $i=0; $i<$length; $i++) {
         my $out = $lines[$i];
         my @out = split('; ', $out);
         $fb_id[$idx] = $out[1];
+        my $out2 = $out[2];
+        $out2 =~ s/\.$//g;
+        $out2 =~ s/\\/,/g;
+        chomp $out2;
+        my @out3 = split(',', $out2);
+        $species[$idx] = $out3[0];
+        $te_name[$idx] = $out3[1];
     }
     if ($lines[$i] =~ /^FT.*source/) {
         my $out = $lines[$i];
@@ -73,8 +82,8 @@ for (my $i=0; $i<$length; $i++) {
     }
 }
 
-while (@embl_id || @fb_id || @source_id) {
-   print OUT shift(@embl_id) . "\t" . shift(@fb_id) . "\t" . shift(@source_id) . "\n";
+while (@embl_id || @fb_id || @source_id || @species || @te_name) {
+   print OUT shift(@embl_id) . "," . shift(@fb_id) . "," . shift(@source_id) . "," . shift(@species) . "," . shift(@te_name) . "\n";
 }
 
 close IN;
