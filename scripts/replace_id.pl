@@ -42,7 +42,7 @@ my %hash;
 #read line of TE file from standard input
 while (my $line = <ID>) {
 	# chomp $_;
-    my ($embl_id, $fb_id, $source_id) = split(' ', $line);
+    my ($embl_id, $fb_id, $source_id, $species, $te_name) = split(',', $line);
     $hash{$embl_id} = $fb_id;
 }
 close ID;
