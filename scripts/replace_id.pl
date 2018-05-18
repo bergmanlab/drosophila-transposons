@@ -41,15 +41,16 @@ my %hash;
 
 #read line of TE file from standard input
 while (my $line = <ID>) {
-	# chomp $_;
     my ($embl_id, $fb_id, $source_id, $species, $te_name) = split(',', $line);
     $hash{$embl_id} = $fb_id;
 }
 close ID;
 
 while ( <IN> ) {
-  foreach my $key ( sort keys %hash ) {
+  if ($_ =~ m/^ID/i) {
+    foreach my $key ( sort keys %hash ) {
      s/\s$key\s/ $hash{$key} /g;
+    }
   }
   print OUT $_; 
 }
