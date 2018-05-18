@@ -3976,8 +3976,7 @@ FT   SO_feature      direct_repeat ; SO:0000314:1..331
 FT   SO_feature      direct_repeat ; SO:0000314:10383..10713
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..205
 FT   SO_feature      three_prime_UTR ; SO:0000205:6629..11102
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
-FT                   SO:0000433:11103..11124
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; SO:0000433:11103..11124
 CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:206..3349
 FT   SO_feature      start_codon ; SO:0000318:1..3
@@ -4245,8 +4244,7 @@ FT   SO_feature      direct_repeat ; SO:0000314:1..1850
 FT   SO_feature      direct_repeat ; SO:0000314:11179..13028
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..1759
 FT   SO_feature      three_prime_UTR ; SO:0000205:7953..13411
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
-FT                   SO:0000433:13412..13424
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; SO:0000433:13412..13424
 CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:1760..4672
 FT   SO_feature      start_codon ; SO:0000318:1..3
@@ -4549,8 +4547,7 @@ FT   SO_feature      five_prime_UTR ; SO:0000204:1..961
 FT   SO_feature      three_prime_UTR ; SO:0000205: 7386..10637
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10479..10484
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10600..10605
-FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ;
-FT                   SO:0000433:10638..10654
+FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; SO:0000433:10638..10654
 CC                   derived from polyA tail of RNA transposition intermediate
 FT   SO_feature      CDS ; SO:0000316:962..4093
 FT   SO_feature      start_codon ; SO:0000318:1..3
