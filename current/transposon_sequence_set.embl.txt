@@ -4544,7 +4544,7 @@ CC                   telomeric retrotransposon
 FT   SO_feature      direct_repeat ; SO:0000314:1..1046
 FT   SO_feature      direct_repeat ; SO:0000314:9031..10076
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..961
-FT   SO_feature      three_prime_UTR ; SO:0000205: 7386..10637
+FT   SO_feature      three_prime_UTR ; SO:0000205:7386..10637
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10479..10484
 FT   SO_feature      polyA_signal_sequence ; SO:0000551:10600..10605
 FT   SO_feature      non_LTR_retrotransposon_polymeric_tract ; SO:0000433:10638..10654
