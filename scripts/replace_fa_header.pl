@@ -42,8 +42,8 @@ my %hash;
 #read line of TE file from standard input
 while (my $line = <ID>) {
 	  chomp $line;
-    my ($embl_id, $fb_id, $source_id, $species, $te_name, $type, $subtype) = split(',', $line);
-    my $header="$te_name#$type/$subtype";
+    my ($embl_id, $fb_id, $source_id, $fb_name, $species, $te_name, $type_gff, $type_fasta, $subtype_fasta) = split(',', $line);
+    my $header="$te_name#$type_fasta/$subtype_fasta";
     $hash{$fb_id} = $header;
 }
 close ID;
