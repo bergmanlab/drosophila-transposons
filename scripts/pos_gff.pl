@@ -67,7 +67,7 @@ while (<IN>) {
         } else {
            $comment = "ID=$fb_id;name=$fb_name"; 
         }
-        my $master = join("\t", $fb_id, ".", $hash_type{$fb_id}, $start, $end, ".", ".", ".", ".", $comment);
+        my $master = join("\t", $fb_id, ".", $hash_type{$fb_id}, $start, $end, ".", ".", ".", $comment);
         push (@headers, $_);
         push (@gfflines, $master);
     } else {
