@@ -14,6 +14,8 @@ my $nextCoords = '';
 
 #read line of TE file from standard input
 while ($line = <>) {
+	next if $line =~ m/non_LTR_retrotransposon ;/;
+	next if $line =~ m/^CC\s+/;
 
 	#if line has SO feature, get relevant info
 	if ($line =~ /SO_feature\s+(\S+)\s\;\s(SO:\S+):(\S+)/) {
