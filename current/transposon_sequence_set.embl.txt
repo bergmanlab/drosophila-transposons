@@ -6497,7 +6497,6 @@ XX
 FT   source          AJ278684:32..5180
 FT   SO_feature      five_prime_UTR ; SO:0000204:1..436
 FT   SO_feature      three_prime_UTR ; SO:0000205:4854..5149
-FT   SO_feature      polyA_signal_sequence ; SO:0000551:5149..5182
 FT   SO_feature      CDS ; SO:0000316:437..1933
 FT                   /name="Dmel\Rt1a\gag"
 FT                   /db_xref="FLYBASE:FBgn0041727"
