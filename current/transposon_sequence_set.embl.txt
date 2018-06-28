@@ -11832,6 +11832,7 @@ DR   FLYBASE; FBte0000472; Dmel\Stalker2.
 XX
 SY   synonym: new-Stalker
 XX
+FT   source          nnnnnnnn:1..7672
 FT   SO_feature      five_prime_LTR ; SO:0000425:1..424
 FT   SO_feature      three_prime_LTR ; SO:0000426:7248..7672
 XX
@@ -11975,6 +11976,7 @@ AC   nnnnnnnn;
 XX
 DR   FLYBASE; FBte0001157; Dmel\Stalker3.
 XX
+FT   source          nnnnnnnn:1..372
 FT   SO_feature      long_terminal_repeat ; SO:0000286:1..372
 XX
 CC   Sequence identified by REPBASE:
