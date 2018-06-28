@@ -9600,7 +9600,7 @@ DR   FLYBASE; FBte0000626; Dmel\transib1.
 XX
 FT   source          nnnnnnnn:1..2167
 FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..36
-FT   SO_feature      terminal_inverted_repeat ; SO:0000481:2131..2167
+FT   SO_feature      terminal_inverted_repeat ; SO:0000481:2132..2167
 FT   SO_feature      CDS ; SO:0000316:544..1926
 XX
 CC   Sequence identified by REPBASE:
@@ -10265,8 +10265,8 @@ XX
 DR   FLYBASE; FBte0001174; Dmel\transib4.
 XX
 FT   source          nnnnnnnn:1..2656
-FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..40
-FT   SO_feature      terminal_inverted_repeat ; SO:0000481:2618..2658
+FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..36
+FT   SO_feature      terminal_inverted_repeat ; SO:0000481:2621..2656
 FT   SO_feature      CDS ; SO:0000316:545..2152
 XX
 CC   Sequence identified by REPBASE:
