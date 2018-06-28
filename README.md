@@ -36,14 +36,23 @@ annotation files, and these files form the basis of the 10.1 release. Subsequent
 modifications will be made to the FASTA + GFF3 files. The legacy v9.5 EMBL file
 will no longer be updated but will be preserved here for posterity.
 
+Release 10.1 and future releases will use the FlyBase FBte as the primary
+identifier for each TE family. The valid FlyBase TE family name can be found
+in the GFF file and synonyms can be found at FlyBase. As in the EMBL file, LTR
+elements in the FASTA files are represented by a single record (i.e. LTRs
+are joined to internal regions). LTR annotations in the GFF file can be used to
+split complete LTR elements into LTR and internal regions for optimal use with
+RepeatMasker.
+
 Starting with Release 10.1, curation efforts will focus primarily
 on D. melanogaster TEs. Therefore, in addition to the transposon_sequence_set.fa
 and transposon_sequence_set.gff files, we will also provide a D. melanogaster-only
-FASTA file (D_mel_transposon_sequence_set.fa), that is formatted to be compatible
-as a custom RepeatMasker library using the -lib option. The [legacy D. melanogaster-only
-FASTA file](https://github.com/bergmanlab/transposons/blob/master/misc/D_mel_transposon_sequence_set.fa)
-provided in the `misc` directory of this repository will be deprecated but will
-be preserved here for posterity.
+FASTA file (D_mel_transposon_sequence_set.fa). The D. melanogaster-only
+FASTA file headers use the valid Flybase TE family names and and are formatted
+with TE type and subtype information in a manner that allows RepeatMasker to
+generate a .tbl file using the -lib option. The [legacy D. melanogaster-only FASTA file](https://github.com/bergmanlab/transposons/blob/master/misc/D_mel_transposon_sequence_set.fa)
+provided in the `misc` directory of this repository is now deprecated, but
+preserved for posterity.
 
 We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
 Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve
