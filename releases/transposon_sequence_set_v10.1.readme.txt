@@ -1,0 +1,454 @@
+!transposon_sequence_set.readme.v10.1.txt
+!June 28 2018
+!Comments, corrections to cbergman@uga.edu
+
+
+        TRANSPOSON SEQUENCE CANONICAL SETS FOR DROSOPHILA
+
+This is a file of 'canonical' sequences of the transposable elements
+from Drosophila.
+
+History: These sequences were originally compiled by Takis Benos (EBI),
+Leyla Bayraktaroglu (Harvard) and Michael Ashburner (EBI & Cambridge)
+with help from Aubrey de Grey (Cambridge), Joe Chillemi (Harvard) and
+Martin Reese (LBNL). We thank Suzi Lewis (Berkeley) for inspiration and
+discussion, Guochun Liao (Berkeley) for his repeat sequence set and
+newly discovered transposable element sequences from the Berkeley P1
+clones, and Lynn Crosby (Harvard) for her annotations of some elements.
+
+Subsequent curation of these sequences has been in the context of the
+Drosophila Genome Project and was a collaboration between M. Ashburner
+(Cambridge), Josh Kaminker (Berkeley) and Casey Bergman (Berkeley).  From
+Version 8.0 this set has been maintained by Michael Ashburner and Casey
+Bergman in Cambridge. The last version updated by Michael Ashburner was
+Version 9.411. FlyBase generated version 9.42 from these files in 2009,
+which have not subsequently been updated at FlyBase.
+
+From version v9.43 onwards, this set has been under continuous version control
+by Casey Bergman (Manchester/UGA) and Shunhua Han (UGA) at: https://github.com/bergmanlab/transposons/.
+Contributions are welcome by submitting pull requests or opening issues for
+this repository. For pull requests, please make suggested edits to the files
+in: https://github.com/bergmanlab/transposons/tree/master/current. These
+contributions will be reviewed and, if merged, will be used to make an
+incremented version of the dataset in: https://github.com/bergmanlab/transposons/tree/master/releases.
+
+Version v9.5 is the last version of this dataset that will be released in EMBL
+format. The EMBL format is a legacy format that mixes sequences and annotations,
+and requires conversion to FASTA prior to use in genome informatics analysis.
+The v9.5 EMBL file was used to generate corresponding FASTA sequence + GFF3
+annotation files, and these files form the basis of the 10.1 release. Subsequent
+modifications will be made to the FASTA + GFF3 files. The legacy v9.5 EMBL file
+will no longer be updated but will be preserved here for posterity.
+
+Release 10.1 and future releases will use the FlyBase FBte as the primary
+identifier for each TE family. The valid FlyBase TE family name can be found
+in the GFF file and synonyms can be found at FlyBase. As in the EMBL file, LTR
+elements in the FASTA files are represented by a single record (i.e. LTRs
+are joined to internal regions). LTR annotations in the GFF file can be used to
+split complete LTR elements into LTR and internal regions for optimal use with
+RepeatMasker.
+
+Starting with Release 10.1, curation efforts will focus primarily
+on D. melanogaster TEs. Therefore, in addition to the transposon_sequence_set.fa
+and transposon_sequence_set.gff files, we will also provide a D. melanogaster-only
+FASTA file (D_mel_transposon_sequence_set.fa). The D. melanogaster-only
+FASTA file headers use the valid Flybase TE family names and and are formatted
+with TE type and subtype information in a manner that allows RepeatMasker to
+generate a .tbl file using the -lib option. The [legacy D. melanogaster-only FASTA file](https://github.com/bergmanlab/transposons/blob/master/misc/D_mel_transposon_sequence_set.fa)
+provided in the `misc` directory of this repository is now deprecated, but
+preserved for posterity.
+
+We thank Margi Butler, Elena Casacuberta, Madeline Crosby, Bob Levis,
+Mary-Lou Pardue, Kevin O'Hare, Horacio Naveira, Dmitri Petrov, Steve
+Schaeffer, Todd Schlenke, Alfredo Villesante & the authors of REPBASE for
+sequences and/or annotations. We thank Nicholas Davies and Portia Hollyoak for
+contributions to this repository.
+
+===============================================================================
+
+June 26 2018. v.9.5
+=======================
+
+1. Added FBtes for Dbif\P-element_O, Dbif\P-element_M, Dpse\mini-me, Dnet\R1A,
+   Dnet\R1B, Dsub\GEM
+2. Modified five_prime_UTR and CDS coordinates for Dvir\HeT-A
+3. Added TIR coordiantes for Dbif\P-element_M
+4. Updated Dmel\flea annotation based on data from Frommer et el 1994
+5. Removed polyA_signal_sequence because it is out of Dmel\Rt1a interval
+6. Updated Dmel\Rt1b sequence and annotation
+7. Updated Dmel\Transib1 TIR annotations
+8. Updated Dmel\Transib4 TIR annotations
+9. Updated Dmel\S2 TIR annotations
+10. Multiple edits to formatting of EMBL file to permit conversion to FASTA + GFF
+
+April 4 2018. v.9.44.2
+=======================
+
+1. Removed Dmel\Penelope since this element does not exist in nature.
+2. Fixed FBgn for Dana\Tom
+
+June 22 2016. v.9.44.1
+=======================
+
+1. Added LTRs to aurora-element and updated aurora-element annotations.
+2. Added Xanthias
+3. Replaced FBgn IDs with FBte IDs
+
+January 26 2016. v.9.44
+=======================
+
+1. Corrected header entries for gypsy4 and gypsy5, which had lengths swapped.
+2. Renamed Stalker3T to Stalker3 in EMBL file to match header and common usage.
+3. Renamed Dvir\Het-A to Dvir\HeT-A in EMBL file to match header and common usage.
+4. Changed lengths of Dvir\Tv1, Dvir\Paris, and Helena in header to match EMBL file.
+5. Removed final base of Ddip\Bari1 in EMBL file, which is annotated on Genbank as
+   originating from an induced direct repeat and appears to have been included in the
+   canonical sequence by mistake.
+6. Added full stop to end of EMBL file line:
+      DR   FLYBASE; FBgn0063571; Dbuz\ISBu2.
+7. Fixed a minor alignment issue in the header entry for BS4.
+
+July 7 2014. v.9.43.2
+=====================
+
+1. fixed unquoted peptide string in DM_ROO
+2. added INV to FB ID line
+3. changed CDS SO feature for G-element to be 1 line
+4. fixed SO lines in DPSEMINIME
+5. reordered start_codon relative to CDS features for NEOR1A, Dtak\R1A2, Dmer\R1A3 and
+   Dnet\R1B
+6. changed protein_id to dbxrefs
+7. fixed join in G CDS
+8. split CDS SO features into name & dbxref
+
+January 29 2014. v.9.43.1
+=========================
+
+1. Fixed ID line of TAHRE
+
+January 31 2013. v.9.43
+=======================
+
+1. Put transposon set under version control on GitHub.
+2. Removed header information from v.9.42 EMBL file.
+3. Edited changelog to be in reverse chronological order.
+4. Restored TART-A, TART-B, and TART-C DNA sequences.
+
+February 3 2009. v.9.42
+=======================
+
+1. Dmel\TART-A, Dmel\TART-B, and Dmel\TART-C annotations corrected,
+   as per Mary-Lou Pardue and Greg DeBaryshe.
+2. Dmel\TAHRE annotation corrected, as per Alfredo Villasante.
+
+April 22 2005. v.9.41
+=====================
+
+1. A formatting error in the Helena sequence corrected.
+
+April 22 2005. v.9.4
+====================
+
+1. Updates on FBgn identifiers.
+2. Added sequence of the TAHRE element.
+
+December 10 2004. v.9.3
+=======================
+
+1. Added the cDNA sequence for a D. melanogaster Osvaldo-like element.
+
+September 3 2004. v.9.2.5
+=========================
+
+1. Added Doc5-element as synonym of Porto1.
+
+June 23 2004. v.9.2.4
+=====================
+
+1. accord2 and qbert found to be the same element; accord2 sequence (AC008256)
+   removed and qbert sequence (AF541947) renamed as accord2.
+
+May 1 2004. v.9.2.3
+===================
+
+1. Added prygun as a synonym of Tirant.
+
+April 18 2004. v.9.2.2
+======================
+
+1. Update of annotation of TART-C.
+2. Dtei\I-element sequence added.
+
+April 7 2004. v.9.2
+===================
+
+1. The Dbuz\ISBu3, Dsub\GEM and Dvir\Uvir elements have been added.
+
+April 7 2004. v.9.1
+===================
+
+1. The following R1-element variants have been added: Dnet\R1A, Dtak\R1A2,
+   Dmer\R1A3, Dnet\R1B. The original melanogaster element has been
+   re-named:R1A1-element.
+
+April 6 2004. v.9.0
+===================
+
+1. New records for elements from species other than D. melanogaster:
+   Dana\Tom, Dvir\Dv, Dhyd\Bungy, Dbuz\Osvaldo, Dkoe\Gandalf,
+   Dmau\mariner, Dhyd\Minos, Dfun\Isfun-1, Dsub\bilbo, Dsil\Loa,
+   Dhet\Uhu, Dvir\Ulysses, Dsim\ninja, Dvir\Helena, Dvir\Penelope,
+   Dvir\Tv1, Dvir\Tel, Dmir\TRAM, Dmir\TRIM, Dvir\Paris, Dmir\spock,
+   Dmir\worf, Dwil\Vege, Dwil\Mar, Damb\P-element_T, Dbif\P-element_M,
+   Dbif\P-element_O, Dsub\SGM, Ddip\Bari1, Dpse\mini-me, Dbuz\BuT1,
+   Dbuz\BuT2, Dbuz\BuT3, Dbuz\BuT4, Dbuz\BuT5, Dbuz\BuT6, Dbuz\INE-1,
+   Dbuz\ISBu2, Dbuz\Galileo, Dbuz\Kepler, Dbuz\Newton, Dyak\TART,
+   Dyak\HeT-A, Dvir\TART, Dvir\HeT-A.
+
+2. D. melanogaster Helena consensus sequence added. The Circe sequence
+   has been replaced from a consensus from A. Villesante.
+
+3. The micropia sequence has been replaced by one that lacks the 4bp
+   deletion within the CDS present in the previous record.
+
+4. New sequences for TART-A and TART-C subfamilies added (the only previous
+   TART sequence (U14101) was TART-B). The sequences for Tc3 & Beagle2 have
+   been extracted from the R3 genome and added. The sequence of the Q element
+   has been extracted from the R1 genome and added.
+
+5. Annotations improved for some of the sequences.
+
+6. All annotations now use SO terms.  The syntax is:
+
+FT   SO_feature      <feature> ; <so_id>:<start_base>..<end_base>
+
+e.g.:
+
+FT   SO_feature      five_prime_UTR ; SO:0000204:1..730
+
+March 16 2004. v.8.0
+====================
+
+1. Updates of FB identifiers.
+
+2. Added from REPBASE (drorep.ref.4.5.3, January 2003): BS3, BS4,
+   Doc4-element, Doc5-element, Fw2, Fw3, Helitron, R1-2, Tc1-2, G5A,
+   G7, accord2, gypsy7, gypsy8, gypsy9, gypsy10, gypsy11, gypsy12,
+   invader6.
+
+3. ORF1 of Juan added from Repbase record.
+
+4. A new line for synonyms has been introduced into records, e.g.:
+
+   SY   synonym:BEL
+
+   This is not a complete list of synonyms (for which see FlyBase),
+   just those in widespread use.
+
+======================================================================
+The current data set includes 179 elements:
+
+FB gene ID     Symbol            EMBL              Size       Comment
+
+Retroviral elements:
+
+FBgn0000004    17.6              X01472            7439bp     complete
+FBgn0000007    1731              X07656            4648bp     complete
+FBgn0000005    297               X03431            6995bp     complete
+FBgn0005384    3S18              U23420            6126bp     complete
+FBgn0000006    412               nnnnnnnn          7567bp     complete
+FBgn0063447    accord            nnnnnnnn          7404bp     complete
+FBgn0063782    accord2           AF541947          7650bp     complete
+FBgn0010103    aurora-element    AB022762          4263bp     ?complete
+FBgn0000199    blood             nnnnnnnn          7410bp     complete
+FBgn0010302    Burdock           U89994            6411bp     complete
+FBgn0022937    Circe             nnnnnnnn          7450bp     complete
+FBgn0000349    copia             X02599            5143bp     complete
+FBgn0043969    diver             AC004377          6112bp     complete
+FBgn0063439    diver2            nnnnnnnn          4917bp     complete
+FBgn0062343    Dm88              nnnnnnnn          4558bp     complete
+FBgn0014947    flea              Z27119            5034bp     complete
+FBgn0061513    frogger           AF492763          2483bp     ?complete
+FBgn0015945    GATE              AJ010298          8507bp     complete
+FBgn0063436    gtwin             nnnnnnnn          7411bp     complete
+FBgn0001167    gypsy             M12927            7469bp     complete
+FBgn0063435    gypsy2            nnnnnnnn          6841bp     complete
+FBgn0063434    gypsy3            nnnnnnnn          6973bp     complete
+FBgn0063433    gypsy4            nnnnnnnn          6852bp     complete
+FBgn0063432    gypsy5            nnnnnnnn          7369bp     complete
+FBgn0063431    gypsy6            nnnnnnnn          7826bp     complete
+FBgn0067384    gypsy7            AE003788          5486bp     incomplete
+FBgn0067383    gypsy8            AE003788          4955bp     incomplete
+FBgn0067382    gypsy9            AE002591          5349bp     incomplete
+FBgn0067387    gypsy10           nnnnnnnn          6006bp     incomplete
+FBgn0067386    gypsy11           nnnnnnnn          4428bp     incomplete
+FBgn0067385    gypsy12           nnnnnnnn         10218bp     incomplete
+FBgn0001207    HMS-Beagle        AF365402          7062bp     complete
+FBgnnnnnnnn    HMS-Beagle2       nnnnnnnn          7220bp     complete
+FBgn0026065    Idefix            AJ009736          7411bp     complete
+FBgn0063430    invader1          nnnnnnnn          4032bp     complete
+FBgn0063429    invader2          nnnnnnnn          5124bp     complete
+FBgn0063428    invader3          nnnnnnnn          5484bp     complete
+FBgn0063427    invader4          nnnnnnnn          3105bp     complete
+FBgn0063426    invader5          nnnnnnnn          4038bp     complete
+FBgn0067380    invader6          NT_033778         4885bp     incomplete
+FBgn0063919    Max-element       AJ487856          8556bp     complete
+FBgn0063917    McClintock        AF541948          6450bp     complete
+FBgn0002697    mdg1              X59545            7480bp     complete
+FBgn0002698    mdg3              X95908            5519bp     complete
+FBgn0002745    micropia          X14037,X15066     5461bp     complete
+FBgn0003007    opus              AY180918          7521bp     complete
+FBgn0063755    Osvaldo           AY089271          1543bp     incomplete
+FBgn0044355    Quasimodo         AF364550          7387bp     complete
+FBgn0000155    roo               AY180917          9092bp     complete
+FBgn0063394    rooA              nnnnnnnn          7621bp     complete
+FBgn0061485    rover             AF492764          7318bp     complete
+FBgn0003490    springer          AF364549          7546bp     complete
+FBgn0003519    Stalker           AF420242          7256bp     complete
+FBgn0063455    Stalker2          nnnnnnnn          7672bp     complete
+FBgn0063454    Stalker3          nnnnnnnn           372bp     LTR
+FBgn0063897    Stalker4          AF541949          7359bp     complete
+FBgn0045970    Tabor             AC007146          7345bp     complete
+FBgn0004082    Tirant            nnnnnnnn          8526bp     complete
+FBgn0063450    Tom1              nnnnnnnn           410bp     LTR
+FBgn0040267    Transpac          AF222049          5249bp     complete
+FBgn0023131    ZAM               AJ000387          8435bp     complete
+FBgn0004357    Dana\Tom          Z24451            7060bp     complete
+FBgn0013796    Dbuz\Osvaldo      AJ133521          9045bp     complete
+FBgn0005772    Dmir\TRAM         Y08905            3452bp     ?complete
+FBgn0004642    Dmir\TRIM         X59239            3111bp     ?complete
+FBgn0015168    Dsim\ninja        D83207            6644bp     complete
+FBgn0004146    Dvir\Ulysses      X56645           10653bp     complete
+FBgn0020675    Dvir\Tel          AF009439          2485bp     incomplete
+FBgn0013099    Dvir\Tv1          AF056940          6868bp     complete
+
+non-LTR retrotransposons:
+
+FBgn0063440    baggins           nnnnnnnn          5453bp     complete
+FBgn0000224    BS                nnnnnnnn          5142bp     complete
+FBgn0067624    BS3               nnnnnnnn          1790bp     ?complete
+FBgn0067623    BS4               nnnnnnnn           754bp     incomplete
+FBgn0063594    Cr1a              nnnnnnnn          4470bp     complete
+FBgn0000481    Doc               X17551            4725bp     ?incomplete
+FBgn0063534    Doc2-element      nnnnnnnn          4789bp     complete
+FBgn0063533    Doc3-element      nnnnnnnn          4740bp     complete
+FBgn0069587    Doc4-element      nnnnnnnn          2791bp     incomplete
+FBgn0000652    F-element         AC005198          4708bp     complete
+FBgn0067421    Fw2               nnnnnnnn          3961bp     ?complete
+FBgn0067420    Fw3               nnnnnnnn          3132bp     ?complete
+FBgn0001100    G-element         X06950            4346bp     ?complete
+FBgn0063507    G2                nnnnnnnn          3102bp     complete
+FBgn0063506    G3                nnnnnnnn          4605bp     complete
+FBgn0063505    G4                nnnnnnnn          3856bp     complete
+FBgn0063504    G5                nnnnnnnn          4856bp     complete
+FBgn0069433    G5A               nnnnnnnn          2841bp     incomplete
+FBgn0063503    G6                nnnnnnnn          2042bp     complete
+FBgn0067419    G7                AC003788          1192bp     incomplete
+FBgn0020425    Helena            nnnnnnnn          1317bp     incomplete
+FBgn0004141    HeT-A             U06920            6083bp     complete
+FBgn0001249    I-element         M14954            5371bp     complete
+FBgn0043055    Ivk               nnnnnnnn          5402bp     complete
+FBgn0046110    Juan              AY180919          4236bp     complete
+FBgn0001283    jockey            M22874            5020bp     complete
+FBgn0063425    jockey2           nnnnnnnn          3428bp     complete
+FBgn0046701    Penelope          AF418572           804bp     incomplete
+FBgn0015786    Porto1            nnnnnnnn          4682bp     ?complete
+FBgn0063900    Q-element         AE002612           759bp     incomplete
+FBgn0003908    R1A1-element      X51968            5356bp     complete
+FBgn0067405    R1-2              nnnnnnnn          3216bp     incomplete
+FBgn0003909    R2-element        X51967            3607bp     complete
+FBgn0041728    Rt1a              AJ278684          5108bp     complete
+FBgn0063467    Rt1c              nnnnnnnn          5443bp     complete
+FBgn0042682    Rt1b              AF281636          5171bp     complete
+FBgn0069343    TAHRE             AJ542581         10463bp     complete
+FBgn0004904    TART-A            AY561850         13424bp     complete
+FBgn0004904    TART-B            U14101           10654bp     complete
+FBgn0004904    TART-C            AY600955         11124bp     complete
+FBgn0042231    X-element         AF237761          4740bp     complete
+FBgn0013836    Dmer\R1A3         AF015277          3772bp     incomplete
+FBgn0015678    Dmir\spock        AY144571          4952bp     ?complete
+FBgn0064494    Dmir\worf         AY144572          4174bp     ?complete
+FBgn0013854    Dnet\R1A          AF248067          1757bp     incomplete
+FBgn0013854    Dnet\R1B          AF248068          2038bp     incomplete
+FBgnnnnnnnn    Dpse\mini-me      AC131959          4622bp     complete
+FBgn0005661    Dsil\Loa          X60177            7779bp     ?complete
+FBgn0023239    Dsub\bilbo        U73803            5540bp     complete
+FBgn0013903    Dtak\R1A2         U23198            1753bp     incomplete
+FBgn0013017    Dtei\I-element    M28878            5386bp     complete
+FBgn0011601    Dvir\Helena       U26847             691bp     incomplete
+FBgn0015679    Dvir\Penelope     U49102            4158bp     ?complete
+FBgn0067468    Dvir\HeT-A        AY369259          6610bp     complete
+FBgn0066148    Dvir\TART         AY219709          8500bp     complete
+FBgn0067460    Dvir\Uvir         AY369259          6564bp     ?complete
+FBgn0024768    Dyak\HeT-A        AF043258          5691bp     complete
+FBgn0026443    Dyak\TART         AF468026          8444bp     incomplete
+
+SINE-like elements:
+
+FBgn0026416    INE-1             U66884             611bp     ?incomplete
+FBgn0012361    Dhyd\Bungy        U14600             227bp     ?complete
+
+IR-elements:
+
+FBgn0005673    1360              nnnnnnnn          3409bp     complete
+FBgn0005773    Bari1             X67681            1728bp     complete
+FBgn0064134    Bari2             AF541951          1064bp     complete
+FBgn0001181    HB                X01748            1653bp     ?incomplete
+FBgn0001210    hobo              M69216            2959bp     complete
+FBgn0014967    hopper            X80025            1435bp     incomplete
+FBgn0067381    hopper2           AF541950          1593bp     incomplete
+FBgn0063402    looper1           nnnnnnnn          1881bp     incomplete
+FBgn0063401    mariner2          nnnnnnnn           912bp     complete
+FBgn0002949    NOF               X15469;X51937     4347bp     complete
+FBgn0003055    P-element         X06779            2907bp     complete
+FBgn0003122    pogo              X59837            2121bp     complete
+FBgn0004905    S-element         U33463            1736bp     ?incomplete
+FBgn0063466    S2                nnnnnnnn          1735bp     complete
+FBgn0026410    Tc1               nnnnnnnn          1666bp     complete
+FBgn0069340    Tc1-2             nnnnnnnn          1644bp     complete
+FBgn0061191    Tc3               AC009537          1743bp     complete
+FBgn0063372    transib1          nnnnnnnn          2167bp     complete
+FBgn0063371    transib2          nnnnnnnn          2844bp     complete
+FBgn0063370    transib3          nnnnnnnn          2883bp     complete
+FBgn0063369    transib4          nnnnnnnn          2656bp     complete
+FBgn0020218    Damb\P-element_T  AF012414          3329bp     ?complete
+FBgn0012207    Dbif\P-element_M  X60990            2935bp     complete
+FBgn0012207    Dbif\P-element_O  X71634            2986bp     complete
+FBgn0063576    Dbuz\BuT1         AF162798           769bp     ?incomplete
+FBgn0063575    Dbuz\BuT2         AF368884          2775bp     ?incomplete
+FBgn0063575    Dbuz\BuT3         AF368870           795bp     ?incomplete
+FBgn0063573    Dbuz\BuT4         AF368868          1447bp     ?incomplete
+FBgn0063572    Dbuz\BuT5         AF368868           669bp     ?incomplete
+FBgn0069879    Dbuz\BuT6         AY187768           387bp     ?incomplete
+FBgn0045754    Dbuz\INE-1        AF368900          1467bp     ?incomplete
+FBgn0045754    Dbuz\ISBu2        AF368867           726bp     ?incomplete
+FBgn0045754    Dbuz\ISBu3        AY313771           993bp     ?incomplete
+FBgn0020486    Ddip\Bari1        Y13852            1676bp     incomplete
+FBgn0044997    Dfun\Isfun-1      AJ309320           928bp     incomplete
+FBgn0003948    Dhet\Uhu          X63028            1658bp     ?complete
+FBgn0010242    Dhyd\Minos        Z29098            1773bp     complete
+FBgn0014755    Dkoe\Gandalf      U29466             979bp     incomplete
+FBgn0002651    Dmau\mariner      M14653            1286bp     complete
+FBgn0026463    Dsub\GEM          AJ131629          1730bp     ?complete
+FBgn0015678    Dvir\Paris        Z49253            1730bp     complete
+
+MITE elements:
+
+FBgn0066141    Dwil\Mar           AF518731          610bp     ?complete
+FBgn0066140    Dwil\Vege          AF518730          884bp     ?complete
+FBgn0069871    Dsub\SGM           AF043638          823bp     ?complete
+
+Foldback elements:
+
+FBgn0000638    FB                V00246            1106bp     ?incomplete
+FBgn0027840    Dbuz\Galileo      AY187769          2304bp     ?incomplete
+FBgn0063570    Dbuz\Kepler       AF368884           722bp     ?incomplete
+FBgn0063569    Dbuz\Newton       AF368890          1510bp     ?incomplete
+
+Helitron elements:
+
+FBgn0067418    Helitron          AE002840           564bp     ?incomplete
+
+Class uncertain:
+
+FBgn0000513    Dvir\Dv           X03936             845bp     ?incomplete
