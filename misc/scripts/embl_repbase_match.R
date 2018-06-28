@@ -15,6 +15,6 @@ blast_hit <- read_tsv(blast_dir, col_names = c("fb_id", "repbase_name"))
 te_table_dir <- read_csv(te_table_dir, col_names = c("embl_id", "fb_id", "source_id", "flybase_name", "species", "te_name", "te_type_gff", "te_type_fasta", "te_subtype_fasta"))
 
 embl_repbase_match <-full_join(te_table_dir, blast_hit, by = "fb_id")
-embl_repbase_match %>% filter(is.na(repbase))
+embl_repbase_match %>% filter(is.na(repbase_name))
 
 write_csv(embl_repbase_match, out_dir)
