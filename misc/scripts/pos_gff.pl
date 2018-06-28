@@ -40,14 +40,18 @@ if ($fOut) {
 
 my @headers;
 my @gfflines;
-my %hash_type;
+my %hash_type_main;
+my %hash_type_comment;
+my %hash_subtype;
 my %hash_source;
 my %hash_name;
 
 #read line of TE file from standard input
 while (my $line = <ID>) {
     my ($embl_id, $fb_id, $source_id, $fb_name, $species, $te_name, $type_gff, $type_fasta, $subtype_fasta) = split(',', $line);
-    $hash_type{$fb_id} = $type_gff;
+    $hash_type_main{$fb_id} = $type_gff;
+    $hash_type_comment{$fb_id} = $type_fasta;
+    $hash_subtype{$fb_id} = $subtype_fasta;
     $hash_source{$fb_id} = $source_id;
     $hash_name{$fb_id} = $fb_name;
 }
@@ -59,17 +63,20 @@ while (<IN>) {
         push (@headers, $_);
     } elsif ($_ =~ m/sequence-region/) {
         my ($seqreg, $fb_id, $start, $end) = split(' ', $_);
-        my $comment;
+        my $comments;
         my $source = $hash_source{$fb_id};
         my $fb_name = $hash_name{$fb_id};
+        my $te_type_main = $hash_type_main{$fb_id};
+        my $te_type_comment = $hash_type_comment{$fb_id};
+        my $te_subtype = $hash_subtype{$fb_id};
         if ($source !~ m/nnn/) {
-            $comment = "ID=$fb_id;name=$fb_name;source=$source";
+            $comments = "ID=$fb_id;name=$fb_name;source=$source;type=$te_type_comment;subtype=$te_subtype";
         } else {
-           $comment = "ID=$fb_id;name=$fb_name"; 
+           $comments = "ID=$fb_id;name=$fb_name;type=$te_type_comment;subtype=$te_subtype"; 
         }
-        my $master = join("\t", $fb_id, ".", $hash_type{$fb_id}, $start, $end, ".", ".", ".", $comment);
+        my $master_line = join("\t", $fb_id, ".", $te_type_main, $start, $end, ".", ".", ".", $comments);
         push (@headers, $_);
-        push (@gfflines, $master);
+        push (@gfflines, $master_line);
     } else {
         push (@gfflines, $_);
     }
