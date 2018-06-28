@@ -6637,10 +6637,10 @@ XX
 SY   synonym: Waldo-A
 XX
 FT   source          AC005734:107957..102787
-FT   SO_feature      CDS ; SO:0000316:AC005734:107575..106079
+FT   SO_feature      CDS ; SO:0000316:383..1879
 FT                   /name="Dmel\Rt1b\gag"
 FT                   /db_xref="FLYBASE:FBgn0042680"
-FT   SO_feature      CDS ; SO:0000316:AC005734:106095..103132
+FT   SO_feature      CDS ; SO:0000316:1863..4826
 FT                   /name="Dmel\Rt1b\RTase"
 FT                   /db_xref="FLYBASE:FBgn0042681"
 XX
