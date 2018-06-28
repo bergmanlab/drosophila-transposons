@@ -4971,8 +4971,8 @@ SY   synonym: blastopia
 SY   synonym: Kermit
 XX
 FT   source          Z27119:372..5405
-FT   SO_feature      five_prime_LTR ; SO:0000425:1..276
-FT   SO_feature      three_prime_LTR ; SO:0000426:4766..5035
+FT   SO_feature      five_prime_LTR ; SO:0000425:1..275
+FT   SO_feature      three_prime_LTR ; SO:0000426:4757..5034
 FT   SO_feature      polyA_site ; SO:0000553:5006..5011
 FT   SO_feature      polyA_site ; SO:0000553:5019..5024
 FT   SO_feature      CDS ; SO:0000316:760..4761
