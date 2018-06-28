@@ -21,7 +21,7 @@ Usage:
   Options:
   -i <file>  input file, required
   -t <file>  te id file, required
-  -o <file>  output file, not required  
+  -o <file>  output file, not required
   -h         Help
 
 USAGE
@@ -48,6 +48,7 @@ my %hash_name;
 
 #read line of TE file from standard input
 while (my $line = <ID>) {
+		chomp $line;
     my ($embl_id, $fb_id, $source_id, $fb_name, $species, $te_name, $type_gff, $type_fasta, $subtype_fasta) = split(',', $line);
     $hash_type_main{$fb_id} = $type_gff;
     $hash_type_comment{$fb_id} = $type_fasta;
@@ -72,7 +73,7 @@ while (<IN>) {
         if ($source !~ m/nnn/) {
             $comments = "ID=$fb_id;name=$fb_name;source=$source;type=$te_type_comment;subtype=$te_subtype";
         } else {
-           $comments = "ID=$fb_id;name=$fb_name;type=$te_type_comment;subtype=$te_subtype"; 
+           $comments = "ID=$fb_id;name=$fb_name;type=$te_type_comment;subtype=$te_subtype";
         }
         my $master_line = join("\t", $fb_id, ".", $te_type_main, $start, $end, ".", ".", ".", $comments);
         push (@headers, $_);
