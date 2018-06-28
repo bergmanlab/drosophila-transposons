@@ -10328,8 +10328,8 @@ XX
 DR   FLYBASE; FBte0000709; Dmel\S2.
 XX
 FT   source          nnnnnnnn:1..1735
-FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..235
-FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1502..1737
+FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1..233
+FT   SO_feature      terminal_inverted_repeat ; SO:0000481:1501..1735
 FT   SO_feature      CDS ; SO:0000316:403..1437
 XX
 CC   Sequence identified by REPBASE:
