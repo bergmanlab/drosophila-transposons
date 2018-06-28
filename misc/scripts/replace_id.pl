@@ -40,8 +40,9 @@ if ($fOut) {
 my %hash;
 
 #read line of TE file from standard input
+my $dummy=<ID>;
 while (my $line = <ID>) {
-    my ($embl_id, $fb_id, $source_id, $species, $te_name) = split(',', $line);
+    my ($embl_id, $fb_id, $source_id, $flybase_name, $species, $te_name, $te_type_gff, $te_type_fasta, $te_subtype_fasta) = split(',', $line);
     $hash{$embl_id} = $fb_id;
 }
 close ID;
