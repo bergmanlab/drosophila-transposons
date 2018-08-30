@@ -66,14 +66,15 @@ while (<IN>) {
         my ($seqreg, $fb_id, $start, $end) = split(' ', $_);
         my $comments;
         my $source = $hash_source{$fb_id};
+        # print "$source\n";
         my $fb_name = $hash_name{$fb_id};
         my $te_type_main = $hash_type_main{$fb_id};
         my $te_type_comment = $hash_type_comment{$fb_id};
         my $te_subtype = $hash_subtype{$fb_id};
-        if ($source !~ m/nnn/) {
+        if ($source !~ m/nnn/ && $source !~ m/NA/) {
             $comments = "ID=$fb_id;name=$fb_name;source=$source;type=$te_type_comment;subtype=$te_subtype";
         } else {
-           $comments = "ID=$fb_id;name=$fb_name;type=$te_type_comment;subtype=$te_subtype";
+           $comments = "ID=$fb_id;name=$fb_name;source=?;type=$te_type_comment;subtype=$te_subtype";
         }
         my $master_line = join("\t", $fb_id, ".", $te_type_main, $start, $end, ".", ".", ".", $comments);
         push (@headers, $_);
