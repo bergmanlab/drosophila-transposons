@@ -1,5 +1,5 @@
-!transposon_sequence_set.readme.v10.1.txt
-!June 28 2018
+!transposon_sequence_set.readme.v10.2.txt
+!Aug 8 2021
 !Comments, corrections to cbergman@uga.edu
 
 
@@ -45,8 +45,8 @@ identifier for each TE family. The valid FlyBase TE family name can be found
 in the GFF file and synonyms can be found at FlyBase. As in the EMBL file, LTR
 elements in the FASTA files are represented by a single record (i.e. LTRs
 are joined to internal regions). LTR annotations in the GFF file can be used to
-split complete LTR elements into LTR and internal regions for optimal use with
-RepeatMasker.
+split complete LTR elements into their LTR and internal components for optimal
+use with RepeatMasker.
 
 Starting with Release 10.1, curation efforts will focus primarily
 on D. melanogaster TEs. Therefore, in addition to the transposon_sequence_set.fa
@@ -65,6 +65,16 @@ sequences and/or annotations. We thank Nicholas Davies and Portia Hollyoak for
 contributions to this repository.
 
 ===============================================================================
+
+August 8 2021. v.10.2
+=======================
+
+1. Added Dmel\gypsy1
+
+June 28 2018. v.10.1
+=======================
+
+1. Converted EMBL format to FASTA + GFF
 
 June 26 2018. v.9.5
 =======================
