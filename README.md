@@ -1,5 +1,5 @@
-TRANSPOSON SEQUENCE CANONICAL SETS FOR DROSOPHILA
-===========
+# **DROSOPHILA TRANSPOSON CANONICAL SEQUENCES**
+
 
 This repository contains 'canonical' DNA sequences of the transposable
 elements from species in the genus Drosophila.
