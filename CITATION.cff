@@ -1,0 +1,32 @@
+type: dataset
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+- family-names: "Ashburner"
+  given-names: "Michael"
+- family-names: "Bayraktaroglu"
+  given-names: "Leyla"
+- family-names: "Benos"
+  given-names: "Takis"
+- family-names: "Chillemi"
+  given-names: "Joe"
+- family-names: "Crosby"
+  given-names: "Lynn"
+- family-names: "de Grey"
+  given-names: "Aubrey"
+- family-names: "Han"
+  given-names: "Shunhua"
+- family-names: "Kaminker"
+  given-names: "Josh"
+- family-names: "Lewis"
+  given-names: "Suzi"
+- family-names: "Liao"
+  given-names: "Guochun"
+- family-names: "Reese"
+  given-names: "Martin"
+- family-names: "Bergman"
+  given-names: "Casey"
+title: "Drosophila transposon canonical sequences"
+version: 10.2
+date-released: 2021-08-30
+url: "https://github.com/bergmanlab/drosophila-transposons/"
