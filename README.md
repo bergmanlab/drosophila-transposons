@@ -21,12 +21,12 @@ Version 9.411. FlyBase generated version 9.42 from these files in 2009,
 which have not subsequently been updated at FlyBase.
 
 From version v9.43 onwards, this set has been under continuous version control
-by Casey Bergman (Manchester/UGA) and Shunhua Han (UGA) at: https://github.com/bergmanlab/transposons/.
+by Casey Bergman (Manchester/UGA) and Shunhua Han (UGA) at: https://github.com/bergmanlab/drosophila-transposons/.
 Contributions are welcome by submitting pull requests or opening issues for
 this repository. For pull requests, please make suggested edits to the files
-in: https://github.com/bergmanlab/transposons/tree/master/current. These
+in: https://github.com/bergmanlab/drosophila-transposons/tree/master/current. These
 contributions will be reviewed and, if merged, will be used to make an
-incremented version of the dataset in: https://github.com/bergmanlab/transposons/tree/master/releases.
+incremented version of the dataset in: https://github.com/bergmanlab/drosophila-transposons/tree/master/releases.
 
 Version v9.5 is the last version of this dataset that will be released in EMBL
 format. The EMBL format is a legacy format that mixes sequences and annotations,
@@ -50,7 +50,7 @@ and transposon_sequence_set.gff files, we will also provide a D. melanogaster-on
 FASTA file (D_mel_transposon_sequence_set.fa). The D. melanogaster-only
 FASTA file headers use the valid Flybase TE family names and and are formatted
 with TE type and subtype information in a manner that allows RepeatMasker to
-generate a .tbl file using the -lib option. The [legacy D. melanogaster-only FASTA file](https://github.com/bergmanlab/transposons/blob/master/misc/D_mel_transposon_sequence_set.fa)
+generate a .tbl file using the -lib option. The [legacy D. melanogaster-only FASTA file](https://github.com/bergmanlab/drosophila-transposons/blob/master/misc/D_mel_transposon_sequence_set.fa)
 provided in the `misc` directory of this repository is now deprecated, but
 preserved for posterity.
 
